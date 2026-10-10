@@ -1,0 +1,19 @@
+{
+ "r2-0003": {
+  "same_item_as": "r1-0003",
+  "notes": "R1's row written into R2's manifest by a shared helper script (R1 report); duplicate of r1-0003"
+ },
+ "r2-0004": {
+  "same_item_as": "r1-0004",
+  "notes": "R1's row written into R2's manifest by a shared helper script (R1 report); duplicate of r1-0004"
+ },
+ "r3-0031": {
+  "same_item_as": "r4-0001"
+ },
+ "r3-0032": {
+  "same_item_as": "r4-0002"
+ },
+ "r3-0033": {
+  "same_item_as": "r4-0003"
+ }
+}
