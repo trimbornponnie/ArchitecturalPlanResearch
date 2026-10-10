@@ -1,0 +1,495 @@
+{
+ "name": "Venice Biennale Pavilions",
+ "building": "National pavilions of the Giardini della Biennale and the Arsenale, Venice (one route per pavilion, see pavilions.json)",
+ "manifest": "manifest.jsonl",
+ "designs": [
+  "de",
+  "de-alt",
+  "de-reno",
+  "de-unk",
+  "ru",
+  "ru-alt",
+  "ru-reno",
+  "ru-unk",
+  "fr",
+  "fr-alt",
+  "fr-reno",
+  "fr-unk",
+  "gb",
+  "gb-alt",
+  "gb-reno",
+  "gb-unk",
+  "us",
+  "us-alt",
+  "us-reno",
+  "us-unk",
+  "nl",
+  "nl-alt",
+  "nl-reno",
+  "nl-unk",
+  "nordic",
+  "nordic-alt",
+  "nordic-reno",
+  "nordic-unk",
+  "fi",
+  "fi-alt",
+  "fi-reno",
+  "fi-unk",
+  "ve",
+  "ve-alt",
+  "ve-reno",
+  "ve-unk",
+  "at",
+  "at-alt",
+  "at-reno",
+  "at-unk",
+  "jp",
+  "jp-alt",
+  "jp-reno",
+  "jp-unk",
+  "ch",
+  "ch-alt",
+  "ch-reno",
+  "ch-unk",
+  "ca",
+  "ca-alt",
+  "ca-reno",
+  "ca-unk",
+  "au",
+  "au-alt",
+  "au-reno",
+  "au-unk",
+  "kr",
+  "kr-alt",
+  "kr-reno",
+  "kr-unk",
+  "be",
+  "be-alt",
+  "be-reno",
+  "be-unk",
+  "hu",
+  "hu-alt",
+  "hu-reno",
+  "hu-unk",
+  "es",
+  "es-alt",
+  "es-reno",
+  "es-unk",
+  "cz-sk",
+  "cz-sk-alt",
+  "cz-sk-reno",
+  "cz-sk-unk",
+  "dk",
+  "dk-alt",
+  "dk-reno",
+  "dk-unk",
+  "il",
+  "il-alt",
+  "il-reno",
+  "il-unk",
+  "gr",
+  "gr-alt",
+  "gr-reno",
+  "gr-unk",
+  "uy",
+  "uy-alt",
+  "uy-reno",
+  "uy-unk",
+  "br",
+  "br-alt",
+  "br-reno",
+  "br-unk",
+  "eg",
+  "eg-alt",
+  "eg-reno",
+  "eg-unk",
+  "rs",
+  "rs-alt",
+  "rs-reno",
+  "rs-unk",
+  "pl",
+  "pl-alt",
+  "pl-reno",
+  "pl-unk",
+  "ro",
+  "ro-alt",
+  "ro-reno",
+  "ro-unk",
+  "venezia",
+  "venezia-alt",
+  "venezia-reno",
+  "venezia-unk",
+  "it",
+  "it-alt",
+  "it-reno",
+  "it-unk",
+  "qa",
+  "qa-alt",
+  "qa-reno",
+  "qa-unk",
+  "site",
+  "site-alt",
+  "site-reno",
+  "site-unk"
+ ],
+ "drop_designs": [],
+ "drop_reason": "none dropped: user instruction 2026-10-10, download every accessible file and skip no lead; unbuilt schemes (-alt) are kept and flagged in file names",
+ "default_design": "site-unk",
+ "rights_mode": "all-reachable",
+ "exclude_rows": {},
+ "groups": [
+  {
+   "folder": "german",
+   "match": {
+    "design": [
+     "de",
+     "de-alt",
+     "de-reno",
+     "de-unk"
+    ]
+   }
+  },
+  {
+   "folder": "russian",
+   "match": {
+    "design": [
+     "ru",
+     "ru-alt",
+     "ru-reno",
+     "ru-unk"
+    ]
+   }
+  },
+  {
+   "folder": "french",
+   "match": {
+    "design": [
+     "fr",
+     "fr-alt",
+     "fr-reno",
+     "fr-unk"
+    ]
+   }
+  },
+  {
+   "folder": "british",
+   "match": {
+    "design": [
+     "gb",
+     "gb-alt",
+     "gb-reno",
+     "gb-unk"
+    ]
+   }
+  },
+  {
+   "folder": "american",
+   "match": {
+    "design": [
+     "us",
+     "us-alt",
+     "us-reno",
+     "us-unk"
+    ]
+   }
+  },
+  {
+   "folder": "dutch",
+   "match": {
+    "design": [
+     "nl",
+     "nl-alt",
+     "nl-reno",
+     "nl-unk"
+    ]
+   }
+  },
+  {
+   "folder": "nordic",
+   "match": {
+    "design": [
+     "nordic",
+     "nordic-alt",
+     "nordic-reno",
+     "nordic-unk"
+    ]
+   }
+  },
+  {
+   "folder": "finnish",
+   "match": {
+    "design": [
+     "fi",
+     "fi-alt",
+     "fi-reno",
+     "fi-unk"
+    ]
+   }
+  },
+  {
+   "folder": "venezuelan",
+   "match": {
+    "design": [
+     "ve",
+     "ve-alt",
+     "ve-reno",
+     "ve-unk"
+    ]
+   }
+  },
+  {
+   "folder": "austrian",
+   "match": {
+    "design": [
+     "at",
+     "at-alt",
+     "at-reno",
+     "at-unk"
+    ]
+   }
+  },
+  {
+   "folder": "japanese",
+   "match": {
+    "design": [
+     "jp",
+     "jp-alt",
+     "jp-reno",
+     "jp-unk"
+    ]
+   }
+  },
+  {
+   "folder": "swiss",
+   "match": {
+    "design": [
+     "ch",
+     "ch-alt",
+     "ch-reno",
+     "ch-unk"
+    ]
+   }
+  },
+  {
+   "folder": "canadian",
+   "match": {
+    "design": [
+     "ca",
+     "ca-alt",
+     "ca-reno",
+     "ca-unk"
+    ]
+   }
+  },
+  {
+   "folder": "australian",
+   "match": {
+    "design": [
+     "au",
+     "au-alt",
+     "au-reno",
+     "au-unk"
+    ]
+   }
+  },
+  {
+   "folder": "korean",
+   "match": {
+    "design": [
+     "kr",
+     "kr-alt",
+     "kr-reno",
+     "kr-unk"
+    ]
+   }
+  },
+  {
+   "folder": "belgian",
+   "match": {
+    "design": [
+     "be",
+     "be-alt",
+     "be-reno",
+     "be-unk"
+    ]
+   }
+  },
+  {
+   "folder": "hungarian",
+   "match": {
+    "design": [
+     "hu",
+     "hu-alt",
+     "hu-reno",
+     "hu-unk"
+    ]
+   }
+  },
+  {
+   "folder": "spanish",
+   "match": {
+    "design": [
+     "es",
+     "es-alt",
+     "es-reno",
+     "es-unk"
+    ]
+   }
+  },
+  {
+   "folder": "czech-and-slovak",
+   "match": {
+    "design": [
+     "cz-sk",
+     "cz-sk-alt",
+     "cz-sk-reno",
+     "cz-sk-unk"
+    ]
+   }
+  },
+  {
+   "folder": "danish",
+   "match": {
+    "design": [
+     "dk",
+     "dk-alt",
+     "dk-reno",
+     "dk-unk"
+    ]
+   }
+  },
+  {
+   "folder": "israeli",
+   "match": {
+    "design": [
+     "il",
+     "il-alt",
+     "il-reno",
+     "il-unk"
+    ]
+   }
+  },
+  {
+   "folder": "greek",
+   "match": {
+    "design": [
+     "gr",
+     "gr-alt",
+     "gr-reno",
+     "gr-unk"
+    ]
+   }
+  },
+  {
+   "folder": "uruguayan",
+   "match": {
+    "design": [
+     "uy",
+     "uy-alt",
+     "uy-reno",
+     "uy-unk"
+    ]
+   }
+  },
+  {
+   "folder": "brazilian",
+   "match": {
+    "design": [
+     "br",
+     "br-alt",
+     "br-reno",
+     "br-unk"
+    ]
+   }
+  },
+  {
+   "folder": "egyptian",
+   "match": {
+    "design": [
+     "eg",
+     "eg-alt",
+     "eg-reno",
+     "eg-unk"
+    ]
+   }
+  },
+  {
+   "folder": "serbian",
+   "match": {
+    "design": [
+     "rs",
+     "rs-alt",
+     "rs-reno",
+     "rs-unk"
+    ]
+   }
+  },
+  {
+   "folder": "polish",
+   "match": {
+    "design": [
+     "pl",
+     "pl-alt",
+     "pl-reno",
+     "pl-unk"
+    ]
+   }
+  },
+  {
+   "folder": "romanian",
+   "match": {
+    "design": [
+     "ro",
+     "ro-alt",
+     "ro-reno",
+     "ro-unk"
+    ]
+   }
+  },
+  {
+   "folder": "venetian",
+   "match": {
+    "design": [
+     "venezia",
+     "venezia-alt",
+     "venezia-reno",
+     "venezia-unk"
+    ]
+   }
+  },
+  {
+   "folder": "italian",
+   "match": {
+    "design": [
+     "it",
+     "it-alt",
+     "it-reno",
+     "it-unk"
+    ]
+   }
+  },
+  {
+   "folder": "qatari",
+   "match": {
+    "design": [
+     "qa",
+     "qa-alt",
+     "qa-reno",
+     "qa-unk"
+    ]
+   }
+  },
+  {
+   "folder": "_site",
+   "match": {
+    "design": [
+     "site",
+     "site-alt",
+     "site-reno",
+     "site-unk"
+    ]
+   }
+  }
+ ],
+ "title_strip": []
+}

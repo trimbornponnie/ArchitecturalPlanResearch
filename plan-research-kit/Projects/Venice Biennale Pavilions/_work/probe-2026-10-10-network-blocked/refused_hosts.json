@@ -1,0 +1,37 @@
+{
+ "www.labiennale.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "route": "R0",
+  "ts": "2026-10-10T12:11:44",
+  "url": "https://www.labiennale.org/robots.txt"
+ },
+ "commons.wikimedia.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "route": "R0",
+  "ts": "2026-10-10T12:11:44",
+  "url": "https://commons.wikimedia.org/robots.txt"
+ },
+ "en.wikipedia.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "route": "R0",
+  "ts": "2026-10-10T12:12:28",
+  "url": "https://en.wikipedia.org/robots.txt"
+ },
+ "archive.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "route": "R0",
+  "ts": "2026-10-10T12:12:28",
+  "url": "https://archive.org/robots.txt"
+ },
+ "www.archdaily.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "route": "R0",
+  "ts": "2026-10-10T12:12:29",
+  "url": "https://www.archdaily.com/robots.txt"
+ }
+}

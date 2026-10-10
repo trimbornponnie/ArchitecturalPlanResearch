@@ -1,0 +1,8 @@
+# plan-research working files that are large, transient or duplicated elsewhere
+plan-research-kit/Projects/*/_work/guard/pages/
+plan-research-kit/Projects/*/_work/guard/locks/
+plan-research-kit/Projects/*/_work/guard/robots/
+plan-research-kit/Projects/*/_work/sighting/
+plan-research-kit/Projects/*/_work/previews/
+*.part
+__pycache__/
