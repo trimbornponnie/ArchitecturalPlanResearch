@@ -320,5 +320,12 @@
   "route": "R5",
   "ts": "2026-10-10T13:49:51",
   "url": "https://www.architizer.com/robots.txt"
+ },
+ "www.architecturalrecord.com": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R5",
+  "ts": "2026-10-10T13:50:39",
+  "url": "https://www.architecturalrecord.com/articles/16751-open-call-issued-for-applications-for-us-pavilion-at-the-2025-venice-architecture-biennale"
  }
 }
