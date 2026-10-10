@@ -1,0 +1,25 @@
+{
+ "r1-0023": {
+  "same_item_as": "r101-0001",
+  "notes": "Giardini site plan; this pavilion drawn in full (1928 state). Other pavilions as above (list incomplete). Orientation only. Same map belongs to route R32 (site). R101: a larger copy of the same image (1512x1772) exists at /media/max/1934_giardini_plan.jpg -> row r101-0001; this 683x800 pavillon2x copy is a duplicate."
+ },
+ "r1-0024": {
+  "same_item_as": "r101-0002",
+  "notes": "Giardini site plan; identification of the IMPRESSIONISMO footprint with the German pavilion is unconfirmed (from its position and the 2022 site text that the pavilion hosted the Impressionist show in 1948). Other pavilions as listed. Route R32 shares it. R101: larger copy (1237x1800) at /media/max/... -> row r101-0002; this 550x800 copy is a duplicate."
+ },
+ "r1-0015": {
+  "design_id": "de-reno",
+  "shows_state": "renovation",
+  "pixel_size": "715x526 (the sketch; EPUB file HB-89.png 715x525, unconfirmed match)",
+  "notes": "Shows the 1909/1912 building; small scan. R101 sighting (sheet _work/sighting/R101_19.jpg, PDF p.253): the sketch is captioned 1912 and shows the 1912 state (central doorway, side-room entrances closed), the same state as the 1912 chronology page r1-0014, which R1 tagged de-reno; tagged de-reno for consistency ('de' is kept for 1909 and for the 1938/current building)."
+ },
+ "r1-0022": {
+  "notes": "Mixed page: archival raster + vector elevation; book p.261. R101: in the EPUB edition the archival plan/section scan on this page is the file fs_paesi_14_germania_1962_pianta.jpg (ASAC fondo storico, Paesi b.14, '1962 pianta'), while the caption reads 'Longitudinal section, plan 1964' by Herbert Selldorf: date 1962 vs 1964 is open."
+ },
+ "r1-0002": {
+  "notes": "Thumbnail-size render only; orientation. File saved without .pdf extension by the guard. R101: the same render is served at 1620x1100 on the ingenhoven project page -> row r101-0025."
+ },
+ "r1-0008": {
+  "notes": "Richest source of the route. Book page = PDF page - 2. Credits: chronology plans Arno Loebbecke; book pp. 253, 255(1,3) archival drawings Bayerisches Hauptstaatsarchiv, Staatsgemaeldesammlungen vorl. Nr. Registratur AZ 32 (1750); book pp. 251(2), 259, 261(1) ASAC; book pp. 176-179 Politisches Archiv des Auswaertigen Amts B95 IV6 768 (605). Mixed PDF: vector chronology pages, raster archival scans and photos. R101 sighting: the page list is complete for drawings of the pavilion; the other vector-heavy pages (124-125, 136-137, 148-149: world maps; 364: Venice city map of the resistance tours; 368-376: credits) hold no pavilion drawing. Book p.123 (PDF p.125) adds a fact: Donghi built the Bavarian pavilion 'after sketches by Hugo von Habermann' of the Munich Secession. EPUB edition of the same book: r101-0006. The sorted Plans file of this PDF is labelled 'ALT unbuilt' only because two of its 15 rows (r1-0011 Milan Ingegneria relocation study, r1-0012 Bode 1957/58) are de-alt; the other 13 rows are de / de-reno."
+ }
+}

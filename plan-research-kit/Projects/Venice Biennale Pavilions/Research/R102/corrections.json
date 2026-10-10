@@ -1,0 +1,37 @@
+{
+ "r2-0028": {
+  "download_url": "https://previous.pavilionrus.com/static/img/story-3@kasa_400.gif",
+  "notes": "R102: the manifest URL had '_' for '@' (story-3_kasa_400.gif), so the download step got HTTP 404 three times (13:45-13:48). R2's own get of the '@' URL answered 200 (1,675,960 bytes, animated GIF, 34 frames, 400x400) and the file is on disk at _work/guard/pages/previous.pavilionrus.com/2eeb6e59_story-3_kasa_400.gif. Sighted (sheet R102_6): pencil axonometric of the pavilion roofs in blue scribbled water; pavilion confirmed."
+ },
+ "r2-0029": {
+  "same_item_as": "r2-0022",
+  "notes": "R102: animated GIF (52 frames, 478x478) of the same coloured-pencil perspective of the entrance front as r2-0022 (p07-sketch-identity, 1500x1057); compared side by side on sheet R102_8. Keep r2-0022 as the primary copy."
+ },
+ "r2-0017": {
+  "same_item_as": "r2-0037",
+  "notes": "R102: identical watercolour longitudinal section to Metalocus gallery image 22 (r2-0037, 2048x1471); this Traces page is 1500x1078. Compared on sheet R102_8. Larger copy is primary."
+ },
+ "r2-0002": {
+  "same_item_as": "r2-0035",
+  "notes": "R102: same watercolour aerial view as Metalocus 20 (r2-0035, 2048x1471); this Traces page is 1500x1078. The larger Metalocus copy becomes the primary (R2 had linked it the other way round)."
+ },
+ "r2-0035": {
+  "same_item_as": null,
+  "notes": "R102: primary copy of the aerial watercolour (2048x1471, larger than Traces p. 9 = r2-0002, which now points here); r2-0044 (WA, 1200 px) also points here."
+ },
+ "r2-0003": {
+  "same_item_as": "r2-0036",
+  "notes": "R102: same watercolour Giardini site plan as Metalocus 21 (r2-0036, 2048x1471); this Traces page is 1500x1078. Larger copy primary."
+ },
+ "r2-0036": {
+  "same_item_as": null,
+  "notes": "R102: primary copy of the watercolour site plan (2048x1471); r2-0003 (Traces p. 11) and r2-0045 (WA) point here. Neighbours drawn: Japan (JP), Venezuela (VE), Korea (KR), Czech and Slovak (CZ SK), Padiglione Venezia? (PN), Denmark (DK), Q (Qatar plot?)."
+ },
+ "r2-0009": {
+  "design_id": "ru",
+  "shows_state": "design",
+  "origin": "publication",
+  "contents": "KASA 'Traces' p. 24: collage of historic photographs (1913 boat arrival, 1914 interiors and exterior details, Shchusev portrait, 2013, 2019, 'USSR -> Russia' facade) with thumbnail reproductions of Shchusev's original drawings: coloured perspective dated 1913 and the original ground-floor (GF) and first-floor (1F) plans on beige paper (each about 130 px wide)",
+  "notes": "R102 sighting (crop R102_c4): the only images of the ORIGINAL 1913-14 floor plans found online, but at thumbnail size (orientation only). Design id changed from ru-reno to ru because the drawings shown are the original state; the collage itself is a 2021 KASA book page."
+ }
+}

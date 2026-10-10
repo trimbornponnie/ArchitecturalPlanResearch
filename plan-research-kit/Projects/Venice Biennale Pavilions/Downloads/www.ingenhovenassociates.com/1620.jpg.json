@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r101-0025"
+ ],
+ "design_ids": [
+  "de-alt"
+ ],
+ "titles": [
+  "ingenhoven architects, proposal for an open German Pavilion ('this is modern', Venice 2014): render 1620.jpg"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.ingenhovenassociates.com/assets/Projekte/2014/German-Pavilion-La-Biennale-di-Venezia/1620.jpg",
+ "page_url": "https://www.ingenhovenassociates.com/projects/more-projects/german-pavillon-biennial-venice/",
+ "author": "ingenhoven architects (Christoph Ingenhoven)",
+ "holder": "ingenhoven associates",
+ "date": "2014 (republished 2016-06-02)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "308286054ab6720356ce76f056be047de59fdaa065eea3d73fb7bbc7e8eb6892",
+ "bytes": 1861670,
+ "fetched": "2026-10-10T14:25:10",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T14:15:16; adopted, not requested again",
+ "pixel_size_measured": "1620x1100",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

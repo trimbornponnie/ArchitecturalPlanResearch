@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0028"
+ ],
+ "design_ids": [
+  "fr-reno"
+ ],
+ "titles": [
+  "Claude PARENT, Pavillon français de la Biennale de Venise - Proposition II"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://images.navigart.fr/1000/4M/08/4M08707.JPG",
+ "page_url": "https://collection.frac-centre.fr/artwork/5030000000016373",
+ "author": "Claude PARENT",
+ "holder": "FRAC Centre-Val de Loire, Orléans (inv. 997 87 15)",
+ "date": "1996",
+ "license": "© Adagp, Paris; photo not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "936e0e749237403cfd3833dd1ed71bd53eac50c68f6448cb9a874d5b6a2f6048",
+ "bytes": 62628,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T14:05:53; adopted, not requested again",
+ "pixel_size_measured": "1000x715",
+ "mode": "RGB",
+ "dpi": [
+  300.0,
+  300.0
+ ]
+}

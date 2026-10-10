@@ -57,3 +57,38 @@ Save each file into `Projects/Venice Biennale Pavilions/Inbox/` under the name g
   (or the Gallica search box): 1911-1913 French press and architecture journals (La Construction moderne, L'Architecture,
   L'Illustration, Gazette des Beaux-Arts) on the new French pavilion of 1912 (Rodin exhibition): save any page with a
   plan, elevation or view of the pavilion as `fr_1912_gallica_<journal>_<date>_p<n>.jpg`.
+
+## H10. Institut français file server (site.cdn.institutfrancais.com, robots.txt 403 to scripts)
+- https://site.cdn.institutfrancais.com/files/imported/DP%20final%20-%20Biennale%20archi%202025.pdf : press kit
+  "Vivre avec / Living with" 2025 (3.1 MB). Save as `fr-reno_2025_IF_dossier-de-presse.pdf`; note pages with the site
+  plan / axonometric / sections of the installation around the pavilion under renovation.
+- https://site.cdn.institutfrancais.com/files/fichiers/260324_Yto%20Venice%202026%20French%20Pavilion_Press%20Kit_Spreads_screen_FR_updated1.pdf :
+  press kit 2026 (Yto Barrada, first show in the renovated pavilion, 2.31 MB). Save as `fr_2026_IF_dossier-de-presse.pdf`;
+  look for a floor plan of the rooms ("Salle des plis", "Salle de travail", "Salle des études").
+- The IF pages https://www.institutfrancais.com/fr/magazine/architecture/vivre-living-pavillon-francais-biennale-darchitecture-venise-2025
+  and https://www.institutfrancais.com/fr/magazine/a-la-une/biennale-venise-pavillon-francais-plus-eco-responsable show
+  images whose originals sit on the same CDN: save any render/drawing at full size as `fr-reno_2025_IF_<n>.<ext>`.
+
+## H11. Cité de l'architecture et du patrimoine, Archiwebture (robots.txt 403 to scripts)
+- https://archiwebture.citedelarchitecture.fr/ : search the fonds Parent (Claude) for "Venise" / "Biennale" (1970 French
+  pavilion "La fonction oblique" and 1996 "Monolithe fracturé"), fonds Bouchain, fonds Nouvel (1990 competition).
+  Save any thumbnail of a plan/section of the French pavilion as `fr-reno_<year>_archiwebture_<cote>.jpg` and note the
+  cote for an image request.
+
+## H12. Practice sites of later exhibition designers (closed or unreadable for scripts)
+- https://www.perraultarchitecture.com/ (robots.txt 403): Dominique Perrault, French pavilion 2010 "Metropolis?":
+  save any plan/section of the pavilion with the installation as `fr-reno_2010_perrault_<n>.jpg`.
+- https://www.obras-architectes.fr/ (unreachable from the container): Obras / Frédéric Bonnet, 2016 "Nouvelles du
+  front": `fr-reno_2016_obras_<n>.jpg`.
+- https://www.veilhan.com/ (JavaScript site): Xavier Veilhan, 2017 "Studio Venezia": plans/sections of the studio
+  inside the pavilion, `fr-reno_2017_veilhan_<n>.jpg`.
+- https://www.exyzt.org/ (HTTP 520 to scripts): EXYZT, 2006 "Metavilla" (scaffold house inside the pavilion):
+  plans/sections, `fr-reno_2006_exyzt_<n>.jpg`.
+
+## H13. Thesis and archive catalogues closed by robots.txt
+- https://cataloghidedicati.iuav.it/it/ricerca/archivistico/?search=padiglione%20francia (IUAV Archivio Progetti;
+  also search "Bellotto", "Finzi", "Biennale padiglione"): note any fonds with drawings of the French pavilion.
+- https://iris.unive.it/simple-search?query=padiglione%20francia%20biennale ,
+  https://www.politesi.polimi.it/discover?query=padiglione+francia+biennale ,
+  https://thesis.unipd.it/discover?query=padiglione+francia+biennale : theses with survey drawings of the pavilion;
+  save PDFs as `fr_thesis_<author>_<year>.pdf`.

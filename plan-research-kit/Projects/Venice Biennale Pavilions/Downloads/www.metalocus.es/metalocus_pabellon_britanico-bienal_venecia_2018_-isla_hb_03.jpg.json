@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r4-0008"
+ ],
+ "design_ids": [
+  "gb-reno"
+ ],
+ "titles": [
+  "Island, British Pavilion: Ground floor plan 1:200 (captioned on Metalocus 'First floor level')"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.metalocus.es/sites/default/files/metalocus_pabellon_britanico-bienal_venecia_2018_-isla_hb_03.jpg",
+ "page_url": "https://www.metalocus.es/en/news/island-opens-british-pavilion-biennale-architettura-di-venezia-2018",
+ "author": "Caruso St John Architects with Marcus Taylor",
+ "holder": "Caruso St John Architects / British Council; published by Metalocus",
+ "date": "2018",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "5a828ed20c6e883a46f7585cbdb5b3df2480361dc61cce2865b50be275353ed0",
+ "bytes": 326657,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R4 through guard.py at 2026-10-10T14:14:51; adopted, not requested again",
+ "pixel_size_measured": "2048x1448",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

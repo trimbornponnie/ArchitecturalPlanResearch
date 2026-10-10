@@ -1,1 +1,2 @@
 2026-10-10T13:45:42  removed  .gitkeep: same bytes as Downloads/.gitkeep
+2026-10-10T14:25:07  taken    deutscher-pavillon -> Downloads/2024.deutscher-pavillon.org/r101-0003.svg (German Pavilion 2024 'Thresholds': pavilion map with recommended path (inline SVG on the pavilion page))

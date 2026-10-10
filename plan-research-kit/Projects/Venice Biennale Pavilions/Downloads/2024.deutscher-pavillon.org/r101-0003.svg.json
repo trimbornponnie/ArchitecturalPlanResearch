@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r101-0003"
+ ],
+ "design_ids": [
+  "de-reno"
+ ],
+ "titles": [
+  "German Pavilion 2024 'Thresholds': pavilion map with recommended path (inline SVG on the pavilion page)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://2024.deutscher-pavillon.org/en/deutscher-pavillon",
+ "page_url": "https://2024.deutscher-pavillon.org/en/deutscher-pavillon",
+ "author": "German Pavilion 2024 (website design; exhibition by Yael Bartana, Ersan Mondtag, curator Cagla Ilk)",
+ "holder": "ifa - Institut fuer Auslandsbeziehungen / German Pavilion 2024",
+ "date": "2024",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "95e1fc6ebc030b30a39785a11eb822f5292a41fbaba681f952a15dc83fb19969",
+ "bytes": 36717,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": "",
+ "fetch_note": "saved by hand in a browser; adopted",
+ "fetched_by": "hand, in a browser (the host is closed to scripts)"
+}

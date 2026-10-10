@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0021"
+ ],
+ "design_ids": [
+  "fr-reno"
+ ],
+ "titles": [
+  "Ball Theater (French pavilion 2023): model of the pavilion, oblique view into the central hall"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://chroniques-architecture.com/wp-content/uploads/2023/01/03-Muoto-Biennale-de-Venise-2023@Muoto-Stanishev-et-La-Sagna.jpg",
+ "page_url": "https://chroniques-architecture.com/biennale-de-venise-2023-pavillon-sonore-de-studio-muoto/",
+ "author": "Muoto with Georgi Stanishev, credited '@Muoto, Stanishev et La Sagna'",
+ "holder": "Muoto / Georgi Stanishev",
+ "date": "published 2023-01-14",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "d887df3da820c35f57ec4f3b9dac6c280c9ae38ee8e3ecf96ec5164b30e48907",
+ "bytes": 278040,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T13:59:42; adopted, not requested again",
+ "pixel_size_measured": "800x640",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

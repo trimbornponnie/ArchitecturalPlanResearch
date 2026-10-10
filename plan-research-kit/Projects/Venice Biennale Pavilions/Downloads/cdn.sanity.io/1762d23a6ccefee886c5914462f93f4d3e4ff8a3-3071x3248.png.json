@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r101-0004"
+ ],
+ "design_ids": [
+  "de-reno"
+ ],
+ "titles": [
+  "German Pavilion 2024 'Thresholds': exhibition map of the pavilion with legend (PNG on the pavilion page)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://cdn.sanity.io/images/e3hvjjmw/production/1762d23a6ccefee886c5914462f93f4d3e4ff8a3-3071x3248.png",
+ "page_url": "https://2024.deutscher-pavillon.org/en/deutscher-pavillon",
+ "author": "German Pavilion 2024 (exhibition Yael Bartana, Ersan Mondtag; curator Cagla Ilk)",
+ "holder": "ifa / German Pavilion 2024",
+ "date": "2024 (asset created 2024-04-11)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "2e3c9367900cfb689a13f3f95e1483e413c32e4e0949779589d5353a8df49c20",
+ "bytes": 294435,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T13:57:51; adopted, not requested again",
+ "pixel_size_measured": "3071x3248",
+ "mode": "RGBA",
+ "dpi": [
+  300.0,
+  300.0
+ ]
+}

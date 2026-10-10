@@ -32,3 +32,30 @@ L7. 2025-2026 renovation of the pavilion by the French Embassy in Italy (culture
     architect and the tender are not traced; tender page closed by robots (hand H2). The renovation set (survey and
     project drawings, likely DWG/PDF) is the best modern source; contact route: Ambassade de France en Italie, service
     immobilier / Institut français (Pavillon français).
+
+## Frac Centre-Val de Loire (Orléans) - items without online images or not bulk-fetched
+L9. Patrick Bouchain, "Les Métavilla, Venise" (2006 French pavilion), five notebooks inv. 016 090 001..005: 220
+    photographed spreads at https://images.navigart.fr/1000/4M/22/4M22233.JPG ... 4M22452.JPG (consecutive file numbers;
+    per notebook: 001 = 4M22386..4M22452, 002 = 4M22233..4M22250, 003 = 4M22251..4M22283, 004 = 4M22284..4M22325,
+    005 = 4M22326..4M22385). Covers and spreads 4M22240, 22262, 22300, 22350, 22420, 22440 fetched (mostly notes). The
+    rest was not fetched (rule 8: no bulk scraping); open https://collection.frac-centre.fr/artwork/5030000000064048
+    (and ...64036, 64039, 64042, 64045) and take only spreads that draw the pavilion.
+L10. Frac Centre items with no image online: Jean Nouvel, "Pavillon Français, Biennale de Venise", 1990 model (inv. 998
+    01 34); Philippe Starck, collage with retouched photographs 90 x 123 cm (998 01 31, 01 à 06); Claude Parent,
+    "Biennale de Venise, 1970" (A-009 134 012: 3 photocopies of drawings + 1 photo by G. Ehrmann); Parent photocopy lots
+    of the 1996 Monolithe drawings (A-997 87 28, 29 (7 sheets), 30 (2 sheets 45.8 x 63.9 cm), 31 (20 sheets)); "Stark -
+    Le Monolithe fracturé" (A-997 01 303). Contact route: Frac Centre-Val de Loire, collection / documentation service
+    (88 rue du Colombier, Orléans), request images of these inventory numbers.
+L8. Didier Schulmann (ed.), "La France à Venise: le pavillon français de 1948 à 1988", AFAA / Carte Segrete, Paris-Rome
+    1990 (ISBN 978-2-87903-001-2): history of the pavilion (source of the 1922 rear-room addition, 340 -> 420 m2); likely
+    plan/elevation. Library copies (BnF, Bibliothèque Kandinsky); no open scan known.
+L11. Christophe Hutin, French pavilion 2021 "Les communautés à l'œuvre": https://christophehutin.com/projets (not opened
+    in this run; check for a pavilion plan with the exhibition layout).
+L12. ASAC Fototeca, PAD.STRANIERI.2.38-50 (record 538478) "Padiglione Francia" 1930-1996: nr. 50 "Pianta" (photograph of
+    a plan, undated) and facade photos; no digitised image (row r3-0070). Request a scan from ASAC.
+L13. Centre Pompidou / Bibliothèque Kandinsky (Paris): collection search https://www.centrepompidou.fr/fr/recherche (JavaScript,
+    not queried): Claude Parent and Jean Nouvel holdings for the 1970, 1990 and 1996 French-pavilion projects; AFAA
+    exhibition catalogues of the French pavilion (1948-1990). Look for drawings of the pavilion.
+L14. 2025-2026 renovation (client STBI, Service des travaux et bâtiments français en Italie, head Matthieu Bourez,
+    French Embassy in Italy): survey and project drawings (skylights, trusses, facades, PMR ramp). Architect not named
+    in any source read. Contact route: Ambassade de France en Italie / STBI; tender notices (hand H2).

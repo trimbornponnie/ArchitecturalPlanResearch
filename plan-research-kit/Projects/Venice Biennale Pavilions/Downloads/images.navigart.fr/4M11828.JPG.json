@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0036"
+ ],
+ "design_ids": [
+  "fr-reno"
+ ],
+ "titles": [
+  "Claude PARENT, Le Monolithe fracturé, Pavillon français, Biennale, Venise"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://images.navigart.fr/1000/4M/11/4M11828.JPG",
+ "page_url": "https://collection.frac-centre.fr/artwork/5030000000020780",
+ "author": "Claude PARENT",
+ "holder": "FRAC Centre-Val de Loire, Orléans (inv. 997 87 22)",
+ "date": "1996",
+ "license": "© Adagp, Paris; photo not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "c8f4cc4e5a5149840cf5bdcb34fcbde1c03c9157bbad742b98ac45b0360d629c",
+ "bytes": 316950,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T14:06:18; adopted, not requested again",
+ "pixel_size_measured": "1000x713",
+ "mode": "RGB",
+ "dpi": [
+  300.0,
+  300.0
+ ]
+}

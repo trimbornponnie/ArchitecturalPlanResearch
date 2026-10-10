@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r5-0005"
+ ],
+ "design_ids": [
+  "us-reno"
+ ],
+ "titles": [
+  "U.S. Pavilion - 14th Venice Biennale, floor plan (officeUS layout, final) [BIENNALE-14-03]"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://leong-leong.com/wp-content/uploads/2016/09/BIENNALE-14-03.png",
+ "page_url": "https://leong-leong.com/14th-venice-biennale-u-s-pavilion/",
+ "author": "Leong Leong (Chris Leong, Dominic Leong, Gabriel Burkett, Tracey Coffin)",
+ "holder": "Leong Leong",
+ "date": "2014 (uploaded 2016-10-12)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "f7de49f21930ecce070a354fad8c1504cd9b47bcd310403177bed4d79fcf05a4",
+ "bytes": 51197,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R5 through guard.py at 2026-10-10T13:58:42; adopted, not requested again",
+ "pixel_size_measured": "801x792",
+ "mode": "RGBA",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

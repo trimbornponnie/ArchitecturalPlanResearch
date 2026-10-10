@@ -104,27 +104,6 @@
   "ts": "2026-10-10T12:59:31",
   "url": "https://www.unclosed.eu/robots.txt"
  },
- "goskatalog.ru": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R2",
-  "ts": "2026-10-10T13:00:12",
-  "url": "https://goskatalog.ru/robots.txt"
- },
- "muar.ru": {
-  "code": "network",
-  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R2",
-  "ts": "2026-10-10T13:00:32",
-  "url": "https://muar.ru/"
- },
- "www.culture.ru": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R2",
-  "ts": "2026-10-10T13:04:00",
-  "url": "https://www.culture.ru/robots.txt"
- },
  "abc-works.today": {
   "code": 403,
   "reason": "HTTP 403",
@@ -139,13 +118,6 @@
   "ts": "2026-10-10T13:07:09",
   "url": "https://archi.ru/search/?q=%D0%B2%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F+%D0%BF%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BE%D0%BD"
  },
- "pavilionrus.com": {
-  "code": "500",
-  "reason": "HTTP 500",
-  "route": "R2",
-  "ts": "2026-10-10T13:09:36",
-  "url": "https://pavilionrus.com/en/architecture/project"
- },
  "www.artribune.com": {
   "code": 403,
   "reason": "HTTP 403",
@@ -153,26 +125,12 @@
   "ts": "2026-10-10T13:11:49",
   "url": "https://www.artribune.com/mostre-evento-arte/16-mostra-internazionale-di-architettura-station-russia/"
  },
- "www.mapstudio.eu": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
-  "route": "R2",
-  "ts": "2026-10-10T13:12:25",
-  "url": "https://www.mapstudio.eu/robots.txt"
- },
  "www.research-collection.ethz.ch": {
   "code": 429,
   "reason": "HTTP 429",
   "route": "R1",
   "ts": "2026-10-10T13:12:25",
   "url": "https://www.research-collection.ethz.ch/entities/publication/af236eba-6344-4ddb-94aa-b5332b27c4dc"
- },
- "2050.plus": {
-  "code": "network",
-  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R2",
-  "ts": "2026-10-10T13:13:37",
-  "url": "https://2050.plus/"
  },
  "api.openalex.org": {
   "code": 429,
@@ -194,13 +152,6 @@
   "route": "R2",
   "ts": "2026-10-10T13:15:54",
   "url": "https://www.dezeen.com/2012/08/29/russian-pavilion-at-venice-architeture-biennale-2012/"
- },
- "www.institutfrancais.com": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-  "route": "R3",
-  "ts": "2026-10-10T13:21:24",
-  "url": "http://www.institutfrancais.com/robots.txt"
  },
  "www.mk.ru": {
   "code": "network",
@@ -230,33 +181,12 @@
   "ts": "2026-10-10T13:25:27",
   "url": "https://www.sobaka.ru/city/art/73826"
  },
- "www.jakobmacfarlane.com": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R3",
-  "ts": "2026-10-10T13:27:01",
-  "url": "https://www.jakobmacfarlane.com/robots.txt"
- },
  "www.architecturedecollection.fr": {
   "code": 403,
   "reason": "robots.txt answered HTTP 403",
   "route": "R3",
   "ts": "2026-10-10T13:27:32",
   "url": "https://www.architecturedecollection.fr/robots.txt"
- },
- "www.muoto.fr": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>",
-  "route": "R3",
-  "ts": "2026-10-10T13:32:08",
-  "url": "https://www.muoto.fr/robots.txt"
- },
- "encoreheureux.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R3",
-  "ts": "2026-10-10T13:32:15",
-  "url": "https://encoreheureux.org/robots.txt"
  },
  "www.starck.com": {
   "code": 403,
@@ -307,13 +237,6 @@
   "ts": "2026-10-10T13:45:33",
   "url": "https://old.designcurial.com/robots.txt"
  },
- "web.archive.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R3",
-  "ts": "2026-10-10T13:46:42",
-  "url": "https://web.archive.org/robots.txt"
- },
  "www.architizer.com": {
   "code": "network",
   "reason": "redirects 301->http://architizer.com/robots.txt; robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -327,5 +250,397 @@
   "route": "R5",
   "ts": "2026-10-10T13:50:39",
   "url": "https://www.architecturalrecord.com/articles/16751-open-call-issued-for-applications-for-us-pavilion-at-the-2025-venice-architecture-biennale"
+ },
+ "www.everlastingplastics.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+  "route": "R5",
+  "ts": "2026-10-10T13:52:32",
+  "url": "https://www.everlastingplastics.org/robots.txt"
+ },
+ "www.americanframing.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R5",
+  "ts": "2026-10-10T13:52:32",
+  "url": "http://www.americanframing.org/robots.txt"
+ },
+ "dimensionsofcitizenship.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R5",
+  "ts": "2026-10-10T13:52:32",
+  "url": "http://dimensionsofcitizenship.org/robots.txt"
+ },
+ "www.spontaneousinterventions.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R5",
+  "ts": "2026-10-10T13:52:33",
+  "url": "http://www.spontaneousinterventions.org/robots.txt"
+ },
+ "simoneleighvenice2022.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>",
+  "route": "R5",
+  "ts": "2026-10-10T13:52:33",
+  "url": "https://simoneleighvenice2022.org/robots.txt"
+ },
+ "www.e-architect.com": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R4",
+  "ts": "2026-10-10T13:53:52",
+  "url": "https://www.e-architect.com/venice/venice-biennale-british-pavilion-2010"
+ },
+ "www.culture.ru": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T13:54:01",
+  "url": "https://www.culture.ru/robots.txt"
+ },
+ "muf.co.uk": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R4",
+  "ts": "2026-10-10T13:54:16",
+  "url": "http://muf.co.uk/robots.txt"
+ },
+ "muar.ru": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T13:54:19",
+  "url": "https://muar.ru/"
+ },
+ "visualarts.britishcouncil.org": {
+  "code": 503,
+  "reason": "robots.txt answered HTTP 503 (unreachable: assume disallow)",
+  "route": "R4",
+  "ts": "2026-10-10T13:55:37",
+  "url": "https://visualarts.britishcouncil.org/robots.txt"
+ },
+ "www.britishcouncil.org": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R4",
+  "ts": "2026-10-10T13:55:37",
+  "url": "https://www.britishcouncil.org/robots.txt"
+ },
+ "indiearch.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R5",
+  "ts": "2026-10-10T13:56:47",
+  "url": "https://indiearch.com/robots.txt"
+ },
+ "site.cdn.institutfrancais.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T13:57:00",
+  "url": "https://site.cdn.institutfrancais.com/robots.txt"
+ },
+ "www.marlonblackwell.com": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+  "route": "R5",
+  "ts": "2026-10-10T13:57:56",
+  "url": "https://www.marlonblackwell.com/projects/porch-an-architecture-of-generosity"
+ },
+ "archiwebture.citedelarchitecture.fr": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T13:58:04",
+  "url": "https://archiwebture.citedelarchitecture.fr/robots.txt"
+ },
+ "archive.org": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R4",
+  "ts": "2026-10-10T14:00:26",
+  "url": "https://archive.org/metadata/britainatveniceb0000unse"
+ },
+ "s3.amazonaws.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R5",
+  "ts": "2026-10-10T14:00:57",
+  "url": "http://s3.amazonaws.com/robots.txt"
+ },
+ "russianartarchive.net": {
+  "code": "500",
+  "reason": "HTTP 500",
+  "route": "R102",
+  "ts": "2026-10-10T14:01:45",
+  "url": "https://russianartarchive.net/en/search?keywords=93c787a8-dbb5-4ddb-9fdc-fd4f4a0d9d1f&keywords=43ac4560-c71b-4c59-8672-65b7adcf5fa2"
+ },
+ "www.cfk.it": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R101",
+  "ts": "2026-10-10T14:01:45",
+  "url": "http://www.cfk.it/robots.txt"
+ },
+ "2016.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:05:46",
+  "url": "https://2016.deutscher-pavillon.org/robots.txt"
+ },
+ "2023.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:05:47",
+  "url": "https://2023.deutscher-pavillon.org/robots.txt"
+ },
+ "2021.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:05:47",
+  "url": "https://2021.deutscher-pavillon.org/robots.txt"
+ },
+ "2012.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:05:48",
+  "url": "https://2012.deutscher-pavillon.org/robots.txt"
+ },
+ "2010.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:05:49",
+  "url": "https://2010.deutscher-pavillon.org/robots.txt"
+ },
+ "www.tchoban-foundation.de": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T14:05:58",
+  "url": "https://www.tchoban-foundation.de/robots.txt"
+ },
+ "www.stirworld.com": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R101",
+  "ts": "2026-10-10T14:06:02",
+  "url": "https://www.stirworld.com/see-features-stirring-dreams-maria-eichhorns-subtle-exposure-of-the-german-pavilions-history"
+ },
+ "cdn.deutscher-pavillon.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R101",
+  "ts": "2026-10-10T14:07:19",
+  "url": "https://cdn.deutscher-pavillon.org/robots.txt"
+ },
+ "bustler.net": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R5",
+  "ts": "2026-10-10T14:08:20",
+  "url": "https://bustler.net/news/10206/venice-architecture-biennale-u-s-pavilion-organizers-share-open-call-for-2025"
+ },
+ "catalogo.beniculturali.it": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+  "route": "R5",
+  "ts": "2026-10-10T14:09:29",
+  "url": "https://catalogo.beniculturali.it/search?query=padiglione%20stati%20uniti%20biennale"
+ },
+ "www.britishcouncil.it": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R4",
+  "ts": "2026-10-10T14:09:37",
+  "url": "https://www.britishcouncil.it/robots.txt"
+ },
+ "digital.bnpmedia.com": {
+  "code": "202",
+  "reason": "HTTP 202",
+  "route": "R5",
+  "ts": "2026-10-10T14:10:38",
+  "url": "https://digital.bnpmedia.com/publication/?i=712463&article_id=4060676&view=articleBrowser"
+ },
+ "www.nelma.org": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R5",
+  "ts": "2026-10-10T14:11:04",
+  "url": "https://www.nelma.org/the-art-of-american-timber-framing-is-on-display-at-the-venice-biennale/"
+ },
+ "ted.europa.eu": {
+  "code": "202",
+  "reason": "HTTP 202",
+  "route": "R101",
+  "ts": "2026-10-10T14:11:11",
+  "url": "https://ted.europa.eu/de/notice/123263-2026/pdf"
+ },
+ "www.perraultarchitecture.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T14:11:46",
+  "url": "https://www.perraultarchitecture.com/robots.txt"
+ },
+ "www.obras-architectes.fr": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R3",
+  "ts": "2026-10-10T14:11:47",
+  "url": "https://www.obras-architectes.fr/robots.txt"
+ },
+ "www.exyzt.org": {
+  "code": "520",
+  "reason": "HTTP 520",
+  "route": "R3",
+  "ts": "2026-10-10T14:11:58",
+  "url": "https://www.exyzt.org/"
+ },
+ "babel.hathitrust.org": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R5",
+  "ts": "2026-10-10T14:13:17",
+  "url": "https://babel.hathitrust.org/robots.txt"
+ },
+ "catalog.hathitrust.org": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R5",
+  "ts": "2026-10-10T14:13:17",
+  "url": "https://catalog.hathitrust.org/robots.txt"
+ },
+ "www.officeus.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R5",
+  "ts": "2026-10-10T14:13:46",
+  "url": "http://www.officeus.org/robots.txt"
+ },
+ "storefrontnews.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R5",
+  "ts": "2026-10-10T14:13:46",
+  "url": "https://storefrontnews.org/robots.txt"
+ },
+ "dspace.unive.it": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R3",
+  "ts": "2026-10-10T14:14:54",
+  "url": "http://dspace.unive.it/robots.txt"
+ },
+ "www.floornature.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T14:15:18",
+  "url": "https://www.floornature.com/robots.txt"
+ },
+ "christophehutin.com": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R3",
+  "ts": "2026-10-10T14:16:37",
+  "url": "https://christophehutin.com/projets"
+ },
+ "www.labiennale.org": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R3",
+  "ts": "2026-10-10T14:16:53",
+  "url": "https://www.labiennale.org/en/architecture/2023/national-participations/france"
+ },
+ "www.jovis.de": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R101",
+  "ts": "2026-10-10T14:17:28",
+  "url": "http://www.jovis.de/robots.txt"
+ },
+ "www.muoto.fr": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>",
+  "route": "R3",
+  "ts": "2026-10-10T14:18:13",
+  "url": "https://www.muoto.fr/robots.txt"
+ },
+ "iris.iuav.it": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R5",
+  "ts": "2026-10-10T14:18:33",
+  "url": "https://iris.iuav.it/robots.txt"
+ },
+ "jakobmacfarlane.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R3",
+  "ts": "2026-10-10T14:18:40",
+  "url": "https://jakobmacfarlane.com/robots.txt"
+ },
+ "www.tandfonline.com": {
+  "code": 403,
+  "reason": "HTTP 403",
+  "route": "R4",
+  "ts": "2026-10-10T14:19:27",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/19369816.2023.2196650"
+ },
+ "web.archive.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T14:19:41",
+  "url": "https://web.archive.org/robots.txt"
+ },
+ "www.mapstudio.eu": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R102",
+  "ts": "2026-10-10T14:19:52",
+  "url": "https://www.mapstudio.eu/robots.txt"
+ },
+ "goskatalog.ru": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T14:20:00",
+  "url": "https://goskatalog.ru/robots.txt"
+ },
+ "www.villafrankenstein.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R4",
+  "ts": "2026-10-10T14:20:47",
+  "url": "http://www.villafrankenstein.com/robots.txt"
+ },
+ "2050.plus": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R102",
+  "ts": "2026-10-10T14:22:01",
+  "url": "https://2050.plus/sitemap_index.xml"
+ },
+ "images-eflux.b-cdn.net": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R5",
+  "ts": "2026-10-10T14:22:14",
+  "url": "https://images-eflux.b-cdn.net/robots.txt"
+ },
+ "www.ruspavilion.com": {
+  "code": 522,
+  "reason": "robots.txt answered HTTP 522 (unreachable: assume disallow)",
+  "route": "R102",
+  "ts": "2026-10-10T14:24:32",
+  "url": "https://www.ruspavilion.com/robots.txt"
  }
 }

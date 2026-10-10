@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r101-0015"
+ ],
+ "design_ids": [
+  "de-alt"
+ ],
+ "titles": [
+  "kleihues+kleihues with Heike Hanada, new German Pavilion design for 'this is modern' (Werkbund, Venice 2014): GPV_Detailbilder_16_neu.jpg"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://kleihues.com/wp-content/uploads/2014/03/GPV_Detailbilder_16_neu.jpg",
+ "page_url": "https://kleihues.com/german-pavillon-venice-italy/?lang=en",
+ "author": "Jan Kleihues with Heike Hanada (landscape); drafts Kevin Losio; model Beatrice Nehrrettig; perspectives Mathias Kloepfel",
+ "holder": "kleihues + kleihues Gesellschaft von Architekten mbH",
+ "date": "2014",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "77f5dbcc5da930bf50856ddd9b5e7111fce0fda3183939fbb4bf3cff85a07aec",
+ "bytes": 443302,
+ "fetched": "2026-10-10T14:25:09",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T14:13:17; adopted, not requested again",
+ "pixel_size_measured": "1100x956",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

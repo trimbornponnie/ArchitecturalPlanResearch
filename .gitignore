@@ -6,3 +6,7 @@ plan-research-kit/Projects/*/_work/sighting/
 plan-research-kit/Projects/*/_work/previews/
 *.part
 __pycache__/
+
+# >>> files over 95 MB (tools/finish_route.py)
+/plan-research-kit/Projects/Venice Biennale Pavilions/Downloads/2022.deutscher-pavillon.org/maria_eichhorn_relocating_a_structure_biennale_venedig_2022_deutscher_pavillon.epub
+# <<< files over 95 MB

@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r5-0003"
+ ],
+ "design_ids": [
+  "us-reno"
+ ],
+ "titles": [
+  "PORCH exhibition tour map (US Pavilion 2025), floor plan"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://images.squarespace-cdn.com/content/v1/66b61a73f157f376ba9549d2/21ad4e04-ada1-4c71-af90-99333c860823/Map_2.png",
+ "page_url": "https://www.porchusavenice2025.org/exhibition-tour",
+ "author": "PORCH: An Architecture of Generosity (Fay Jones School, University of Arkansas; design team Marlon Blackwell Architects)",
+ "holder": "porchusavenice2025.org",
+ "date": "2025",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "b6dd804dd0b12490498e696aba212dd70a5570bf03e7fce20bd45604be4d6532",
+ "bytes": 222974,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R5 through guard.py at 2026-10-10T13:53:41; adopted, not requested again",
+ "pixel_size_measured": "2000x1540",
+ "mode": "RGBA",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

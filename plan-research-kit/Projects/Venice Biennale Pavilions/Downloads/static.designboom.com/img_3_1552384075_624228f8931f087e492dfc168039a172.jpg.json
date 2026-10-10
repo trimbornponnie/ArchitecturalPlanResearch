@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r4-0004"
+ ],
+ "design_ids": [
+  "gb-alt"
+ ],
+ "titles": [
+  "3GATTI, 'The British Heart' (proposal for the British Pavilion 2020): plan of the venice british pavilion - the british heart is deflated and people are coming inside"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://static.designboom.com/wp-content/dbsub/396089/2019-03-12/img_3_1552384075_624228f8931f087e492dfc168039a172.jpg",
+ "page_url": "https://www.designboom.com/architecture/3gatti-the-british-heart-british-pavilion-2020-venice-biennale-03-13-2019/",
+ "author": "3GATTI (Francesco Gatti)",
+ "holder": "3GATTI; published by designboom",
+ "date": "2019 (published 2019-03-13)",
+ "license": "not stated ('images courtesy of 3GATTI')",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "975edfb1bd5f4467e177e03c0ef6c39349a182f4dc6ecc4700e49642476a4906",
+ "bytes": 108245,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R4 through guard.py at 2026-10-10T14:04:27; adopted, not requested again",
+ "pixel_size_measured": "818x1142",
+ "mode": "RGB",
+ "dpi": [
+  300.0,
+  300.0
+ ]
+}

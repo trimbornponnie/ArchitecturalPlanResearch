@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0054"
+ ],
+ "design_ids": [
+  "fr-alt"
+ ],
+ "titles": [
+  "Philippe STARCK, Pavillon français, Biennale de Venise (view 3/6)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://images.navigart.fr/1000/4M/05/4M05252.JPG",
+ "page_url": "https://collection.frac-centre.fr/artwork/5030000000010831",
+ "author": "Philippe STARCK",
+ "holder": "FRAC Centre-Val de Loire, Orléans (inv. 998 01 33)",
+ "date": "s.d. (1990 competition, 44th Biennale; see r3-0011..0016 for Nouvel)",
+ "license": "©  Philippe Starck; photo François Lauginie",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "a0d7b3460519d914184597980c4eca8869b86180d4fa5786ddcb56f9a6188239",
+ "bytes": 128775,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T14:05:42; adopted, not requested again",
+ "pixel_size_measured": "1000x664",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

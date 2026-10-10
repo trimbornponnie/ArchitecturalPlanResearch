@@ -1,0 +1,28 @@
+{
+ "row_ids": [
+  "r101-0006"
+ ],
+ "design_ids": [
+  "de"
+ ],
+ "titles": [
+  "Maria Eichhorn, Relocating a Structure. Deutscher Pavillon 2022 (catalogue EPUB edition)"
+ ],
+ "pages_used": [
+  "EPUB pages 2.1_DPV_Maria_Eichhorn-64 (overlay section), -158..-169 (Bode), 3_DPV_Hauptbildblock-6..-19 (chronology) of 375 XHTML pages"
+ ],
+ "download_url": "https://2022.deutscher-pavillon.org/media/maria_eichhorn_relocating_a_structure_biennale_venedig_2022_deutscher_pavillon.epub",
+ "page_url": "https://2022.deutscher-pavillon.org/de/publikation/",
+ "author": "Maria Eichhorn (concept); architectural research and plans Arno Loebbecke; chronology Arno Loebbecke, Leonie Radine",
+ "holder": "Maria Eichhorn / ifa - German Pavilion 2022; Verlag der Buchhandlung Walther und Franz Koenig",
+ "date": "2022",
+ "license": "not stated (free EPUB download on the pavilion site)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "9cb3d3b874fbe13fbdcd668fca50614a1025373144ccea7a7a05d3cba977431d",
+ "bytes": 102540558,
+ "fetched": "2026-10-10T14:25:09",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T14:00:05; adopted, not requested again"
+}

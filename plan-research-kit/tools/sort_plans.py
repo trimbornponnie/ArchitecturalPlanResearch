@@ -33,6 +33,7 @@ import pymupdf
 KIT = Path(__file__).resolve().parent.parent
 VECTOR_EXT = {"dwg", "dxf", "svg", "svgz", "ai", "eps", "ps", "ifc", "dgn", "skp", "3dm", "rvt", "pln", "emf", "wmf"}
 RASTER_EXT = {"jpg", "jpeg", "png", "tif", "tiff", "gif", "webp", "bmp", "jp2", "heic"}
+CONTAINER_EXT = {"epub", "zip", "rar", "7z", "tar", "gz", "tgz"}
 VEC_ITEMS = 300
 RASTER_COVER = 0.6
 LONG_DOC = 10
@@ -97,6 +98,43 @@ def classify_pdf(path, pages):
     return res, cls, ev
 
 
+def is_alt(r):
+    d = ids(r.get("design_id"))
+    return bool(d) and all(x.endswith("-alt") for x in d)
+
+
+def page_alt(rs, n):
+    """{page: True} for pages that only unbuilt schemes cover. Drawing rows decide the pages they name (a page is
+    ALT when every drawing row on it is); a document_pointer row decides only the pages no drawing row names."""
+    drawing = {}
+    for r in rs:
+        if r.get("count_as") == "drawing":
+            for p in page_numbers(r.get("pages"), n):
+                drawing.setdefault(p, []).append(is_alt(r))
+    out = {p: all(v) for p, v in drawing.items()}
+    for r in rs:
+        if r.get("count_as") != "drawing":
+            for p in page_numbers(r.get("pages"), n):
+                out.setdefault(p, is_alt(r))
+    return out
+
+
+def sniff(path):
+    """The real type of a file saved without a known extension, from its first bytes."""
+    head = open(path, "rb").read(2048)
+    if head.startswith(b"%PDF"):
+        return "pdf"
+    for magic, ext in ((b"\xff\xd8", "jpg"), (b"\x89PNG", "png"), (b"GIF8", "gif"), (b"II*\x00", "tif"), (b"MM\x00*", "tif"),
+                       (b"AC10", "dwg"), (b"PK\x03\x04", "zip")):
+        if head.startswith(magic):
+            return ext
+    if head[:4] == b"RIFF" and head[8:12] == b"WEBP":
+        return "webp"
+    if b"<svg" in head.lower():
+        return "svg"
+    return None
+
+
 def safe_name(s, n=110):
     s = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', " ", s or "")
     s = re.sub(r"\s+", " ", s).strip(" .")
@@ -158,6 +196,14 @@ def main():
         folders = {folder_of[d] for r in rs for d in ids(r["design_id"]) if d in folder_of}
         for f in folders:
             plan.setdefault(f, []).append((proj / lp, [r for r in rs if any(folder_of.get(d) == f for d in ids(r["design_id"]))]))
+    # files taken out of a container or a page (an image inside an EPUB, an SVG embedded in HTML), listed in
+    # <project>/extras.json: [{"source": <path in the project>, "row_id", "design_id", "title", "sheet_type", ...}]
+    xpath = proj / "extras.json"
+    if xpath.exists():
+        for x in json.loads(xpath.read_text(encoding="utf-8")):
+            f = folder_of.get(x.get("design_id"))
+            if f:
+                plan.setdefault(f, []).append((proj / x["source"], [dict(x, pages=None, count_as="drawing")]))
 
     targets = [p["folder"] for p in pav if not only or p["folder"] in only]
     all_lines = []
@@ -177,11 +223,14 @@ def main():
                 continue
             first = rs[0]
             ext = src.suffix.lower().lstrip(".")
-            alt = any(d.endswith("-alt") for r in rs for d in ids(r["design_id"]))
+            alt = all(is_alt(r) for r in rs)   # a document is "ALT" only when every row of it is an unbuilt scheme
             stype = first.get("sheet_type") or "other"
             title = safe_name(first.get("title") or src.stem, 80)
             tag = "[%s]" % first["row_id"]
             stem = "%s - %s%s" % (stype, "ALT unbuilt - " if alt else "", title)
+            stem_of = {True: "%s - ALT unbuilt - %s" % (stype, title), False: "%s - %s" % (stype, title)}
+            if ext not in VECTOR_EXT | RASTER_EXT | CONTAINER_EXT | {"pdf"}:
+                ext = sniff(src) or ext
             side = src.with_name(src.name + ".json")
             meta = json.loads(side.read_text(encoding="utf-8")) if side.exists() else {}
             common = {
@@ -213,20 +262,28 @@ def main():
                         blank = [p for p, (k, _) in per.items() if k == "text"]
                         if blank:
                             print("%s: listed page(s) %s hold neither paths nor images; not cut" % (src.name, blank))
+                        palt = page_alt(rs, n)
                         for c in CLASSES:
                             want = "vector" if c == "Vectorized" else "raster"
-                            pg = [p for p, (k, _) in per.items() if k == want]
-                            if pg:
-                                outs.append((c, None, "%s; pages %s cut from a %d-page document" % (ev, ",".join(map(str, pg)), n), pg, "cut"))
+                            for a_ in (False, True):
+                                pg = [p for p, (k, _) in per.items() if k == want and palt.get(p, False) == a_]
+                                if pg:
+                                    outs.append((c, a_, "%s; pages %s cut from a %d-page document" % (ev, ",".join(map(str, pg)), n), pg, "cut"))
                     else:
                         outs.append((cls, None, ev, "", None))
+            elif ext in CONTAINER_EXT:
+                print("%s: .%s container kept in Downloads/, not copied (extract drawings into extras.json)" % (src.name, ext))
+                line = dict(common)
+                line.update({"class": "container", "file": "", "evidence": ".%s container: not copied; drawings taken out of it are listed in extras.json" % ext,
+                             "bytes": src.stat().st_size})
+                lines.append(line)
             else:
-                outs.append(("Rasterized" if ext in ("html", "htm") else "Vectorized", None, "unknown type .%s, check by hand" % ext, "", None))
+                print("%s: unknown file type .%s; not copied, check by hand" % (src.name, ext))
 
-            for cls, _, ev, pg, how in outs:
+            for cls, a_, ev, pg, how in outs:
                 if how == "cut":
                     span = "p%s" % (",".join(map(str, pg)) if len(pg) < 6 else "%d-%d" % (pg[0], pg[-1]))
-                    name = "%s (%s) %s.pdf" % (stem, span, tag)
+                    name = "%s (%s) %s.pdf" % (stem_of[bool(a_)], span, tag)
                 else:
                     name = "%s %s.%s" % (stem, tag, ext)
                 name = safe_name(name, 150)
@@ -259,7 +316,8 @@ def main():
             elif keep.exists():
                 keep.unlink()
         v = sum(1 for x in lines if x["class"] == "Vectorized")
-        print("%-18s %3d vectorized, %3d rasterized" % (folder, v, len(lines) - v))
+        r_ = sum(1 for x in lines if x["class"] == "Rasterized")
+        print("%-18s %3d vectorized, %3d rasterized%s" % (folder, v, r_, (", %d containers kept in Downloads/" % (len(lines) - v - r_)) if len(lines) - v - r_ else ""))
         all_lines += lines
 
     # the overall index covers every folder's index.csv, not only the ones rebuilt now

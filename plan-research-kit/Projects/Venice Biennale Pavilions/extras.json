@@ -1,0 +1,18 @@
+[
+ {
+  "source": "Downloads/_extracted/2022.deutscher-pavillon.org/eichhorn_epub_220320_Ueberlagerung_overlay_section.png",
+  "row_id": "r101-0006-x1",
+  "design_id": "de-reno",
+  "title": "Overlay section of the German Pavilion, 1909 and 1938 states (Loebbecke 2022), from the Eichhorn catalogue EPUB",
+  "sheet_type": "section",
+  "author": "Arno Loebbecke",
+  "holder": "Deutscher Pavillon / ifa",
+  "license": "not stated",
+  "date": "2022",
+  "page_url": "https://2022.deutscher-pavillon.org/",
+  "download_url": null,
+  "taken_from": "Downloads/2022.deutscher-pavillon.org/maria_eichhorn_relocating_a_structure_biennale_venedig_2022_deutscher_pavillon.epub :: OEBPS/image/220320_Überlagerung_CMYK_NEU.png",
+  "sha256": "8bb7eff0aa2a8304b506f359b24f838e31a177203cb3ca6d429ce58bd289daab",
+  "notes": "Extracted from the EPUB (r101-0006): the only image the EPUB has at higher resolution than the PDF (2445x1175)."
+ }
+]

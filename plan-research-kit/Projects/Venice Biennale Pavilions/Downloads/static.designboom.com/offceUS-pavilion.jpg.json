@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r5-0001"
+ ],
+ "design_ids": [
+  "us-reno"
+ ],
+ "titles": [
+  "floor plan of the pavilion (officeUS, US Pavilion 2014)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://static.designboom.com/wp-content/uploads/2014/06/offceUS-pavilion.jpg",
+ "page_url": "https://www.designboom.com/architecture/officeus-venice-architecture-biennale-06-09-2014/",
+ "author": "Leong Leong (exhibition design) with curators Eva Franch, Ana Miljacki, Ashley Schafer",
+ "holder": "Leong Leong / designboom",
+ "date": "2014-06 (publication)",
+ "license": "not stated ('image courtesy of leong leong')",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "f17109caf0a729c485332785e30e2b999671bc46f1700bcb5ed173363540640e",
+ "bytes": 102503,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R5 through guard.py at 2026-10-10T13:50:36; adopted, not requested again",
+ "pixel_size_measured": "818x583",
+ "mode": "RGB"
+}

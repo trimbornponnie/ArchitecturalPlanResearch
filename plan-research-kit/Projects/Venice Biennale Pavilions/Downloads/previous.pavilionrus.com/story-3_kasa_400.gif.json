@@ -1,0 +1,28 @@
+{
+ "row_ids": [
+  "r2-0028"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "KASA 'Stories on the pavilion #3'"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://previous.pavilionrus.com/static/img/story-3@kasa_400.gif",
+ "page_url": "https://previous.pavilionrus.com/en/projects/kasa-kovaleva-and-sato-architects-3",
+ "author": "KASA (Kovaleva and Sato Architects)",
+ "holder": "Russian Federation Pavilion / V-A-C Foundation (previous.pavilionrus.com)",
+ "date": "2020",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "da331135aed1ee8792687803f4c8cfd5fe72838264ceb052eaaf93ceafaaaac7",
+ "bytes": 1675960,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:40:09; adopted, not requested again"
+}

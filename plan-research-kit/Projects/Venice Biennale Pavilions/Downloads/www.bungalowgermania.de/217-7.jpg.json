@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r101-0007"
+ ],
+ "design_ids": [
+  "de-reno"
+ ],
+ "titles": [
+  "ARCH+ 217 (2014), Bungalow Germania feature: 'Schnitt und Grundriss der Montage aus Bungalow und Pavillon' (spread on bungalowgermania.de)"
+ ],
+ "pages_used": [
+  "ARCH+ 217 spread (fig. 4)"
+ ],
+ "download_url": "https://www.bungalowgermania.de/images/publications/217-7.jpg",
+ "page_url": "https://www.bungalowgermania.de/en/publications/archplus217",
+ "author": "Ciriacidis Lehnerer Architekten (CLA) / ETH Zurich (drawing); ARCH+ (publication)",
+ "holder": "ARCH+ / CLA",
+ "date": "2014",
+ "license": "not stated ('Alle Abbildungen des Features soweit nicht anders angegeben: (c) Ciriacidis Lehnerer' printed in the gutter)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "3ae9c186f2cfd55ef3532ea1f12dadef0b1d84c7bb2e1ad76e320623332d64a2",
+ "bytes": 185738,
+ "fetched": "2026-10-10T14:25:09",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T14:03:14; adopted, not requested again",
+ "pixel_size_measured": "1432x949",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r102-0009"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "Экспозиция «i-city/i-land», Российский павильон 2012: Second floor plan"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://speech.su/images/project/large/7bd142f863362c3f748b828c6ce96ebc.jpg",
+ "page_url": "https://speech.su/ru/projects/rossijskij-pavilon-na-xiii-arhitekturnoj-biennale-v-venetsii",
+ "author": "SPEECH (Sergei Tchoban, Sergey Kuznetsov)",
+ "holder": "SPEECH architectural office (speech.su)",
+ "date": "2012",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "adf57c9df29f6a8c1f7512df425e36d55777fd9cb731847ff62200692d76e8b2",
+ "bytes": 61526,
+ "fetched": "2026-10-10T14:25:10",
+ "http_status": 200,
+ "fetch_note": "fetched by route R102 through guard.py at 2026-10-10T14:09:58; adopted, not requested again",
+ "pixel_size_measured": "1200x848",
+ "mode": "RGB"
+}

@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r5-0004"
+ ],
+ "design_ids": [
+  "us-reno"
+ ],
+ "titles": [
+  "PORCH exhibition tour map (US Pavilion 2025), front elevation"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://images.squarespace-cdn.com/content/v1/66b61a73f157f376ba9549d2/ce11338e-eb30-4283-b18b-77444638932e/Map_.png",
+ "page_url": "https://www.porchusavenice2025.org/exhibition-tour",
+ "author": "PORCH: An Architecture of Generosity (Marlon Blackwell Architects design team)",
+ "holder": "porchusavenice2025.org",
+ "date": "2025",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "9d2c042fd9055e035d993ac3ac81cd8a8e1c840f1b7c54748243a88395318aef",
+ "bytes": 263793,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R5 through guard.py at 2026-10-10T13:53:43; adopted, not requested again",
+ "pixel_size_measured": "2000x700",
+ "mode": "RGBA",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

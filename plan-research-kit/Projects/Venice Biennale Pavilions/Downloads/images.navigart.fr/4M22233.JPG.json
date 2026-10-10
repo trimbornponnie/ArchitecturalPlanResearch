@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0064"
+ ],
+ "design_ids": [
+  "fr-reno"
+ ],
+ "titles": [
+  "Patrick Bouchain, Les Métavilla, Venise - notebook 016 090 002 (cover)"
+ ],
+ "pages_used": [
+  "18 images: 4M22233.JPG..4M22250.JPG (cover downloaded)"
+ ],
+ "download_url": "https://images.navigart.fr/1000/4M/22/4M22233.JPG",
+ "page_url": "https://collection.frac-centre.fr/artwork/5030000000064036",
+ "author": "Patrick Bouchain",
+ "holder": "FRAC Centre-Val de Loire (inv. 016 090 002)",
+ "date": "2003 - 2006",
+ "license": "© droits réservés",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "fd26722749656c6aa598aa08e23ca3b98672a85876b8680446015ea06bd85734",
+ "bytes": 210351,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T14:04:35; adopted, not requested again",
+ "pixel_size_measured": "1000x668",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

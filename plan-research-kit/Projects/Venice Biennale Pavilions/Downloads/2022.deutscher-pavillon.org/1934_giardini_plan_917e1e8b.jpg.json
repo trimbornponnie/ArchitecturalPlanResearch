@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r101-0001"
+ ],
+ "design_ids": [
+  "de"
+ ],
+ "titles": [
+  "Plan der Pavillons in den Giardini, 1934 (ASAC) - largest size (/media/max/)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://2022.deutscher-pavillon.org/media/max/1934_giardini_plan.jpg",
+ "page_url": "https://2022.deutscher-pavillon.org/de/hintergruende/",
+ "author": "La Biennale di Venezia (guide/catalogue plan)",
+ "holder": "Archivio Storico della Biennale di Venezia - ASAC, (c) Fondazione La Biennale di Venezia",
+ "date": "1934",
+ "license": "(c) Fondazione La Biennale di Venezia (as captioned)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "98e16f1570fe2eaa98c3a89760a8c242bbd8c3877e4826234e28714c072feb86",
+ "bytes": 755457,
+ "fetched": "2026-10-10T14:25:07",
+ "http_status": 200,
+ "fetch_note": "fetched by route R101 through guard.py at 2026-10-10T13:53:55; adopted, not requested again",
+ "pixel_size_measured": "1512x1772",
+ "mode": "RGB",
+ "dpi": [
+  230.0,
+  230.0
+ ]
+}
