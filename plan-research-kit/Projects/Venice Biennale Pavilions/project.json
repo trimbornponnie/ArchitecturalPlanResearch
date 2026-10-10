@@ -1,6 +1,6 @@
 {
  "name": "Venice Biennale Pavilions",
- "building": "National pavilions of the Giardini della Biennale and the Arsenale, Venice (one route per pavilion, see pavilions.json)",
+ "building": "National pavilions of the Giardini della Biennale, Venice (one route per pavilion, see pavilions.json)",
  "manifest": "manifest.jsonl",
  "designs": [
   "de",

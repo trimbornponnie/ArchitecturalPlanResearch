@@ -8,14 +8,16 @@ order of source classes to search); a breach is reported in the route's rule log
 
 ## The buildings
 
-The Giardini della Biennale (Castello, Venice) hold 29 national pavilions plus the Central Pavilion, the Venice
-Pavilion and the Book Pavilion; Italy's pavilion is in the Arsenale (Tese delle Vergini). One route per pavilion; the
-route table at the end gives each pavilion's slug, Plans folder and facts to confirm (leads, not readings).
+Scope: the Giardini della Biennale only (user decision 2026-10-10). The Giardini (Castello, Venice) hold 29
+national pavilions plus the Central Pavilion (former Padiglione Italia), the Venice Pavilion, the Book Pavilion and a
+new Qatar pavilion. The Arsenale (including today's Padiglione Italia in the Tese delle Vergini) and palazzi in the
+city are out of scope: rows for them are `other` with `count_as: excluded`. One route per pavilion; the route table at
+the end gives each pavilion's slug, Plans folder and facts to confirm (leads, not readings).
 
 - Names in use: search every pavilion in Italian ("Padiglione della Germania", "Padiglione Germania ai Giardini"),
   English, the country's own language(s) ("Deutscher Pavillon Venedig", "Павильон России"), and by architect.
 - Do not confuse a pavilion with its neighbours in the Giardini, with the same country's exhibitions in other venues
-  (palazzi in the city, Arsenale halls), with temporary installations of the same name, or with the 2013 swap of the
+  (palazzi in the city, Arsenale halls: out of scope), with temporary installations of the same name, or with the 2013 swap of the
   German and French pavilions (Germany exhibited in the French building that year). Rows for those are `other` with
   `count_as: excluded` or `related` and the reason.
 - Known shared sources (every route checks the ones that apply to its pavilion): La Biennale di Venezia and its
@@ -214,6 +216,6 @@ Research runs five routes at a time in the batch order. The user asked to start 
 | R27 | 6 | `pl` | `Plans/polish/` | Polish Pavilion | Giardini. 1932 by Brenno Del Giudice. |
 | R28 | 6 | `ro` | `Plans/romanian/` | Romanian Pavilion | Giardini. 1938 by Brenno Del Giudice. |
 | R29 | 6 | `venezia` | `Plans/venetian/` | Venice Pavilion (Padiglione Venezia) | Giardini (Sant'Elena side). 1932 by Brenno Del Giudice; later renovation. |
-| R30 | 6 | `it` | `Plans/italian/` | Central Pavilion (former Padiglione Italia) and Padiglione Italia at the Arsenale (Tese delle Vergini) | Giardini Central Pavilion: 1894 Palazzo dell'Esposizione (Enrico Trevisanato), facades 1895/1914/1932, Carlo Scarpa interventions (1948-1968), renovation 2009. Arsenale: Padiglione Italia in the Tese delle Vergini since about 2009-2011. |
+| R30 | 6 | `it` | `Plans/italian/` | Central Pavilion (Padiglione Centrale, former Padiglione Italia), Giardini | Giardini. 1894 Palazzo dell'Esposizione (Enrico Trevisanato); facades 1895, 1914, 1932; Carlo Scarpa interventions 1948-1968 (Sala Paul Klee, sculpture garden, entrance); ASAC and library spaces; renovation 2009. The current Padiglione Italia in the Arsenale (Tese delle Vergini) is out of scope. |
 | R31 | 7 | `qa` | `Plans/qatari/` | Qatar Pavilion (new permanent pavilion) | Giardini. Lina Ghotmeh selected 2025; state of design or construction to confirm. |
-| R32 | 7 | `site` | `Plans/_site/` | Giardini and Arsenale site plans, Book Pavilion (James Stirling, 1991) and other non-national structures | Site plans of the Giardini and the Arsenale; Stirling and Wilford Book Pavilion (Electa bookshop) 1991; Carlo Scarpa ticket booth 1952. |
+| R32 | 7 | `site` | `Plans/_site/` | Giardini site plans, Book Pavilion (James Stirling, 1991) and other non-national structures in the Giardini | Site plans of the Giardini della Biennale; Stirling and Wilford Book Pavilion (Electa bookshop) 1991; Carlo Scarpa ticket booth 1952. Arsenale plans are out of scope. |
