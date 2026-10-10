@@ -3,5 +3,5 @@
  "http": null,
  "text_ok": false,
  "note": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
- "fetched": "2026-10-10T15:10:08"
+ "fetched": "2026-10-10T15:40:24"
 }

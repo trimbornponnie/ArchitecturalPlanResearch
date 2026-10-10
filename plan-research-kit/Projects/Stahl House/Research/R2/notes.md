@@ -216,3 +216,11 @@ Started 2026-10-10. Sources tried in order.
   (kt4h4nf4b3) and of Calisphere items 3a87c1e9... (USC slide "Stahl residence") and ark:/13030/c8xd13ck (Cal Poly
   Pomona 1958 Koenig presentation floor plan); a lighter SPARQL query on data.getty.edu (identifier "2006.M.30").
 
+## 14. Wayback copies (second attempt, 15:40)
+
+- `https://web.archive.org/web/2024id_/https://oac.cdlib.org/findaid/ark:/13030/kt4h4nf4b3/entire_text/`: REFUSED
+  again (robots.txt unreachable: connection reset; agent proxy reported "ws_closed_mid_exchange" for
+  web.archive.org:443 both times, 15:10 and 15:40). The Calisphere item copies
+  (`.../2024id_/https://calisphere.org/item/ark:/13030/c8xd13ck/`, `.../item/3a87c1e938853b3cf07b1d5293574171/`) were
+  refused with it. web.archive.org is not reachable from this session; not retried again. hand.md.
+
