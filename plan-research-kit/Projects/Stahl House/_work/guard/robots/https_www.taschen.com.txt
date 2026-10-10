@@ -1,0 +1,80 @@
+User-agent: *
+
+Disallow: /all_tit/
+Disallow: /ajax/
+Disallow: /custom/
+Disallow: /cms/
+Disallow: /linkpage/
+Disallow: /lookinside/
+Disallow: /media/flash/
+Disallow: /media/downloads/
+Disallow: /modules/
+Disallow: /zanox_produktdaten/
+
+Disallow: /pages/de/company/newsletter/
+Disallow: /pages/en/company/newsletter/
+Disallow: /pages/fr/company/newsletter/
+Disallow: /pages/es/company/newsletter/
+Disallow: /pages/it/company/newsletter/
+
+Disallow: /pages/en/community/
+Disallow: /pages/de/community/
+Disallow: /pages/fr/community/
+Disallow: /pages/es/community/
+Disallow: /pages/it/community/
+
+Disallow: /pages/jp/
+
+Disallow: /pages/en/press/press_downloads/
+Disallow: /pages/de/press/press_downloads/
+Disallow: /pages/fr/press/press_downloads/
+Disallow: /pages/es/press/press_downloads/
+Disallow: /pages/it/press/press_downloads/
+Disallow: /pages/en/sendpage/
+Disallow: /pages/de/sendpage/
+Disallow: /pages/fr/sendpage/
+Disallow: /pages/es/sendpage/
+Disallow: /pages/it/sendpage/
+
+Disallow: /pages/en/catalogue/books/
+Disallow: /pages/de/catalogue/books/
+Disallow: /pages/fr/catalogue/books/
+Disallow: /pages/es/catalogue/books/
+Disallow: /pages/it/catalogue/books/
+Disallow: /pages/en/ecards/edit/
+Disallow: /pages/de/ecards/edit/
+Disallow: /pages/fr/ecards/edit/
+Disallow: /pages/es/ecards/edit/
+Disallow: /pages/it/ecards/edit/
+Disallow: /pages/en/press/releases/
+Disallow: /pages/de/press/releases/
+Disallow: /pages/fr/press/releases/
+Disallow: /pages/es/press/releases/
+Disallow: /pages/it/press/releases/
+
+# AI Crawlers – explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://www.taschen.com/sitemap_index.xml
