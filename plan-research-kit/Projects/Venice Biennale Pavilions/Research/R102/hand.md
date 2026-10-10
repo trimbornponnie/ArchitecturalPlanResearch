@@ -35,7 +35,8 @@ request, in which case save the largest JPEG the viewer shows).
   full size as `ru_2050plus_<n>.jpg`.
 
 ## H3. La Biennale national-participation pages for Russia (www.labiennale.org soft-refused by R3 at R102's attempt)
-- https://www.labiennale.org/en/architecture/2021/russia (pattern taken from the US 2025 page another route read), and
+- https://www.labiennale.org/en/architecture/2021/russia was read by R102 at 14:47 after the soft expiry (two album
+  photos, 1300x600, no drawing). Still to look at in a browser (low priority, same page template):
   the art editions .../en/art/2019/russia, 2015, 2017, 2026: save any image that is a plan or section of the pavilion as
   `ru_labiennale_<year>_<n>.jpg` (probably photos only).
 

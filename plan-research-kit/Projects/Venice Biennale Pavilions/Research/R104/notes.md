@@ -101,3 +101,59 @@ G15. Hosts refused for R4 that may be open again: as G1-G3; muf.co.uk and www.vi
    New hosts: architecturetoday.co.uk/island (gallery), worldarchitecture.org (credits "Island Architectural Drawings
    (c) Caruso St John"), somethingcurated.com 2018 interview, cca.qc.ca library record of the catalogue "Island" (2018,
    235 pp.). Dezeen (refused host). No Archello/Divisare/Domus hit.
+8. https://architecturetoday.co.uk/island -> REDIRECT /island/ (checked anew), get 200: 3 Cultureshock Media + 11 Helene
+   Binet photos on atlive-wp.s3.eu-west-2.amazonaws.com; no drawing in the .txt or the raw HTML. Photo source. EMPTY.
+9. https://worldarchitecture.org/architecture-news/ehffm/island-named-special-mention-...html : get 200. FOUND copies of
+   the four CSJ drawings (data-src cdnimgfiles/extuploadc/cstj_britishpavilion_island_groundfl / deckplan / eastelev /
+   northele-1-.jpg), fetched (get 200): each 1190x841 (72 dpi), smaller than Metalocus (2048) and CSJ (4800) ->
+   rows r104-0003..0006 with same_item_as. Other images: press photos (British Council) and drone photos. 
+10. somethingcurated.com interview (REDIRECT to trailing-slash URL, checked anew, get 200): images are the press set
+   (Holy Rosary Church, Raft of the Medusa plan (Correard, not the pavilion), Tempest, curators, John Riddy photo of
+   the pavilion). EMPTY for drawings.
+### Sighting of WA copies and of other routes' files (local)
+11. The WA groundfl / eastelev / northele files are NOT the same renderings as the CSJ / Metalocus files: groundfl is a
+   wider version of the 'Ground floor plan 1:200' (hill contours, French and German pavilion fronts and Canada
+   partly drawn); the two elevations tone the existing pavilion facades (brick hatching, pediment, windows) and draw the
+   scaffold light (sheet R104_3: CSJ north vs WA north). Rows r104-0003, 0005, 0006 kept as own rows (variants);
+   deckplan is the same drawing as r4-0001 -> r104-0004 same_item_as r4-0001.
+12. r101-0009 (kleihues+kleihues 2014 site plan, R101's file on disk): the British pavilion is drawn in plan in full
+   (walls, front stair, rear loggia) -> row r104-0007 (gb, same_item_as r101-0009). The other kleihues sheets
+   (ansicht 1-4, schnitt 1-5, Detailbilder 00/14/15; sheet R104_4) show only the German proposal: no British pavilion.
+### WebSearch 2 (en): "British Pavilion" Venice Biennale exhibition plan drawing "Garden of Privatised Delights" OR ... axonometric
+   Hits: visualarts.britishcouncil.org/programmes/exhibition/the-british-pavilion-at-the-venice-biennale-2009 (snippet:
+   "Reg Butler's drawn plan" for the 1954 exhibition: British Council Collection), design.britishcouncil.org 2017 call
+   (host closed), worldarchitecture.org 2016 call, BC 2020 open call PDF (host closed), e-architect 2012/2023 (refused;
+   mail.e-architect.com is an alias of the refused host: not used), objectif (done).
+13. https://worldarchitecture.org/architecture-news/ccffc/call-for-participation-venice-architecture-biennale-2016.html :
+   get 200: one photo of the pavilion, link to the design.britishcouncil.org call (closed). No attachment. EMPTY.
+14. Repository APIs: zenodo.org/api REFUSED by robots.txt (Disallow /api); api.core.ac.uk/v3/search/works: check ALLOWED,
+   get -> HTTP 429 (CORE refused for the project; the v3 API wants a key). Closed.
+15. 3GATTI on designboom (R4's saved raw HTML): img_2 render (seen by R4, not fetched) and the header
+   fullscreen_1552384075_ef78da07...jpg (1800x650, composite of img_1 + img_2): check ALLOWED, get 200 both; viewed
+   (sheet R104_5): renders of the inflated installation -> row r104-0008 (related); the composite gets no row.
+### WebSearch 3 (it): Trevisanato 1887 caffè ristorante Giardini Venezia "padiglione" Gran Bretagna Rickards 1909 pianta OR rilievo OR tesi
+   Hits: iris.unive.it bitstream "Padiglione centrale.pdf", exhibitions.univie.ac.at (DoME exhibition database, no
+   drawings), labiennale.org/en/node/19, illy / Giardini Reali cafe (another building, Lorenzo Santi 1816-17). Nothing
+   on the 1887 cafe-restaurant drawings.
+16. https://iris.unive.it/bitstream/10278/3734099/1/Padiglione%20centrale.pdf (get 200, 1 page, 2 book pages 392-393)
+   and the handle page (get 200): V. Pajusco, "Padiglione Centrale", in "Le muse inquiete. La Biennale di Venezia di
+   fronte alla storia" (La Biennale, 2020), section "I Padiglioni dei Giardini"; photos of the Central Pavilion only.
+   Not this pavilion. The same section may hold a British pavilion entry with ASAC photos / plans -> leads.md (library).
+17. Slip: https://www.labiennale.org/it/bandi-e-gare/archivio was checked at 14:45, one minute before the soft refusal of
+   www.labiennale.org (R3, 14:16:53) expired -> REFUSED by the guard (nothing sent). Under "a REFUSED is final for that
+   URL" this URL and R4's refused /it/bandi-e-gare are not checked again.
+### G3 www.labiennale.org (soft refusal expired)
+18. https://www.labiennale.org/it/trasparenza (check ALLOWED after the expiry, get 200): "Bandi di gara e contratti" links
+   only to /it/bandi-e-gare (refused URL for R4, not re-checked); "Opere pubbliche: non si applica". The national
+   participation pages carry one thumbnail photo (R5's US page). No plan source. Closed; tenders -> leads.md N8.
+### G9 exhibition curators' sites
+19. https://www.crimsonweb.org/ (get 200), WP search API ?search=clockwork / ?search=british%20pavilion (get 200), media
+   API parent=1502 and 1600, page /a-clockwork-jerusalem/ (get 200): two small photos (500x302, 292x389). No plan. EMPTY.
+   https://real-foundation.org/ (Home Economics 2016, Jack Self): REFUSED, robots.txt unreachable (proxy 502, soft).
+### WebSearch 4 (es/de/fr): "pabellón británico" OR "pabellón de Gran Bretaña" Bienal Venecia planta OR "Britischer Pavillon" Venedig Grundriss OR "pavillon britannique" Venise plan
+   Hits: Metalocus (es) Island 2018 (done by R4 in en), Metalocus (es) 2021 "El jardín de las delicias privatizadas",
+   ArchDaily (es) tag pages of the 2023 curators (Joseph Henry, Jayden Ali, Sumitra Upham, Meneesha Kellay), Arquitectura
+   Viva tag "venecia" (refused host per earlier routes), others irrelevant. No German or French hit.
+20. Metalocus 2021 article (get 200): 41 images; captions read: 01-38 photos, 39 title graphic, 40 collage triptych,
+   41 exhibition room map (Kellenberger-White). 39-41 fetched (get 200, 2048 px) -> row r104-0009 (related, diagram).
+   Metalocus 2025 selection article "22 participaciones" (get 200): no British pavilion entry. Closed.

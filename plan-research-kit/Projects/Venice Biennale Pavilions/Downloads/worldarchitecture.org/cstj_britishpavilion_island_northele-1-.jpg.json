@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r104-0006"
+ ],
+ "design_ids": [
+  "gb-reno"
+ ],
+ "titles": [
+  "Island, British Pavilion: North elevation (WA press copy, pavilion rendered)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://worldarchitecture.org/cdnimgfiles/extuploadc/cstj_britishpavilion_island_northele-1-.jpg",
+ "page_url": "https://worldarchitecture.org/architecture-news/ehffm/island-named-special-mention-as-national-participation-to-great-britain-at-venice-biennale.html",
+ "author": "Caruso St John Architects with Marcus Taylor",
+ "holder": "Caruso St John Architects; published by World Architecture Community (WA)",
+ "date": "2018 (WA article 2018)",
+ "license": "not stated ('Island Architectural Drawings (c) Caruso St John')",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "62e35e2b1bdd4c8f0f4ceb06abb34065c21f7a9263863b7515924a8dcdd49155",
+ "bytes": 257012,
+ "fetched": "2026-10-10T14:56:42",
+ "http_status": 200,
+ "fetch_note": "fetched by route R104 through guard.py at 2026-10-10T14:38:58; adopted, not requested again",
+ "pixel_size_measured": "1190x841",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

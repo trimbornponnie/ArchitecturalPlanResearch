@@ -237,34 +237,6 @@
   "ts": "2026-10-10T13:50:39",
   "url": "https://www.architecturalrecord.com/articles/16751-open-call-issued-for-applications-for-us-pavilion-at-the-2025-venice-architecture-biennale"
  },
- "www.everlastingplastics.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
-  "route": "R5",
-  "ts": "2026-10-10T13:52:32",
-  "url": "https://www.everlastingplastics.org/robots.txt"
- },
- "www.americanframing.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-  "route": "R5",
-  "ts": "2026-10-10T13:52:32",
-  "url": "http://www.americanframing.org/robots.txt"
- },
- "dimensionsofcitizenship.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-  "route": "R5",
-  "ts": "2026-10-10T13:52:32",
-  "url": "http://dimensionsofcitizenship.org/robots.txt"
- },
- "www.spontaneousinterventions.org": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-  "route": "R5",
-  "ts": "2026-10-10T13:52:33",
-  "url": "http://www.spontaneousinterventions.org/robots.txt"
- },
  "simoneleighvenice2022.org": {
   "code": "network",
   "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>",
@@ -307,26 +279,12 @@
   "ts": "2026-10-10T13:55:37",
   "url": "https://www.britishcouncil.org/robots.txt"
  },
- "indiearch.com": {
-  "code": "network",
-  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R5",
-  "ts": "2026-10-10T13:56:47",
-  "url": "https://indiearch.com/robots.txt"
- },
  "site.cdn.institutfrancais.com": {
   "code": 403,
   "reason": "robots.txt answered HTTP 403",
   "route": "R3",
   "ts": "2026-10-10T13:57:00",
   "url": "https://site.cdn.institutfrancais.com/robots.txt"
- },
- "www.marlonblackwell.com": {
-  "code": "network",
-  "reason": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
-  "route": "R5",
-  "ts": "2026-10-10T13:57:56",
-  "url": "https://www.marlonblackwell.com/projects/porch-an-architecture-of-generosity"
  },
  "archiwebture.citedelarchitecture.fr": {
   "code": 403,
@@ -517,13 +475,6 @@
   "ts": "2026-10-10T14:16:37",
   "url": "https://christophehutin.com/projets"
  },
- "www.labiennale.org": {
-  "code": "network",
-  "reason": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "route": "R3",
-  "ts": "2026-10-10T14:16:53",
-  "url": "https://www.labiennale.org/en/architecture/2023/national-participations/france"
- },
  "www.jovis.de": {
   "code": "network",
   "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -684,5 +635,110 @@
   "route": "R102",
   "ts": "2026-10-10T14:36:37",
   "url": "https://nimrah.ru/robots.txt"
+ },
+ "www.markbradfordvenice2017.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:04",
+  "url": "http://www.markbradfordvenice2017.org/robots.txt"
+ },
+ "joanjonasvenice2015.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:04",
+  "url": "http://joanjonasvenice2015.com/robots.txt"
+ },
+ "www.sarahszevenice2013.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:04",
+  "url": "http://www.sarahszevenice2013.com/robots.txt"
+ },
+ "dimensionsofcitizenship.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'dimensionsofcitizenship.org'. (_ssl.c:1032)>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:57",
+  "url": "https://dimensionsofcitizenship.org/robots.txt"
+ },
+ "www.spontaneousinterventions.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:58",
+  "url": "https://www.spontaneousinterventions.org/robots.txt"
+ },
+ "www.everlastingplastics.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+  "route": "R105",
+  "ts": "2026-10-10T14:40:58",
+  "url": "https://www.everlastingplastics.org/robots.txt"
+ },
+ "indiearch.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R105",
+  "ts": "2026-10-10T14:41:10",
+  "url": "https://indiearch.com/robots.txt"
+ },
+ "archello.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R103",
+  "ts": "2026-10-10T14:42:58",
+  "url": "https://archello.com/robots.txt"
+ },
+ "api.core.ac.uk": {
+  "code": 429,
+  "reason": "HTTP 429",
+  "route": "R104",
+  "ts": "2026-10-10T14:43:17",
+  "url": "https://api.core.ac.uk/v3/search/works?q=%22British%20pavilion%22%20AND%20Venice&limit=50"
+ },
+ "www.e-flux.com": {
+  "code": "network",
+  "reason": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+  "route": "R103",
+  "ts": "2026-10-10T14:43:41",
+  "url": "https://www.e-flux.com/announcements/413849/christophe-hutin-communities-at-work"
+ },
+ "www.themarchitettura.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R105",
+  "ts": "2026-10-10T14:44:52",
+  "url": "https://www.themarchitettura.com/robots.txt"
+ },
+ "www.grossolegno.it": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R105",
+  "ts": "2026-10-10T14:44:53",
+  "url": "https://www.grossolegno.it/robots.txt"
+ },
+ "www.biennalepavilions.com": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>",
+  "route": "R105",
+  "ts": "2026-10-10T14:44:53",
+  "url": "https://www.biennalepavilions.com/robots.txt"
+ },
+ "www.theplan.it": {
+  "code": 403,
+  "reason": "HTTP 403",
+  "route": "R105",
+  "ts": "2026-10-10T14:45:10",
+  "url": "https://www.theplan.it/whats_on/il-nuovo-padiglione-usa-american-framing-alla-riscoperta-delle-strutture-in-legno"
+ },
+ "real-foundation.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+  "route": "R104",
+  "ts": "2026-10-10T14:49:35",
+  "url": "https://real-foundation.org/robots.txt"
  }
 }

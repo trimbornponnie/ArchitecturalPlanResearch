@@ -104,3 +104,70 @@ G13. Sighting: R5 rows not re-measured as a set; r5-0007..0011 are not in Plans/
    static.designboom.com/wp-content/gallery/officeus-venice-biennale-2014/ (1,2,3,4,6,7,8,10, mapping, pentagram-map,
    american-pavilion, stati-uniti): checked, all ALLOWED, all got (818-950 px). Sheet: archive photos of US offices,
    team photos in the forecourt, facade blinds, Pentagram poster/map. No drawing of the pavilion. No rows. Empty.
+
+### G6 other years, step 1 (WebSearch 1 and site searches)
+10. WebSearch 1 (en): US Pavilion Venice Biennale "American Framing" OR "Dimensions of Citizenship" OR "Everlasting
+    Plastics" floor plan drawings divisare OR designboom. Hits: architizer (refused host), designboom officeUS (done),
+    djc.com (subscription), crystalbridges news, myartguides, archrecord (refused host). Nothing new with drawings.
+11. designboom WordPress REST search https://www.designboom.com/wp-json/wp/v2/posts?search=us%20pavilion%20venice... :
+    check ALLOWED, get -> REDIRECT to http://www.designboom.com/wp-json/wp/v2/posts/?search=... ; that http URL checked
+    -> REFUSED (robots.txt unreachable, DNS). Effect: www.designboom.com soft-refused for every route until ~15:06
+    (Rule log). divisare.com/search?q=us%20pavilion%20venice (checked ALLOWED by R5, get OK now): page shows the
+    portal's "selected projects", no search result for the pavilion. Empty.
+
+### Finding: plain-http URLs cannot work in this container
+12. /root/.ccr/README.md: only HTTPS_PROXY is supported; a plain-http request does not go through the proxy and fails
+    DNS ("Name or service not known"). So every http:// check fails, whether or not the site exists. R5's DNS refusals of
+    http://www.americanframing.org/, http://dimensionsofcitizenship.org/, http://www.spontaneousinterventions.org,
+    http://www.officeus.org/ and architizer's redirect to http://architizer.com were artefacts, not dead domains.
+    After the 30-minute soft expiry I checked the https form (a different URL; the refused http URLs were not
+    re-checked): https://www.americanframing.org/ ALLOWED, get OK (site alive). https://dimensionsofcitizenship.org/
+    REFUSED (certificate hostname mismatch: domain really lapsed); https://www.spontaneousinterventions.org/ REFUSED
+    (TLS handshake failure); https://www.everlastingplastics.org/ REFUSED again (SSL EOF); https://indiearch.com/
+    REFUSED again (connection reset, proxy relay failure). The same http trap hit three art sites linked from the
+    Guggenheim pages (see 15).
+
+### G9 ASACdati online catalogue (class 1)
+13. asac.labiennale.org/risultati?termine=padiglione%20stati%20uniti, ?termine=padiglione%20americano,
+    ?termine=Delano (one check, ALLOWED; get OK; GET search URL = borderline form use, as R3/R102/R104; Rule log).
+    Server-rendered Elasticsearch JSON: SEDI dossier fascicolifoto 539069 "Padiglione Stati Uniti", PAD.STRANIERI.3.
+    114-125, 1930-1996, 10 photos + 2 slides (nr. 124 1996 facade, nr. 125 s.d. facade), note "Costruito nel 1930,
+    progetto di Chester Holmes Aldrich e William Adams Delano" (confirmed). Record page
+    /collezioni/fototeca/fascicoli/539069 (checked, get OK): no digitised image, no "Pianta" item (unlike the GB and
+    French SEDI dossiers). Exhibition photo dossiers with digitised images (asacdati getimg.php): 1930 (A.V.25, 17
+    images, e.g. getimg.php?c=149627), 1932, 1934, 1962, 1964, 1976; poster 2010 Workshopping. Photos, not drawings:
+    photo source, no rows. "padiglione americano" and "Delano": only fuzzy person hits. Archive-only (leads.md).
+
+### G7 Guggenheim year pages (class 1)
+14. 25 pages checked in one command (ALLOWED), one get loop: 2024, 2017, 2015, 2014, 2013, 2011, 2009, 2007, 2006,
+    2005, 2004, 2003, 2002, 2001, 2000, 1999, 1997, 1996, 1995, 1993, 1991, 1990, 1988, 1986 got OK;
+    /en/art/us-pavilion/en/government-grants/ -> 404 (broken relative link). Credits only, one photo each, no drawings.
+    Exhibition sites named: jeffreygibsonvenice2024.org, markbradfordvenice2017.org, joanjonasvenice2015.com,
+    sarahszevenice2013.com. Architecture years without site: 2014 OfficeUS, 2006 After the Flood (Architectural
+    Record), 2004 Transcending Type (Architectural Record), 2002 WTC, 2000 Lynn/Rashid, 1996 Disney, 1991 Eisenman/Gehry.
+15. Art sites: https://www.jeffreygibsonvenice2024.org ALLOWED (see below); http://www.markbradfordvenice2017.org/,
+    http://joanjonasvenice2015.com, http://www.sarahszevenice2013.com/ REFUSED (http DNS artefact, see 12; soft until
+    ~15:10). Retried as https after expiry (see below).
+
+### G4/G6 2025 design team: Marlon Blackwell Architects (class 0)
+16. https://www.marlonblackwell.com/projects/porch-an-architecture-of-generosity : R5's get had failed (SSL EOF); after
+    the soft expiry the same URL was checked again (ALLOWED) and got OK (Rule log: re-check of a URL whose get had
+    failed with a network error, not a REFUSED check). The page is Next.js; its payload embeds 22 cdn.sanity.io
+    originals; 3 are captioned as other projects (Lamplighter School, Shelby Farms). 19 checked (ALLOWED) and got:
+    18 photos of the built porch and two gallery interiors (1588-2560 px; photo source) and one design rendering
+    (2560x1440) -> r105-0001 (us-reno, perspective, related). No plan, section or elevation on the page. Found.
+
+### G6 2021 American Framing (class 0/4/9)
+17. https://www.americanframing.org/ (get OK): ProcessWire site, 84 images. 73 are camera files (dsc_/o2a/untitled_xx):
+    photos. The 11 others checked (ALLOWED) and got (974-2820 px): Daniel Shea / Chris Strong photographs, book cover,
+    one historic photo of the pavilion (b44c5f8b...jpg, crowd before the portico, 2163x1500; photo source). No drawing.
+    The site names the team: Paul Andersen (independentarchitecture.com, not indiearch.com), Goodfriend Magruder
+    Structure (structural engineer), Giacomo Di Thiene / themarchitettura.com (local architect), Grosso Srl
+    (grossolegno.it, timber builder), Biennale Pavilions (biennalepavilions.com), and ~60 press links.
+18. One check: independentarchitecture.com and its /exhibitions/american-framing page (get OK: one photo, text only);
+    gmstructure.com (get OK; /work/ get OK; WP REST search?search=venice -> [] and media?search=framing -> 4 unrelated
+    house photos): no Venice project. Empty. www.themarchitettura.com REFUSED (robots.txt 403 -> closed);
+    www.grossolegno.it REFUSED (robots.txt 403 -> closed); www.biennalepavilions.com REFUSED (TLS internal error).
+    hand.md. Press: domusweb 2021 gallery (22 photos by Giulia di Lenarda and Giorgio de Vecchi), baumeister.de 2021
+    (photos), globaldesignnews (one photo), worldarchitecture.org 2021 (redirect checked, get OK; photos),
+    metropolismag 2020 (redirect checked, get OK; see below), theplan.it -> HTTP 403 (host closed; hand.md).

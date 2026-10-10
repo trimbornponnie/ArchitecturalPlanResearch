@@ -219,3 +219,76 @@ internazionale.it x2 (2026 news). No thesis, no survey. Budget used up (4 of 4).
   России" (62): no further plan; organization record OZY "Российский павильон на Венецианской биеннале" (8 archival
   documents: invitations and booklets 1996 Avvakumov "Russian Utopia: A Depository", 2001 Sokov, 2003, 2013 Zakharov,
   2014 centenary) and Kabakov 1993 "The Red Pavilion" (ECRAK, 2 documents). Images robots-closed; hand.md H1 extended.
+
+### La Biennale 2021 Russia page (after R3's soft refusal expired, 14:47)
+- `https://www.labiennale.org/en/architecture/2021/russia`: 200 (slow). "Open!", exhibitors incl. KASA; album of two
+  images (`static.labiennale.org/.../1300x600/padiglione_russia_biennale_architettura_2021.jpg` and `_b.jpg`), both
+  fetched and viewed (sheet R102_12): interior photos of the renovated halls, no drawing -> no rows. Sneak-peek images
+  are a game screenshot and a photo (captions). Other years' pages left in hand.md H3 (same template, photos).
+
+## Findings (R102)
+
+- New drawings downloaded: 3 CAD sheets of the pre-2020 state drawn for the 2012 exhibition "i-city/i-land" by SPEECH
+  (lower-floor plan, upper-floor plan with levels, cross section through the dome; 1200x848, dimensions readable at
+  orientation grade): r102-0008..0010. They are the only plans and section of the pavilion before the KASA renovation
+  found online, and fill the "exhibition layouts 2010-2019" gap for 2012.
+- New archive pointers: ASAC agibilità/participation files with plans of the pavilion for 2000-2013 (r102-0006/0007);
+  the Garage 2014 book (r102-0005); RAAN/Garage 1996 plan of the pavilion (3 sheets, robots-closed images,
+  r102-0001..0003) and a 1998 exhibition project with a hand-drawn plan (r102-0004).
+- Original 1913-14 state: still no full-size drawing. Holders now named: Research Museum of the Russian Academy of Arts
+  (perspective, facade, plans on grey paper), Shchusev's personal archive (MUAR / Garage), TsGIA St Petersburg f. 240
+  (Afanasyev 1978, note 25). Thumbnails of the original GF and 1F plans exist in KASA's Traces p. 24 (r2-0009, re-tagged).
+- States still without a sheet: 1914 original (plans/sections at usable size), Soviet alterations 1950s-60s (only
+  KASA's Modification Logfile r2-0034), 1996-2019 exhibition states other than 2012 (archive-only), roof/structure
+  details. No vector file anywhere.
+- Facts (confirmed from pages read): Wikidata Q63769653; no ru/it Wikipedia article exists (sitelinks en, es only); the
+  pavilion was closed 1922, 1938-54 and 1978-80 (en.wikipedia, unconfirmed source quality); 2012 SPEECH text: the two
+  floors are not connected and have separate entrances (before 2021).
+
+## Rule log
+
+- Run 13:50-14:56 UTC. Guard log for R102: 151 check, 125 get, 19 robots, 10 refuse_host, 8 expire_refusal entries.
+  Every get had an ALLOWED check of the exact URL in an earlier Bash command. Downloads were taken with `guard.py get`
+  as soon as each lead was confirmed (per the relayed user request: no waiting to batch them).
+- WebSearch: 4 of 4 (1 en: KASA/ArchDaily; 2 ru: Shchusev articles; 3 ru: exhibition architects 2016/2018; 4 it: theses
+  and surveys).
+- WebFetch: none (0). One `check --as claude-user` (hb.bizmrg.com RAAN image, 13:58:51): REFUSED by robots.txt, so no
+  WebFetch and no `webfetch-done` followed.
+- Refusals caused or renewed by R102 (shared file):
+  - soft (network/5xx, 30 min): www.culture.ru (13:54, robots.txt reset), muar.ru (13:54, reset),
+    russianartarchive.net (14:01:45, HTTP 500, see slip 1), www.tchoban-foundation.de (14:05, robots.txt reset),
+    web.archive.org (14:19, renewed), www.mapstudio.eu (14:19, proxy 502, renewed), goskatalog.ru (14:20, renewed),
+    2050.plus (14:22, reset on the sitemap), www.ruspavilion.com (14:24, robots.txt HTTP 522), nimrah.ru (14:33,
+    proxy 502).
+  - robots.txt disallows (check REFUSED, nothing sent beyond robots.txt): hb.bizmrg.com (RAAN images; also for
+    Claude-User).
+  - refused earlier by other routes and respected: www.labiennale.org (R3, until 14:46:53; read at 14:47 after
+    expiry), archive.org (R4, until 14:30:26; used from 14:31), commons.wikimedia.org (taken off the list before
+    14:14 and used then; refused again by R105 at 14:30, no R102 request after that), images.adsttc.com,
+    upload.jidipi.com, world-architects.com, archi.ru, www.dezeen.com, www.artribune.com, api.openalex.org,
+    www.europeana.eu (not touched).
+- Redirects: each checked as a new URL and fetched in a later command: archivibe.com -> www.archivibe.com (404);
+  speech.su/en/ -> /en -> /ru/en, speech.su/ -> /ru (fetched /ru); projectbaikal.com article and PDF -> /pb/ru/...;
+  archive.org/download/... -> dn760106.eu.archive.org/0/items/... .
+- Wikidata `Special:EntityData` not used: robots.txt of www.wikidata.org disallows `/wiki/Special:` for `*`, although
+  the guard answered ALLOWED for such a URL to R3 (13:51). Noted for the guard audit; R102 read the item page
+  `/wiki/Q63769653` instead.
+- Images viewed only as peek.py contact sheets / crops / page previews (all under 350 kB): R102_1..R102_12, R102_c1..c4,
+  R102_9.jpg/shusev_p007.jpg, R102_10/*, R102_11/*. No image over 1 MB was Read (the 1.67 MB GIF r2-0028 only via a
+  sheet).
+- No login, form, registration, payment, lending item, shadow library or Google Books page. The Internet Archive item
+  used (1978_20240510_202405) is an open community upload, not access-restricted.
+
+### Slips
+1. RAAN: `search?keywords=<Venice Biennale>&keywords=<Architecture>` (a double parameter the site's own links never
+   use) drew HTTP 500 at 14:01:45 and soft-refused russianartarchive.net for every route for 30 minutes. Single-
+   parameter queries after the expiry answered 200.
+2. Parallel burst: the last six previous.pavilionrus.com press pages (13:55:31-13:55:40) were sent as six separate Bash
+   tool calls in one message instead of one stop-at-first-error loop. Each had its own earlier check; the guard
+   serialized them (2 s apart); all answered 404. Afterwards every multi-get ran as a `|| break` loop.
+3. Form: several single `get` commands were followed by `&& grep/ls` on the saved file (e.g. archivibe search, RAAN
+   keyword listing, archive.org metadata, es.wikipedia, SPEECH exhibitions). Nothing was piped from the guard's own
+   output and no get followed a loop, but strictly the briefing wants nothing chained after a get.
+4. Form: a few `check` commands shared a Bash command with local reads (`grep refused_hosts.json; guard.py check`,
+   `cat robots/...; guard.py check`, `cat >> notes.md ...; guard.py check` for web.archive.org at 14:16). No get in
+   those commands.

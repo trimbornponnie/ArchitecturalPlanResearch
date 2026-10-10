@@ -56,5 +56,34 @@
   "origin": "publication",
   "contents": "KASA 'Traces' p. 24: collage of historic photographs (1913 boat arrival, 1914 interiors and exterior details, Shchusev portrait, 2013, 2019, 'USSR -> Russia' facade) with thumbnail reproductions of Shchusev's original drawings: coloured perspective dated 1913 and the original ground-floor (GF) and first-floor (1F) plans on beige paper (each about 130 px wide)",
   "notes": "R102 sighting (crop R102_c4): the only images of the ORIGINAL 1913-14 floor plans found online, but at thumbnail size (orientation only). Design id changed from ru-reno to ru because the drawings shown are the original state; the collage itself is a 2021 KASA book page."
+ },
+ "r3-0014": {
+  "same_item_as": "r3-0013",
+  "notes": "R103 sighting (sheet R103_1): the WordPress edit img0069-e1519901183438.jpg is the same model photo as r3-0013 mirrored left-right, same 2562x2010 px; keep one (r3-0013, the unmirrored original)."
+ },
+ "r3-0068": {
+  "count_as": "drawing",
+  "shows_state": "renovation",
+  "notes": "R103 sighting (full view of the 1000x667 file): left sketch is a longitudinal section through the whole pavilion (Péristyle, Salon, Bar, Cuisine, Atelier labelled; terrace on the scaffold over the roof) with the 2006 Metavilla scaffold; right sketch \"La porte\" (front door drum with mirror). A drawing of the pavilion: exhibition layout 2006 (Metavilla, Bouchain/EXYZT)."
+ },
+ "r3-0063": {
+  "sheet_type": "other",
+  "notes": "R103 sighting (sheet R103_5): the file is a photograph of the closed notebook cover (pasted photo and title label), not a sketch sheet; the row stays a document pointer for the notebook."
+ },
+ "r3-0064": {
+  "sheet_type": "other",
+  "notes": "R103 sighting (sheet R103_5): the file is a photograph of the closed notebook cover (pasted photo and title label), not a sketch sheet; the row stays a document pointer for the notebook."
+ },
+ "r3-0065": {
+  "sheet_type": "other",
+  "notes": "R103 sighting (sheet R103_5): the file is a photograph of the closed notebook cover (pasted photo and title label), not a sketch sheet; the row stays a document pointer for the notebook."
+ },
+ "r3-0066": {
+  "sheet_type": "other",
+  "notes": "R103 sighting (sheet R103_5): the file is a photograph of the closed notebook cover (pasted photo and title label), not a sketch sheet; the row stays a document pointer for the notebook."
+ },
+ "r3-0067": {
+  "sheet_type": "other",
+  "notes": "R103 sighting (sheet R103_5): the file is a photograph of the closed notebook cover (pasted photo and title label), not a sketch sheet; the row stays a document pointer for the notebook."
  }
 }
