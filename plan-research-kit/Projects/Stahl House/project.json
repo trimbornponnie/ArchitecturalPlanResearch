@@ -1,0 +1,23 @@
+{
+ "name": "Stahl House",
+ "building": "Pierre Koenig, Case Study House No. 22 (Stahl House), 1635 Woods Drive, Los Angeles; design 1957-59, built 1959-60",
+ "manifest": "manifest.jsonl",
+ "designs": [
+  "csh22",
+  "csh22-reno",
+  "csh22-unk"
+ ],
+ "drop_designs": [
+  "csh22-alt"
+ ],
+ "drop_reason": "a design scheme that differs from the building as built; research keeps it, the project does not",
+ "default_design": "csh22-unk",
+ "rights_mode": "all-reachable",
+ "exclude_rows": {},
+ "groups": [
+  {
+   "folder": "01 Drawings"
+  }
+ ],
+ "title_strip": []
+}
