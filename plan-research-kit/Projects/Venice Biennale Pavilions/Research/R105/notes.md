@@ -47,3 +47,60 @@ G13. Sighting: R5 rows not re-measured as a set; r5-0007..0011 are not in Plans/
     _work/guard/pages); r5-0002/0009 (model photos) and r5-0010 (column drawing) need a check of count_as.
 
 ## 2. Sources tried (in order)
+
+### G1/G2 Wikimedia (class 3)
+1. https://commons.wikimedia.org/wiki/Category:Venice_Biennale_pavilions : ALLOWED, get OK. US subcategory is
+   "Venice_Biennale_pavilions_(United_States_of_America)" (16 files). 21 loose files, among them a Touring Club Italiano
+   guide map "Venice. Sestiere of Castello. Public GardenSt. Biennale Pavilions 2007 - Touring Club Italiano GR
+   Venezia@0535.tif" (956x1110, Giardini map; site, related at most).
+2. https://commons.wikimedia.org/wiki/Category:Venice_Biennale_pavilions_(United_States_of_America) : ALLOWED, get OK.
+   16 files, all photos (Gonzalez-Torres 2007 works, 2026 opening, people, Barovier & Toso chandelier). No drawing,
+   no subcategory. Parent categories: Delano & Aldrich, Exposition pavilions of the United States. Empty (drawings).
+3. https://commons.wikimedia.org/wiki/Category:Delano_%26_Aldrich : ALLOWED, get OK. 16 subcategories (buildings), no
+   "drawings by Delano & Aldrich" category, no Venice drawing. Empty.
+4. File page of the TCI map: ALLOWED, get -> HTTP 429. commons.wikimedia.org closed again for every route (my 4th
+   Commons get in 80 s, after other routes' Commons requests at 14:17 and 14:26). Not retried; upload.wikimedia.org not
+   used for the file (same file server, treated as alias). hand.md.
+5. https://en.wikipedia.org/wiki/American_pavilion : ALLOWED, get OK. Text: "three-room Palladian building ...
+   constructed in 1930, for the New York Grand Central Art Galleries"; MoMA 1954, Guggenheim 1986; quotes the 1934 GCAG
+   catalogue ("Messrs. Delano and Aldrich generously donated the plans ... Istrian marble and pink brick"; $25,000);
+   opened 4 May 1930 (NYT 5 May 1930). No "The Architect" 1930 citation on this page (R5's snippet lead came from the
+   "17th Venice Biennale" article). Only image: photo Padiglione_Stati_Uniti,_Venezia_2020.jpg. Further reading = new
+   print leads: Rylands & Di Martino, "Flying the Flag for Art: The United States and the Venice Biennale 1895-1991"
+   (1993); Annika Hossain, "Zwischen Kulturrepraesentation und Kunstmarkt: die USA bei der Venedig Biennale 1895-2015"
+   (2015, dissertation, Edition Imorde); Cristiana Volpi, "United States", in A. Re Rebaudengo (ed.), "Pavilions and
+   Garden of Venice Biennale" (Contrasto 2013) p. 173. leads.md.
+6. https://it.wikipedia.org/wiki/Padiglione_degli_Stati_Uniti : ALLOWED, get -> HTTP 404 (no Italian article). Empty.
+
+### G3 PORCH 2025 site, unopened pages (class 0/4)
+7. One check (12 URLs, all ALLOWED), one get loop, all OK: /open-call, /press-release, /press-release-may,
+   /press-release-nov, /press-finissage-program, /co-commissioners, /contributors, /porch-essays, /porchfests,
+   /porch-moves, /porchtv, /inquiries. Then /faq (checked with G4 batch, get OK).
+   - /open-call: exhibitor call (Dec 2024) refers to "the Open Call project brief" but publishes no brief file; the
+     only links are the submission portal porchusavenice2025.secure-platform.com (registration: not used) and an
+     e-mail address. /faq: a bidder asked for "the rough floor dimensions of the final exhibition space"; the answer
+     gives none. No plan published. Lead: the exhibitor phase-2 "detailed exhibit installation guidelines" (sent only to
+     the 54 selected exhibitors) would hold the pavilion plan (leads.md).
+   - All other pages: photos (Tim Hursley), logos, portraits; no drawing. Empty.
+
+### G4 PORCH 2025 press (class 4)
+8. One check of 14 press URLs:
+   - REFUSED: www.archpaper.com (robots.txt answered 403 -> host closed for all routes; three AN articles incl.
+     2025/04 "us-pavilion-venice-visuals"), placesjournal.org (robots.txt 403 -> closed), www.state.gov (robots.txt
+     403 -> closed), archinect.com (robots Disallow / for claudebot), www.internimagazine.com (robots Disallow / for
+     claudebot). hand.md.
+   - ALLOWED and get OK: designboom 2025-05-08 (16 images 01-016, all photos by designboom / Tim Hursley: no
+     drawing), archiscene first-look (sidebar only, no drawing), worldarchitecture.org call for submissions (text of the
+     call, one social image), designscene (Hursley photos), surfacemag photos (photos), uacdc.uark.edu
+     "American Porch Life" (UACDC research display inside the pavilion).
+   - UACDC: 9 images taken (Venice Biennale 2025.jpg 2364x1303 installation photo; American Porch Life_01..08
+     2500x1563/1786 report spreads on porch typology): no drawing of the pavilion, no rows. The report PDF
+     https://uacdc.s3.us-east-1.amazonaws.com/UACDC_American+Porch+Life.pdf : check REFUSED (that bucket host's
+     robots.txt answered 403 -> host closed). hand.md. Empty (drawings).
+
+### G5 designboom officeUS 2014, rest of the images (class 4)
+9. Captions on the saved page: every inline image except model.jpg and offceUS-pavilion.jpg (both R5 rows) is
+   "image (c) designboom" (photos) or a Pentagram animation. The 12-image gallery
+   static.designboom.com/wp-content/gallery/officeus-venice-biennale-2014/ (1,2,3,4,6,7,8,10, mapping, pentagram-map,
+   american-pavilion, stati-uniti): checked, all ALLOWED, all got (818-950 px). Sheet: archive photos of US offices,
+   team photos in the forecourt, facade blinds, Pentagram poster/map. No drawing of the pavilion. No rows. Empty.

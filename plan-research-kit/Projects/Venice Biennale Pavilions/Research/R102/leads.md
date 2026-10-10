@@ -51,3 +51,14 @@ R2's leads (R2/leads.md L1-L6) still stand; R102 settled or extended them as fol
   expected): https://www.internazionale.it/notizie/2026/03/17/biennale-venezia-russia
 - RGIA (Russian State Historical Archive, St Petersburg): the 1913-14 construction was commissioned through the Imperial
   court / Academy of Arts (Grand Duchess Maria Pavlovna); files with drawings may be there. No online catalogue checked.
+
+## L5. Shchusev's 1913-14 design drawings: holders named in Afanasyev 1978 (note 25)
+- Research Museum of the Russian Academy of Arts (НИМ РАХ, St Petersburg; "музей Академии художеств в Ленинграде"):
+  colour perspective of the pavilion on grey paper, its facade, plans and other design material. Online collection:
+  https://nimrah.ru/ (REFUSED at check: proxy 502) and Goskatalog (unreachable). What to ask: scans of the Venice
+  pavilion sheets with inventory numbers.
+- Shchusev's personal archive (pencil sketches, stool template): now MUAR and/or Garage (acquired 2018).
+- TsGIA St Petersburg (former TsGIA Leningrad), f. 240, op. 1, d. 1032: Engineering Council journal 1913 no. 143 with
+  the discussion of the project (may contain or cite drawings).
+- Source: K. N. Afanasyev, "А. В. Щусев", Moscow: Stroyizdat 1978, open copy
+  https://archive.org/details/1978_20240510_202405 (photos only of the pavilion, PDF pp. 44-45).

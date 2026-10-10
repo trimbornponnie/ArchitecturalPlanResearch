@@ -193,3 +193,29 @@ internazionale.it x2 (2026 news). No thesis, no survey. Budget used up (4 of 4).
   no row.
 - domusweb.it search `/en/search.html?q=...`: 404 (search path unknown); the Domus 2020 interview stays in leads.md L4.
 - worldarchitecture.org saved page re-checked: 24 Cappelletti photos + the 6 KASA drawings R2 took; nothing missed.
+
+### G11 Internet Archive (soft refusal of R4 expired 14:30)
+- advancedsearch `(Щусев OR Shchusev OR Schusev OR Shusev OR Chtchoussev OR Sciusev OR Scusev)`: 34 hits, mostly TV
+  captures; relevant: `1978_20240510_202405` "А. В. Щусев (1978)" by K. N. Afanasyev (Stroyizdat), an open community
+  upload (not access-restricted). Also "Мастера советской архитектуры об архитектуре" t. 1 (texts), a 1923 New Moscow
+  plan (other building).
+- `1978_20240510_202405`: metadata 200; redirect of the file URL to dn760106.eu.archive.org checked as a new URL;
+  `_djvu.txt` (590 kB) and the PDF (5.5 MB, 194 pp) fetched. Venice pavilion on book pp. 39-40 (text) and PDF p. 44
+  "РУССКИЙ ПАВИЛЬОН НА XI МЕЖДУНАРОДНОЙ ВЫСТАВКЕ В ВЕНЕЦИИ. ФРАГМЕНТ И ФАСАД" = two PHOTOGRAPHS (porch fragment, PDF
+  p. 44; facade, PDF p. 45), viewed (R102_10, R102_11). No drawing -> no row (photo source noted).
+  Key archive facts read in note 25 (confirmed, book p. 186 area): "В музее Академии художеств в Ленинграде имеются
+  превосходно исполненные на серой бумаге, в цвете, перспектива павильона, его фасад, планы и другие проектные
+  материалы. В личном архиве А. В. Щусева находится несколько карандашных эскизов, шаблон табуретки" (furniture made
+  in Moscow to Shchusev's design); and TsGIA Leningrad f. 240, op. 1, d. 1032 (Engineering Council journal 1913 no. 143,
+  discussion of the project by Kosyakov, Lyubimov, Knipper, Shchusev). -> leads.md L5 (Research Museum of the Russian
+  Academy of Arts, St Petersburg: nimrah.ru REFUSED at check, proxy 502; TsGIA SPb).
+- `"esposizione internazionale d'arte" AND venezia AND (1914 OR XI)` and `title:(esposizione internazionale arte
+  venezia) AND year:[1912 TO 1916]`: 0 hits. `"padiglione russo" OR ... "russian pavilion" ...`: 6 hits, only the
+  Nakhova 2015 lending item (R2) is relevant. Closed.
+
+### RAAN after the soft expiry (14:34)
+- `search?keywords=<Venice Biennale>` (single parameter, as the site's own links): 739 results, mostly periodical
+  issues; not paged further (no bulk scraping). Queries "Российский павильон" (84), "Russian Pavilion" (22), "павильон
+  России" (62): no further plan; organization record OZY "Российский павильон на Венецианской биеннале" (8 archival
+  documents: invitations and booklets 1996 Avvakumov "Russian Utopia: A Depository", 2001 Sokov, 2003, 2013 Zakharov,
+  2014 centenary) and Kabakov 1993 "The Red Pavilion" (ECRAK, 2 documents). Images robots-closed; hand.md H1 extended.

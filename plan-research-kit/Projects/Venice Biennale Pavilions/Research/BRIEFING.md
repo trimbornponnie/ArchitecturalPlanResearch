@@ -81,16 +81,20 @@ R1, German pavilion:
   e-flux 535809, archdaily 788636.
 - Wikipedia "German pavilion" (en/de/it) for references; Ernst Haiger (1938) and Daniele Donghi (1909) as architects.
 
-## Wikimedia reopened (2026-10-10, 14:00)
+## Wikimedia: closed to scripts (2026-10-10, final)
 
-Commons and de/it/en Wikipedia answered 429 to the early routes because the guard's User-Agent carried no contact.
-The guard now sends the project's GitHub URL as contact (plan-research-kit/contact.txt, user decision) and the four
-refusals were lifted after a test request answered 200. Search Commons in full: start at
-https://commons.wikimedia.org/wiki/Category:Venice_Biennale_pavilions (43 subcategories, one per pavilion) and
-https://commons.wikimedia.org/wiki/Category:Giardini_della_Biennale_(Venice); category names are not guessable
-(Category:Russian_Pavilion_(Venice) is a 404), so take them from those listings. File pages give the original under
-upload.wikimedia.org (check that host too). Keep it gentle: one request at a time, loops with "|| break", no
-burst of more than about 20 pages; a new 429 closes the host again for everyone.
+Commons and de/it/en Wikipedia answered 429 to the first routes (User-Agent without contact). After the contact was
+added the refusals were lifted once (13:50); Commons then answered 429 again at 14:30 and upload.wikimedia.org at
+14:33, both at a rate of a few requests per minute, so Wikimedia throttles this environment whatever the User-Agent.
+The refusals stand for the rest of the project: never lift them, never use another client for these hosts.
+- Category pages and articles already saved under `_work/guard/pages/commons.wikimedia.org/` and
+  `.../*.wikipedia.org/` may be read from disk (that sends no request).
+- A Commons file that looks like a drawing goes into your `hand.md`: the File: page URL, the original file URL on
+  upload.wikimedia.org when you can read it from a saved page, and the file name to save it under in `Inbox/`.
+- Category names that exist: https://commons.wikimedia.org/wiki/Category:Venice_Biennale_pavilions lists one
+  subcategory per pavilion as "Venice_Biennale_pavilions_(<Country>)"; Giardini:
+  https://commons.wikimedia.org/wiki/Category:Giardini_della_Biennale_(Venice). For the five pavilions of batch 1
+  these categories held only photographs (route R90).
 
 ## Rules (each comes from an incident)
 

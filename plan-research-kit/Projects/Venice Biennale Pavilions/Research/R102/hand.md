@@ -38,3 +38,14 @@ request, in which case save the largest JPEG the viewer shows).
 - https://www.labiennale.org/en/architecture/2021/russia (pattern taken from the US 2025 page another route read), and
   the art editions .../en/art/2019/russia, 2015, 2017, 2026: save any image that is a plan or section of the pavilion as
   `ru_labiennale_<year>_<n>.jpg` (probably photos only).
+
+## H1 (continued). More RAAN records
+- Invitation E473 "Yuri Avvakumov. Russian Utopia: A Depository" (1996, the Architecture Biennale show
+  in the pavilion; the 1996 plan D21933 may belong to the same year)
+  https://russianartarchive.net/en/catalogue/document/E473 , and the pavilion's organization record
+  https://russianartarchive.net/en/catalogue/organization/OZY (8 documents): save any page with a plan as
+  `ru_raan_<code>_<n>.jpg`.
+
+## H4. Research Museum of the Russian Academy of Arts (St Petersburg): Shchusev's design sheets for the pavilion
+- https://nimrah.ru/ (collection pages; the proxy refused the connection from here). Search "Щусев" / "Венеция" /
+  "павильон"; save the perspective, facade and plan sheets at the largest size as `ru_nimrah_<inventory>.jpg`.

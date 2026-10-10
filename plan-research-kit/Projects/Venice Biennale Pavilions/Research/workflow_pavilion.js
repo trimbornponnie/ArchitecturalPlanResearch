@@ -88,9 +88,9 @@ an exhibition, installation, survey or catalogue that documents the real pavilio
 Other routes research other pavilions at the same time; stay on this pavilion. A drawing that shows several pavilions
 (a Giardini site plan, a pavilion pair) gets a row with design_id "${p.slug}" when this pavilion is drawn in full,
 and its notes name the other pavilions.
-Route R90 swept Wikimedia Commons and Wikipedia for every pavilion at once: read "${PROJ}/Research/R90/" (manifest
-rows with your slug, notes.md for the categories it read) before you touch Commons; never repeat its rows, and
-search Commons yourself only for categories or files R90 did not cover.
+Wikimedia (Commons, Wikipedia, upload.wikimedia.org) is closed to scripts for good (see the briefing): read the
+saved pages under _work/guard/pages/ where they exist, and put Commons drawings into hand.md; route R90's leads.md
+lists the pavilion categories nobody could walk.
 If your route folder already holds files from an interrupted run of the same route, read them first and continue
 from where it stopped: keep its rows (append new ones with the next row numbers), do not repeat sources notes.md
 records as done.`
@@ -107,8 +107,8 @@ not readable): 0 architects' and later interveners' project pages (renovations, 
 pavilion); 1 La Biennale and ASAC, the commissioning body's pages and its calls for proposals / tender documents
 (they often carry survey plans as PDF or DWG annexes), the pavilion's own website and its year archives; 1b architects'
 archives, estates and the national architecture museum / archive of the country (online collection search); 2 heritage
-survey records (Italian MiC catalogues, Comune di Venezia, Soprintendenza); 3 Wikimedia Commons and Wikidata (category
-of the pavilion and its subcategories, file search for plan/pianta/Grundriss/section); 4 published plans (ArchDaily,
+survey records (Italian MiC catalogues, Comune di Venezia, Soprintendenza); 3 Wikimedia Commons (closed to scripts: read saved
+pages only, put drawing files into hand.md) and Wikidata (its links to archives and catalogues); 4 published plans (ArchDaily,
 Divisare, Dezeen, Domus, Stylepark, archINFORM, e-flux press kits, exhibition sites of every year's national
 contribution); 5 archives and libraries with scans (Europeana, Internet Archive downloadable files, university
 repositories, theses, IUAV); 9 trade press, engineers, contractors. For each page read the raw HTML through
@@ -131,8 +131,7 @@ corrections.json; create the folder). Row ids "${gapRoute.toLowerCase()}-0001", 
 1. Gaps. List in notes.md, before acting, what ${p.route} missed: leads it saw but did not open (links in its saved
    .txt renderings, albums, "more" pages, lazy-loaded lists, other years' exhibition sites, tender documents, theses,
    catalogue entries), larger sizes not taken, source classes not searched, languages not searched, hosts that were
-   refused for ${p.route} but are no longer in refused_hosts.json (Wikimedia Commons and Wikipedia were closed by a
-   User-Agent problem early on: if they are open now, search them in full), sheet types or states with no sheet
+   refused for ${p.route} but are no longer in refused_hosts.json (Wikimedia stays closed for good), sheet types or states with no sheet
    (each level's plan, sections, elevations, the original state and every later state). Then follow each gap
    yourself to its end: download what is reachable through the guard and add rows; write what is closed to scripts
    into hand.md with the exact URL and file name; write the rest into leads.md with why it stopped.
