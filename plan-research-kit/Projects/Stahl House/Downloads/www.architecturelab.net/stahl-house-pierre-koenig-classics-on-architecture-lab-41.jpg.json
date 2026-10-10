@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r3-0018"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Site plan (Architecture Lab image 41, credited Adam Caruso Chair ETH Zurich)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.architecturelab.net/wp-content/uploads/2026/06/stahl-house-pierre-koenig-classics-on-architecture-lab-41.jpg",
+ "page_url": "https://www.architecturelab.net/stahl-house-pierre-koenig/",
+ "author": "Chair of Adam Caruso, ETH Zurich (student/teaching redraw)",
+ "holder": "Architecture Lab (re-post)",
+ "date": "unknown (ETH Zurich chair of Adam Caruso); posted 2026-06",
+ "license": "none stated; caption '© Adam Caruso Chair ETH Zürich'",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "9484f4a594762c11905a5c9ee147f1a7949cad43fdfae5d7bd28479bd3ef2171",
+ "bytes": 89116,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:18:34; adopted, not requested again",
+ "pixel_size_measured": "850x850",
+ "mode": "RGB"
+}

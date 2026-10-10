@@ -14,6 +14,23 @@
 - No digitised CSH 22 drawing was found on getty.edu (searches 4, 6, 8). The Getty CDWA example drawing is CSH 21
   (other building).
 
+### Update 15:55 - containers confirmed from Getty's own catalogue data (data.getty.edu, Linked Art)
+
+- Archival file "Stahl House, Case Study House # 22 (1960)", 2006.M.30 refid ref10_j9p (1950-2007), series "Project
+  records"; record https://data.getty.edu/research/collections/component/fbd42a7c-ee4e-5392-9b97-08ab7cead5ce ;
+  viewer https://www.getty.edu/research/collections/component/10T9B4 (slug, JS page; not opened).
+- Drawings: full-scale drawings and reproductions = Flatfile 20, 21, 22, 22D; reduced-scale reproductions = Oversize
+  box 61 Folder 5-6; photographs of drawings = Box 1A Folder 4; negatives for reproductions = Box 96 Folder 9.
+- Original drawings mounted for exhibitions: MOCA "At the End of the Century" = Flatfile 22A-22C ("Four drawings
+  removed from museum frames"); other mounted drawings = Oversize box 63.
+- Model = Oversize box 118 (ask whether it is Koenig's presentation model of CSH 22).
+- Documentation Box 1A Folder 1-3; ephemera Box 1A Folder 5; photos Box 82 Folder 1 (colour) and Box 22 Folder 2
+  (b/w); press Boxes 130-133 and Oversize box 151 Folder 9.
+- Nothing digitised online (no IIIF/representation in the 18 records). The engineering boxes 45-46 named by the
+  upstream research are not under this file: ask GRI where the CSH 22 structural drawings/calculations are.
+- Request priority: Flatfiles 20-22 + 22D (working drawings), Oversize box 61 F5-6 (reduced sets), Flatfiles 22A-C
+  and Oversize box 63 (presentation drawings), Box 1A F4 (photos of drawings), Oversize box 118 (model).
+
 ## Neil Jackson, Pierre Koenig: A View from the Archive (Getty Publications, 2019)
 
 - ISBN 978-1-60606-577-8, 304 pp., 53 colour and 200 b/w illustrations, drawn from the GRI archive. In print

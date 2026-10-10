@@ -1,0 +1,32 @@
+{
+ "row_ids": [
+  "r1-0005",
+  "r1-0006"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Arts & Architecture, October 1959 (whole issue, USModernist AA-1959-10.pdf): 'Progress Report - Case Study House No. 22 by Pierre Koenig, Architect', p. 30 (continued p. 35)",
+  "Progress Report - Case Study House No. 22: floor plan with site, pool marked 'future pool' (A&A October 1959, p. 30) - USModernist AA-1959-10"
+ ],
+ "pages_used": [
+  "30 of 38",
+  "PDF page 30 of 38"
+ ],
+ "download_url": "https://www.usmodernist.org/AA/AA-1959-10.pdf",
+ "page_url": "https://www.usmodernist.org/",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "Arts & Architecture (The Travers Family Trusts); scan USModernist",
+ "date": "1959-10",
+ "license": "USModernist terms: free to read and download; no unauthorized reproduction or distribution",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "23cfe45af625efac9a90e71230d149a90d20821fc7780d90e417fc1d367b11a6",
+ "bytes": 32725810,
+ "fetched": "2026-10-10T15:53:31",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:10:23; adopted, not requested again",
+ "pdf_pages": 38
+}

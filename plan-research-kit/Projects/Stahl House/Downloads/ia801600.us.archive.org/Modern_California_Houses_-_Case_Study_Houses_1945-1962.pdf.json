@@ -1,0 +1,41 @@
+{
+ "row_ids": [
+  "r1-0026",
+  "r1-0027",
+  "r1-0028",
+  "r1-0029",
+  "r1-0030"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Esther McCoy, Modern California Houses: Case Study Houses 1945-1962 (Reinhold, 1962) - archive.org community PDF; CSH 22 chapter 'Architect: Pierre Koenig' printed pp. 131-142",
+  "Case Study House No. 22: floor plan with site, print with Koenig's pencil notes (McCoy 1962, p. 132)",
+  "Case Study House No. 22: column base / pier detail, plan and section (McCoy 1962, p. 134)",
+  "Case Study House No. 22: sliding door head details A, B, C, scale 3in = 1ft (McCoy 1962, p. 134)",
+  "Case Study House No. 22: fireplace veneer details, scale 3in = 1ft (McCoy 1962, p. 136)"
+ ],
+ "pages_used": [
+  "130,132,134 of 214",
+  "PDF page 130 of 214",
+  "PDF page 132 of 214 (bottom left)",
+  "PDF page 132 of 214 (bottom centre)",
+  "PDF page 134 of 214 (top right)"
+ ],
+ "download_url": "https://ia801600.us.archive.org/13/items/modern-california-houses-case-study-houses-1945-1962/Modern%20California%20Houses%20-%20Case%20Study%20Houses%201945-1962.pdf",
+ "page_url": "https://archive.org/details/modern-california-houses-case-study-houses-1945-1962",
+ "author": "Esther McCoy (text); Pierre Koenig (drawings); Julius Shulman (photographs)",
+ "holder": "Esther McCoy estate / Reinhold Publishing (book); drawings Pierre Koenig estate",
+ "date": "1962 (book); drawings 1959",
+ "license": "none stated on the item; in copyright (1962 book). Internet Archive community upload (collection opensource/community, uploaded 2023-02-08, no licence stated); the page images carry 'Digitized by Google / Original from University of Michigan' marks, i.e. a re-upload of Google-digitized pages",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "58039bf2c705ebc338dddd0bfb9e2f0785be2a766f3719b627dee5528bc4b57d",
+ "bytes": 61003562,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:18:34; adopted, not requested again",
+ "pdf_pages": 214
+}

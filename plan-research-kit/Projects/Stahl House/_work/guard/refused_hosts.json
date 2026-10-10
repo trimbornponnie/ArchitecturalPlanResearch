@@ -76,13 +76,6 @@
   "ts": "2026-10-10T15:14:54",
   "url": "https://collection.cooperhewitt.org/robots.txt"
  },
- "data.getty.edu": {
-  "code": "network",
-  "reason": "TimeoutError: The read operation timed out",
-  "route": "R2",
-  "ts": "2026-10-10T15:19:08",
-  "url": "https://data.getty.edu/research/collections/sparql?query=PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20%3Fs%20%3Flabel%20WHERE%20%7B%20%3Fs%20rdfs%3Alabel%20%3Flabel%20.%20FILTER%28CONTAINS%28%3Flabel%2C%20%22Case%20Study%20House%20No.%2022%22%29%20%7C%7C%20CONTAINS%28%3Flabel%2C%20%22Stahl%20House%22%29%29%20%7D%20LIMIT%20200&format=json"
- },
  "images.adsttc.com": {
   "code": 403,
   "reason": "robots.txt answered HTTP 403",

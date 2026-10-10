@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r1-0016"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Arts & Architecture, May 1959 - microfilm copy (archive.org sim_arts-architecture_1959-05_76_5): 'Project for a Case Study House by Pierre Koenig, Architect', pp. 14-15"
+ ],
+ "pages_used": [
+  "14,15 of 38"
+ ],
+ "download_url": "https://ia801407.us.archive.org/18/items/sim_arts-architecture_1959-05_76_5/sim_arts-architecture_1959-05_76_5.pdf",
+ "page_url": "https://archive.org/details/sim_arts-architecture_1959-05_76_5",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "Arts & Architecture (The Travers Family Trusts); microfilm scan Internet Archive (Serials in Microfilm)",
+ "date": "1959-05",
+ "license": "no rights statement on the archive.org item (metadata 'rights' empty); A&A copyright",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "cc3479e6c6aa5a4c31a0f9b9884dc7421e539ba5ad3757df3c8c9a433f8ae5d4",
+ "bytes": 16117892,
+ "fetched": "2026-10-10T15:53:32",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:15:41; adopted, not requested again",
+ "pdf_pages": 38
+}

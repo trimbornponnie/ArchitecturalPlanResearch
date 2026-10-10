@@ -1,0 +1,41 @@
+{
+ "row_ids": [
+  "r1-0008",
+  "r1-0009",
+  "r1-0010",
+  "r1-0011",
+  "r1-0012"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Arts & Architecture, May 1959 (whole issue, USModernist AA-1959-05.pdf): 'Project for a Case Study House by Pierre Koenig, Architect' (CSH 22 design announcement), printed pp. 14-15, continued p. 32",
+  "Project for a Case Study House by Pierre Koenig: perspective toward the street-side wall under the roof overhang (A&A May 1959, p. 14 top)",
+  "Project for a Case Study House by Pierre Koenig: perspective of the cantilevered living room from the slope below (A&A May 1959, p. 14 bottom)",
+  "Project for a Case Study House by Pierre Koenig: perspective from the terrace toward the living wing and the city (A&A May 1959, p. 15 top)",
+  "Project for a Case Study House by Pierre Koenig: interior perspective of kitchen and dining (A&A May 1959, p. 15 bottom left)"
+ ],
+ "pages_used": [
+  "12,13 of 36",
+  "PDF page 12 of 36 (top)",
+  "PDF page 12 of 36 (bottom)",
+  "PDF page 13 of 36 (top left)",
+  "PDF page 13 of 36 (bottom left)"
+ ],
+ "download_url": "https://www.usmodernist.org/AA/AA-1959-05.pdf",
+ "page_url": "https://www.usmodernist.org/",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "Arts & Architecture (The Travers Family Trusts); scan USModernist",
+ "date": "1959-05",
+ "license": "USModernist terms: free to read and download; no unauthorized reproduction or distribution",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "9303341620beaed26b42e1383f733b944c3b38351525808150c8ef5d56942e7f",
+ "bytes": 34296186,
+ "fetched": "2026-10-10T15:53:32",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:10:02; adopted, not requested again",
+ "pdf_pages": 36
+}

@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r4-0001"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Taschen preview spread: 1960 Stahl House opening pages with plan"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://taschen.makaira.media/taschen/image/upload/f_jpg/v1673458894/products-live/e80ff505120a73dbb4005c0cac07b890.jpg",
+ "page_url": "https://www.taschen.com/en/books/architecture-design/49298/koenig/",
+ "author": "Pierre Koenig (plan); Neil Jackson; Taschen",
+ "holder": "Taschen",
+ "date": "2007 (book); preview image 2023",
+ "license": "publisher preview image, no licence stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "60090793af177287de48ba50ace3613790b4d6ae6c2859c947c1e589737c44d1",
+ "bytes": 511762,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R4 through guard.py at 2026-10-10T15:31:31; adopted, not requested again",
+ "pixel_size_measured": "2500x1593",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

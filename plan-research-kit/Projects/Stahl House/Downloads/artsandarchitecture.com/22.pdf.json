@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r1-0001"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Case Study House No. 22, by Pierre Koenig, architect (Arts & Architecture, June 1960, pp. 14-21) - artsandarchitecture.com per-house excerpt 22.pdf"
+ ],
+ "pages_used": [
+  "4 of 8"
+ ],
+ "download_url": "https://artsandarchitecture.com/wp-content/uploads/2026/04/22.pdf",
+ "page_url": "https://artsandarchitecture.com/houses/",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "The Travers Family Trusts d.b.a. Arts & Architecture",
+ "date": "1960-06",
+ "license": "(c) Arts & Architecture, all rights reserved; private, personal, noncommercial use (per upstream host rules)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "c09da52f543b5c4fdcb76e38eeb024f1ba1fd4e315d38569a0c9bb3823e78b15",
+ "bytes": 2341488,
+ "fetched": "2026-10-10T15:53:31",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:05:45; adopted, not requested again",
+ "pdf_pages": 8
+}

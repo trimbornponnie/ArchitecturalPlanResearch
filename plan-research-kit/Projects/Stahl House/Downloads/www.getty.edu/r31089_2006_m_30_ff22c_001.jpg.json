@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0005"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Case Study House 22 (Stahl House) by Pierre F. Koenig, West Hollywood, construction completed 1960. Drawing, 1960. The Getty Research Institute"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.getty.edu/art/exhibitions/overdrive/images/r31089_2006_m_30_ff22c_001.jpg",
+ "page_url": "https://www.getty.edu/art/exhibitions/overdrive/residential_fabric.html",
+ "author": "Pierre Koenig",
+ "holder": "Getty Research Institute, Pierre Koenig papers and drawings 2006.M.30 (file name points to flatfile 22C, item 001; GRI image r31089)",
+ "date": "1960 (per Getty caption); exhibition page 2013",
+ "license": "none stated on the page; Getty exhibition web page (c) J. Paul Getty Trust",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "c701799544135a06fca5cf8b84bcd0cdf53b7ad05fe64a702e850321ff4ec565",
+ "bytes": 173191,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T15:15:30; adopted, not requested again",
+ "pixel_size_measured": "720x388",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

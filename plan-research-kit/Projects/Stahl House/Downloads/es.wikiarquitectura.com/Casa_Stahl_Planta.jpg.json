@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r3-0003"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Casa Stahl - Planta con la piscina, los patios y las plataformas de conexion"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://es.wikiarquitectura.com/wp-content/uploads/2017/01/Casa_Stahl_Planta.jpg",
+ "page_url": "https://es.wikiarquitectura.com/edificio/casa-stahl-case-study-house-no22/",
+ "author": "Pierre Koenig",
+ "holder": "WikiArquitectura (re-post of a book page, probably the Spanish edition of a Taschen book: Gossel/Smith Case Study Houses or Jackson Pierre Koenig; not traced)",
+ "date": "1959-60 (drawing); book page scan, posted 2017-01",
+ "license": "none stated on the page",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "2d1006f1e7ebb1cc9d6b7fba0d1774cd6d474f2669005e80a3408f6d9e662a01",
+ "bytes": 310509,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:06:55; adopted, not requested again",
+ "pixel_size_measured": "675x791",
+ "mode": "RGB",
+ "dpi": [
+  300.0,
+  300.0
+ ]
+}

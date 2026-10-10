@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r1-0022"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Arts & Architecture, October 1959 - microfilm copy (archive.org sim_arts-architecture_1959-10_76_10): 'Progress Report - Case Study House No. 22', p. 30"
+ ],
+ "pages_used": [
+  "30 of 39"
+ ],
+ "download_url": "https://ia801805.us.archive.org/15/items/sim_arts-architecture_1959-10_76_10/sim_arts-architecture_1959-10_76_10.pdf",
+ "page_url": "https://archive.org/details/sim_arts-architecture_1959-10_76_10",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "Arts & Architecture (The Travers Family Trusts); microfilm scan Internet Archive (Serials in Microfilm)",
+ "date": "1959-10",
+ "license": "no rights statement on the archive.org item (metadata 'rights' empty); A&A copyright",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "d6759ac205e42ea66598781fc8ef1fedfb90001e9f3d7d9087dee386dcad2d25",
+ "bytes": 15622991,
+ "fetched": "2026-10-10T15:53:32",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:16:23; adopted, not requested again",
+ "pdf_pages": 39
+}

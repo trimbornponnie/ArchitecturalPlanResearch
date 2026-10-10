@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r3-0007"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Sketchbook spread: R. Schindler / Pierre Koenig (Plano_5)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://es.wikiarquitectura.com/wp-content/uploads/2017/01/Casa_Stahl_Plano_5.jpg",
+ "page_url": "https://es.wikiarquitectura.com/edificio/casa-stahl-case-study-house-no22/",
+ "author": "unknown sketcher (not Koenig)",
+ "holder": "WikiArquitectura (re-post, original source not traced)",
+ "date": "unknown (posted 2017-01)",
+ "license": "none stated on the page",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "4cf133f3f5bf74eded3e4faac8d9b99aaafa849a293a88d778b7dd876776f39f",
+ "bytes": 49588,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:06:54; adopted, not requested again",
+ "pixel_size_measured": "800x559",
+ "mode": "RGB"
+}

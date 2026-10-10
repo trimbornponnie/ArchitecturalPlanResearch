@@ -1,0 +1,32 @@
+{
+ "row_ids": [
+  "r1-0003",
+  "r1-0004"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Arts & Architecture, June 1960 (whole issue, USModernist AA-1960-06.pdf): 'Case Study House No. 22 by Pierre Koenig, architect', pp. 14-21; Merit Specified products p. 30",
+  "Case Study House No. 22: floor plan with site (A&A June 1960, p. 17) - USModernist AA-1960-06"
+ ],
+ "pages_used": [
+  "17 of 36",
+  "PDF page 17 of 36"
+ ],
+ "download_url": "https://www.usmodernist.org/AA/AA-1960-06.pdf",
+ "page_url": "https://www.usmodernist.org/",
+ "author": "Pierre Koenig (architect); Arts & Architecture (publisher)",
+ "holder": "Arts & Architecture (The Travers Family Trusts); scan USModernist",
+ "date": "1960-06",
+ "license": "USModernist: free to read and download; 'Any unauthorized reproduction, publication, further distribution or public exhibition ... is strictly prohibited'",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "0bf245b1aca6c74ad94a2ce3662d72e640561a447d02ab34d839b617781538a5",
+ "bytes": 33244091,
+ "fetched": "2026-10-10T15:53:31",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T15:06:45; adopted, not requested again",
+ "pdf_pages": 36
+}

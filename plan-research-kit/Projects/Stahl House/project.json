@@ -13,10 +13,40 @@
  "drop_reason": "a design scheme that differs from the building as built; research keeps it, the project does not",
  "default_design": "csh22-unk",
  "rights_mode": "all-reachable",
- "exclude_rows": {},
+ "exclude_rows": {
+  "r2-0003": "duplicate of r1-0003 (R1's row, written into R2's manifest by a shared helper script)",
+  "r2-0004": "duplicate of r1-0004 (R1's row, written into R2's manifest by a shared helper script)"
+ },
  "groups": [
   {
-   "folder": "01 Drawings"
+   "folder": "01 Arts & Architecture 1959-1960",
+   "match": {
+    "url": [
+     "usmodernist.org/AA/",
+     "artsandarchitecture.com",
+     "sim_arts-architecture"
+    ]
+   }
+  },
+  {
+   "folder": "02 McCoy 1962 Modern California Houses",
+   "match": {
+    "url": [
+     "Modern%20California%20Houses"
+    ]
+   }
+  },
+  {
+   "folder": "03 Getty Koenig papers and National Register",
+   "match": {
+    "url": [
+     "getty.edu",
+     "npgallery.nps.gov"
+    ]
+   }
+  },
+  {
+   "folder": "04 Web re-posts and redraws"
   }
  ],
  "title_strip": []

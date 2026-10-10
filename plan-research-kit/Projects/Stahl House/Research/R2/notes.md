@@ -224,3 +224,81 @@ Started 2026-10-10. Sources tried in order.
   (`.../2024id_/https://calisphere.org/item/ark:/13030/c8xd13ck/`, `.../item/3a87c1e938853b3cf07b1d5293574171/`) were
   refused with it. web.archive.org is not reachable from this session; not retried again. hand.md.
 
+## 15. Getty Research Collections LOD gateway (data.getty.edu), second attempt after 15:49
+
+- SPARQL `?id crm:P190_has_symbolic_content "2006.M.30"`: ALLOWED, get 200: collection component
+  `https://data.getty.edu/research/collections/component/42cdc5d0-5884-548f-9a5e-23faaceb1d67` ("Pierre Koenig papers
+  and drawings").
+- SPARQL with `crm:P46i_forms_part_of+`: 200, 0 rows (wrong predicate). SPARQL `?s ?p <collection>` GROUP BY ?p: 200
+  -> hierarchy predicate is `crm:P106i_forms_part_of`.
+- SPARQL descendants with label containing "22" or "stahl": 200, ONE component:
+  `component/fbd42a7c-ee4e-5392-9b97-08ab7cead5ce` "Stahl House, Case Study House # 22 (1960)", refid ref10_j9p,
+  dates 1950-2007, in series "Project records" (component dc65346e-...), viewer slug 10T9B4.
+- `https://data.getty.edu/research/collections/component/fbd42a7c-...`: ALLOWED, get 200 (JSON-LD, 5,700 bytes).
+- SPARQL for its sub-components: 200, 17 components; each checked ALLOWED and fetched (catalogue JSON records only,
+  no images) - saved in `_work/guard/pages/data.getty.edu/`. Tree and containers (Getty catalogue data, confirmed):
+  - Documentation: Box 1A Folder 1-3
+  - Drawings
+    - Full-scale drawings and reproductions: Flatfile 20, Flatfile 21, Flatfile 22, Flatfile 22D
+    - Reduced-scale reproductions: Oversize box 61 Folder 5-6
+    - Photographs of drawings: Box 1A Folder 4
+    - Negatives for reproductions: Box 96 Folder 9
+  - Original drawings mounted for exhibitions
+    - MOCA *At the End of the Century* exhibition: Flatfile 22A, 22B, 22C - note "Four drawings removed from museum
+      frames." (r2-0005, image name ff22c_001, is one of these)
+    - Other mounted drawings: Oversize box 63
+  - Photography: colour photographs, slides, transparencies Box 82 Folder 1; black-and-white photographs Box 22 Folder 2
+  - Model: Oversize box 118
+  - Ephemera: Box 1A Folder 5
+  - Press coverage and promotional materials: General Boxes 130-133; oversize newspaper clippings Oversize box 151
+    Folder 9
+  - No IIIF manifest, media.getty.edu image or other digital representation in any of these 18 records (0 matches):
+    nothing of CSH 22 is digitised online in the Getty research collections.
+  - The upstream "boxes 45-46 (engineering)" are NOT under this component; they may sit in another series (not
+    verified here).
+
+## Summary
+
+- Drawings found and downloaded (R2 rows): r2-0005 Koenig ink perspective of CSH 22 (Getty Overdrive web image,
+  720x388, orientation only; original = GRI 2006.M.30 Flatfile 22C); r2-0002 LA County assessor's parcel map
+  (NRHP p.11; lot lines only). Document: r2-0001 final NRHP nomination (28 pp., maps + photos, no building drawings).
+- Not drawings / nothing found: draft NRHP form, MPS draft and final, LA Conservancy, LACMA, MFAH, NGV, Moderna
+  Museet, AIC, CCA, Getty podcasts, Getty highlights page.
+- Getty: CSH 22 file and containers confirmed from Getty's own data; nothing digitised.
+- Also relevant for R1: the four CSH 22 exhibition drawings (Flatfile 22A-C) were shown in MOCA's 1998 "At the End of
+  the Century: One Hundred Years of Architecture"; its catalogue may reproduce them.
+
+## Rule log
+
+- WebSearch: 13 of 15 used (searches 1-13 above). WebFetch: none.
+- Refusals and host closures caused or met by R2:
+  - sah-archipedia.org: REFUSED at check (robots.txt answered 403) - hard, host closed for the project.
+  - historicplacesla.org and www.historicplacesla.org: REFUSED at check (TLS hostname mismatch; soft).
+  - docomomo-us.org: check ALLOWED, get answered HTTP 202 (soft refusal, 30 min); not retried.
+  - web.archive.org: REFUSED at check twice (15:10 and 15:40; connection reset in the agent proxy tunnel); soft.
+  - www.moma.org: check ALLOWED, get answered HTTP 403 - hard, host closed for the project (see slip 1).
+  - sirismm.si.edu: check ALLOWED, get answered HTTP 526 (soft) (see judgment call 2).
+  - www.adc-exhibits.museum.ucsb.edu: REFUSED at check (connection reset; soft).
+  - collection.cooperhewitt.org: REFUSED at check (robots.txt redirects to si.edu, which answered 403).
+  - blogs.getty.edu: REFUSED at check (robots.txt Disallow: /).
+  - data.getty.edu: one SPARQL get timed out (soft refusal 30 min); used again only after the guard let it pass at
+    15:49; later queries were scoped and answered 200.
+- 404s: www.nps.gov/nr/feature/places/pdfs/13000519.pdf; www.sfmoma.org/artist/Pierre_Koenig/.
+- Truncated transfer: npgallery GetAsset 54215cf5 (MPS) logged 200 at 76,377,088 bytes but the PDF has no trailer;
+  not re-fetched; the file in `_work/guard/pages/npgallery.nps.gov/c9c1b133_...` should not be adopted.
+- Redirects: every redirect was checked as a new URL before its get (LACMA chain x3, nps.gov, Getty podcast, Getty
+  Virtual Library, CDWA, news.getty.edu x2, Moderna Museet, data.getty.edu); some targets were not followed (noted).
+- Slip 1 (15:12): one command ran three gets joined with `;` (api.artic.edu, www.sfmoma.org, www.moma.org) instead of
+  a loop that stops at the first non-zero exit. Each URL had its own earlier ALLOWED check, but the MoMA get ran after
+  the SFMOMA get had failed (404) and MoMA answered 403, which closed www.moma.org for all routes. Later multi-get
+  commands used the `|| break` loop.
+- Judgment call 2: the AAA McCoy finding-aid PDF was requested on sirismm.si.edu (separate Smithsonian file host, not
+  refused in this project) although the upstream host rules mark aaa.si.edu / www.si.edu as browser-only. It
+  answered 526; no content was obtained. Reported in case the orchestrator counts it as an alias of si.edu.
+- Judgment call 3: www.historicplacesla.org was checked after historicplacesla.org failed on TLS (a soft network
+  refusal, not 401/403/429); it failed the same way. No content requested.
+- No logins, forms, registrations, payments or messages. No curl/wget/other HTTP client; the agent-proxy status
+  endpoint was not queried. Images viewed: only JPEG previews/sheets under 1 MB (contact sheet 244 kB, p.11 render,
+  the 173 kB Overdrive JPEG).
+- Foreign rows: r2-0003 and r2-0004 were written into this manifest by another agent (duplicates of r1-0003/r1-0004);
+  left untouched and flagged above.

@@ -1,0 +1,38 @@
+{
+ "row_ids": [
+  "r3-0008",
+  "r3-0009",
+  "r3-0010",
+  "r3-0011"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Second Building Proposal on the Stahl Home site, Case Study #22 (Stephen Marucut, ID 201 Final Project)",
+  "Stahl Home Site Plan (student redraw, slide 7)",
+  "Koenig Case Study #22 main floor plan (student redraw with zones, slides 8-11)",
+  "Top View axonometric (student slide 12)"
+ ],
+ "pages_used": [
+  "7,8,9,10,11,12,19 of 44",
+  "7 of 44 (same image again on p19)",
+  "8,9,10,11 of 44",
+  "12 of 44"
+ ],
+ "download_url": "https://newschoolarch.edu/wp-content/uploads/2021/05/MARUCUT-S-ID-201-Final-Project.pdf",
+ "page_url": "https://newschoolarch.edu/wp-content/uploads/2021/05/MARUCUT-S-ID-201-Final-Project.pdf",
+ "author": "Stephen Marucut (student, NewSchool of Architecture & Design, ID 201)",
+ "holder": "NewSchool of Architecture & Design",
+ "date": "2021 (upload 2021-05)",
+ "license": "none stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "4016c360e686a39a4324d43f82043370c85bff4f344e0453bcb04bb33883333b",
+ "bytes": 6236765,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:14:00; adopted, not requested again",
+ "pdf_pages": 44
+}

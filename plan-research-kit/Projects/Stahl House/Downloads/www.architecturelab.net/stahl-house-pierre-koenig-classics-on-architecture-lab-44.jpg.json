@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r3-0015"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Living room perspective (Architecture Lab image 44, credited Pierre Koenig)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.architecturelab.net/wp-content/uploads/2026/06/stahl-house-pierre-koenig-classics-on-architecture-lab-44.jpg",
+ "page_url": "https://www.architecturelab.net/stahl-house-pierre-koenig/",
+ "author": "Pierre Koenig",
+ "holder": "Architecture Lab (re-post, original source not traced)",
+ "date": "c. 1958-59 (drawing); posted 2026-06",
+ "license": "none stated; caption '© Pierre Koenig'",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "a2d14b7da797cac5d5dc1c5ca275178d1a5c2b45cc6004c32b49e15a4a3cadf9",
+ "bytes": 136745,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:18:38; adopted, not requested again",
+ "pixel_size_measured": "1740x1066",
+ "mode": "RGB"
+}

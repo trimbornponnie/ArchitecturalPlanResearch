@@ -1,0 +1,260 @@
+{
+ "rows": 73,
+ "by_state": {
+  "whole document kept as source": 11,
+  "skipped": 28,
+  "in plan set": 32,
+  "excluded": 2
+ },
+ "states": {
+  "r1-0001": "whole document kept as source",
+  "r1-0002": "skipped: same item as r1-0004",
+  "r1-0003": "whole document kept as source",
+  "r1-0004": "in plan set",
+  "r1-0005": "whole document kept as source",
+  "r1-0006": "in plan set",
+  "r1-0008": "whole document kept as source",
+  "r1-0009": "in plan set",
+  "r1-0010": "in plan set",
+  "r1-0011": "in plan set",
+  "r1-0012": "in plan set",
+  "r1-0013": "skipped: same item as r1-0006",
+  "r1-0014": "whole document kept as source",
+  "r1-0015": "in plan set",
+  "r1-0016": "whole document kept as source",
+  "r1-0017": "skipped: same item as r1-0009",
+  "r1-0018": "skipped: same item as r1-0010",
+  "r1-0019": "skipped: same item as r1-0011",
+  "r1-0020": "skipped: same item as r1-0012",
+  "r1-0021": "skipped: same item as r1-0006",
+  "r1-0022": "whole document kept as source",
+  "r1-0023": "skipped: same item as r1-0006",
+  "r1-0024": "whole document kept as source",
+  "r1-0025": "skipped: same item as r1-0004",
+  "r1-0026": "whole document kept as source",
+  "r1-0027": "in plan set",
+  "r1-0028": "in plan set",
+  "r1-0029": "in plan set",
+  "r1-0030": "in plan set",
+  "r1-0031": "skipped: same item as r1-0008",
+  "r1-0032": "skipped: same item as r1-0005",
+  "r1-0033": "skipped: same item as r1-0003",
+  "r2-0001": "whole document kept as source",
+  "r2-0002": "in plan set",
+  "r2-0003": "excluded: duplicate of r1-0003 (R1's row, written into R2's manifest by a shared helper script)",
+  "r2-0004": "excluded: duplicate of r1-0004 (R1's row, written into R2's manifest by a shared helper script)",
+  "r2-0005": "in plan set",
+  "r3-0001": "skipped: not downloadable: open",
+  "r3-0002": "in plan set",
+  "r3-0003": "in plan set",
+  "r3-0004": "in plan set",
+  "r3-0005": "in plan set",
+  "r3-0006": "in plan set",
+  "r3-0007": "in plan set",
+  "r3-0008": "whole document kept as source",
+  "r3-0009": "in plan set",
+  "r3-0010": "in plan set",
+  "r3-0011": "in plan set",
+  "r3-0012": "in plan set",
+  "r3-0013": "in plan set",
+  "r3-0014": "in plan set",
+  "r3-0015": "in plan set",
+  "r3-0016": "skipped: same item as r3-0004",
+  "r3-0017": "in plan set",
+  "r3-0018": "in plan set",
+  "r3-0019": "in plan set",
+  "r3-0020": "in plan set",
+  "r3-0021": "skipped: same item as r3-0002",
+  "r3-0022": "skipped: same item as r3-0004",
+  "r3-0023": "skipped: same item as r3-0006",
+  "r3-0024": "skipped: 3d model, login",
+  "r3-0025": "skipped: 3d model, login",
+  "r3-0026": "skipped: 3d model, login",
+  "r3-0027": "skipped: 3d model, login",
+  "r3-0028": "in plan set",
+  "r3-0029": "skipped: same item as r3-0004",
+  "r3-0030": "skipped: not downloadable: paid",
+  "r3-0031": "skipped: same item as r4-0001",
+  "r3-0032": "skipped: same item as r4-0002",
+  "r3-0033": "skipped: same item as r4-0003",
+  "r4-0001": "in plan set",
+  "r4-0002": "skipped: same item as r3-0004",
+  "r4-0003": "skipped: same item as r3-0017"
+ },
+ "files": [
+  {
+   "file": "Downloads/artsandarchitecture.com/22.pdf",
+   "problems": [],
+   "pdf_pages": 8,
+   "bytes": 2341488
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Plano_2.jpg",
+   "problems": [],
+   "pixel_size": "1998x723",
+   "bytes": 828054
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Plano_3.jpg",
+   "problems": [],
+   "pixel_size": "630x494",
+   "bytes": 374224
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Plano_4.jpg",
+   "problems": [],
+   "pixel_size": "1998x573",
+   "bytes": 807968
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Plano_5.jpg",
+   "problems": [],
+   "pixel_size": "800x559",
+   "bytes": 49588
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Planta.jpg",
+   "problems": [],
+   "pixel_size": "675x791",
+   "bytes": 310509
+  },
+  {
+   "file": "Downloads/es.wikiarquitectura.com/Casa_Stahl_Planta_2.jpg",
+   "problems": [],
+   "pixel_size": "472x445",
+   "bytes": 52061
+  },
+  {
+   "file": "Downloads/ia800808.us.archive.org/sim_arts-architecture_1960-06_77_6.pdf",
+   "problems": [],
+   "pdf_pages": 37,
+   "bytes": 14735189
+  },
+  {
+   "file": "Downloads/ia801407.us.archive.org/sim_arts-architecture_1959-05_76_5.pdf",
+   "problems": [],
+   "pdf_pages": 38,
+   "bytes": 16117892
+  },
+  {
+   "file": "Downloads/ia801600.us.archive.org/Modern_California_Houses_-_Case_Study_Houses_1945-1962.pdf",
+   "problems": [],
+   "pdf_pages": 214,
+   "bytes": 61003562
+  },
+  {
+   "file": "Downloads/ia801805.us.archive.org/sim_arts-architecture_1959-10_76_10.pdf",
+   "problems": [],
+   "pdf_pages": 39,
+   "bytes": 15622991
+  },
+  {
+   "file": "Downloads/images.squarespace-cdn.com/Stahl+House+Plan.JPG",
+   "problems": [],
+   "pixel_size": "1254x1238",
+   "bytes": 109233
+  },
+  {
+   "file": "Downloads/newschoolarch.edu/MARUCUT-S-ID-201-Final-Project.pdf",
+   "problems": [],
+   "pdf_pages": 44,
+   "bytes": 6236765
+  },
+  {
+   "file": "Downloads/npgallery.nps.gov/r2-0001.pdf",
+   "problems": [],
+   "pdf_pages": 28,
+   "bytes": 4031141
+  },
+  {
+   "file": "Downloads/taschen.makaira.media/e80ff505120a73dbb4005c0cac07b890.jpg",
+   "problems": [],
+   "pixel_size": "2500x1593",
+   "bytes": 511762
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-12.jpg",
+   "problems": [],
+   "pixel_size": "1260x988",
+   "bytes": 481451
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-13.jpg",
+   "problems": [],
+   "pixel_size": "944x890",
+   "bytes": 147285
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-27.jpg",
+   "problems": [],
+   "pixel_size": "849x623",
+   "bytes": 32295
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-40.jpg",
+   "problems": [],
+   "pixel_size": "2000x979",
+   "bytes": 199935
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-41.jpg",
+   "problems": [],
+   "pixel_size": "850x850",
+   "bytes": 89116
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-42.jpg",
+   "problems": [],
+   "pixel_size": "850x850",
+   "bytes": 102264
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-43.jpg",
+   "problems": [],
+   "pixel_size": "849x623",
+   "bytes": 32830
+  },
+  {
+   "file": "Downloads/www.architecturelab.net/stahl-house-pierre-koenig-classics-on-architecture-lab-44.jpg",
+   "problems": [],
+   "pixel_size": "1740x1066",
+   "bytes": 136745
+  },
+  {
+   "file": "Downloads/www.getty.edu/r31089_2006_m_30_ff22c_001.jpg",
+   "problems": [],
+   "pixel_size": "720x388",
+   "bytes": 173191
+  },
+  {
+   "file": "Downloads/www.usmodernist.org/AA-1959-05.pdf",
+   "problems": [],
+   "pdf_pages": 36,
+   "bytes": 34296186
+  },
+  {
+   "file": "Downloads/www.usmodernist.org/AA-1959-10.pdf",
+   "problems": [],
+   "pdf_pages": 38,
+   "bytes": 32725810
+  },
+  {
+   "file": "Downloads/www.usmodernist.org/AA-1960-05.pdf",
+   "problems": [],
+   "pdf_pages": 40,
+   "bytes": 30648183
+  },
+  {
+   "file": "Downloads/www.usmodernist.org/AA-1960-06.pdf",
+   "problems": [],
+   "pdf_pages": 36,
+   "bytes": 33244091
+  }
+ ],
+ "plan_set_sheets": 32,
+ "plan_set_from_manifest": 32,
+ "plan_set_found_in_review": 0,
+ "counts": {},
+ "excerpts": {},
+ "fails": []
+}

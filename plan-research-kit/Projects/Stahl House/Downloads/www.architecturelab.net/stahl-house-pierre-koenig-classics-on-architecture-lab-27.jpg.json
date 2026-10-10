@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r3-0019"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Section through living wing and pool (Architecture Lab image 27, credited Adam Caruso Chair ETH Zurich)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.architecturelab.net/wp-content/uploads/2026/06/stahl-house-pierre-koenig-classics-on-architecture-lab-27.jpg",
+ "page_url": "https://www.architecturelab.net/stahl-house-pierre-koenig/",
+ "author": "Chair of Adam Caruso, ETH Zurich",
+ "holder": "Architecture Lab (re-post)",
+ "date": "unknown; posted 2026-06",
+ "license": "none stated; caption '© Adam Caruso Chair ETH Zürich'",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "b259cd1b93bbc5934d0985c6e91be705d1017d630fed334c96ac921bc6521dac",
+ "bytes": 32295,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:18:30; adopted, not requested again",
+ "pixel_size_measured": "849x623",
+ "mode": "RGB"
+}

@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r3-0013"
+ ],
+ "design_ids": [
+  "csh22"
+ ],
+ "titles": [
+  "Stahl House floor plan with scale bar (Architecture Lab image 42, credited Pierre Koenig)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.architecturelab.net/wp-content/uploads/2026/06/stahl-house-pierre-koenig-classics-on-architecture-lab-42.jpg",
+ "page_url": "https://www.architecturelab.net/stahl-house-pierre-koenig/",
+ "author": "Pierre Koenig",
+ "holder": "Architecture Lab (re-post, original source not traced)",
+ "date": "1959-60 (drawing); posted 2026-06",
+ "license": "none stated; caption '© Pierre Koenig'",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "8439dc2369672e3cfb505d65f00c829812b66c2218b04617aba4241e2865bace",
+ "bytes": 102264,
+ "fetched": "2026-10-10T15:53:33",
+ "http_status": 200,
+ "fetch_note": "fetched by route R3 through guard.py at 2026-10-10T15:18:35; adopted, not requested again",
+ "pixel_size_measured": "850x850",
+ "mode": "RGB"
+}
