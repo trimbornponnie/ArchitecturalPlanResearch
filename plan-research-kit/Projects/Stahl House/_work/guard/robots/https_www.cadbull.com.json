@@ -1,0 +1,7 @@
+{
+ "url": "https://www.cadbull.com/robots.txt",
+ "http": 403,
+ "text_ok": false,
+ "note": "redirects 301->https://cadbull.com/robots.txt; robots.txt answered HTTP 403",
+ "fetched": "2026-10-10T15:25:27"
+}

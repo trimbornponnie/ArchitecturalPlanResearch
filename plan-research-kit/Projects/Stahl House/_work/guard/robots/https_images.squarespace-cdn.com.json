@@ -1,0 +1,7 @@
+{
+ "url": "https://images.squarespace-cdn.com/robots.txt",
+ "http": 404,
+ "text_ok": true,
+ "note": "no robots.txt (HTTP 404): no rules",
+ "fetched": "2026-10-10T15:24:00"
+}
