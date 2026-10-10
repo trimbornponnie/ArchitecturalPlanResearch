@@ -1,1 +1,14 @@
-{}
+{
+ "r4-0001": {
+  "sheet_type": "plan",
+  "notes": "exhibition layout 2018 ('Island', 16th Architecture Biennale, curators Caruso St John + Marcus Taylor, client British Council). Deck (roof-level) plan of the scaffold platform at 1:200 with site context; drawn in COLOUR (board pattern), identical to the Metalocus copy r4-0009 (R104 sighting sheet R104_1). Pavilion only as roof outline and lantern under the deck. sheet_type corrected by R104 from site to plan: a level plan of the deck at building scale, the trees are context."
+ },
+ "r4-0008": {
+  "contents": "Main exhibition floor plan of the British Pavilion in site context: six galleries (large central hall, side rooms, front rooms either side of the entrance hall), walls poche grey, columns of the front portico and of the rear loggia, doors, rear twin stairs, front stair; the 2018 scaffold grid around the building, the long external stair on the LEFT side of the sheet (the side shown in the 'East elevation', r4-0002) and the lift at the front right corner; trees, paths, contour hatch; neighbouring outlines: the polygonal Canada Pavilion (BBPR) at right and the colonnaded curved front of the French pavilion at lower left. Label 'Ground floor plan 1:200' (read by R104 on a crop).",
+  "notes": "NEW sheet (not among the three drawings on carusostjohn.com). Best plan of the existing pavilion found so far (CAD line work, 2048 px). Exhibition layout 2018 'Island'. R104: stair side corrected (R4 had 'stair on the west/left, lift on the east'; the stair is the one drawn in the East elevation); lower-left outline identified as the French pavilion front (WA's wider version r104-0003 shows it with its columns, and the German pavilion portico at lower right). Other pavilions only as partial outlines."
+ },
+ "r4-0009": {
+  "sheet_type": "plan",
+  "notes": "same drawing as r4-0001 (CSJ 4800 px, also in colour; R4's 'monochrome?' was wrong, R104 sighting sheet R104_1) at 2048 px. Exhibition layout 2018. sheet_type corrected from site to plan (deck level plan)."
+ }
+}

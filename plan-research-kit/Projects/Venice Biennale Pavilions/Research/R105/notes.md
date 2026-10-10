@@ -171,3 +171,21 @@ G13. Sighting: R5 rows not re-measured as a set; r5-0007..0011 are not in Plans/
     hand.md. Press: domusweb 2021 gallery (22 photos by Giulia di Lenarda and Giorgio de Vecchi), baumeister.de 2021
     (photos), globaldesignnews (one photo), worldarchitecture.org 2021 (redirect checked, get OK; photos),
     metropolismag 2020 (redirect checked, get OK; see below), theplan.it -> HTTP 403 (host closed; hand.md).
+19. ArchDaily (page HTML readable, images on images.adsttc.com closed): 960940 (2021, 10 images: historic framing
+    photos courtesy Chicago History Museum, NARA etc.; no pavilion drawing) and 1024312 (2025, 17 images
+    "...porch-an-architecture-of-generosity_1..17", no caption naming a drawing). Empty (readable part).
+
+### G10 1930 periodicals (class 5)
+20. https://en.wikipedia.org/wiki/17th_Venice_Biennale (get OK) gives the exact 1930 citation R5 only saw as a snippet:
+    "United States pavilion at the Venice international art exposition, Venice, Italy; Delano & Aldrich, archs; views
+    and floor plan", The Architect (New York) 15: 621-623, September 1930; also "American pavilion at the Biennial
+    exhibition", International Studio 96: 60-61, August 1930, and Emporium 71-72 (1930) Biennale reports. (confirmed as
+    citations; content unseen)
+21. Internet Archive (archive.org open again since R3's expiry at 14:31) advancedsearch API (metadata JSON; borderline
+    form use, Rule log): The Architect 1930 exists only as usmodernist-ARCH-1930-01, -03, -11 (no September issue);
+    International Studio 1930 and Emporium 1930: 0 items. USModernist index https://www.usmodernist.org/index-tarch.htm
+    (get OK): The Architect only Oct 1929-Jan 1930, Mar 1930, Nov 1930. September 1930 not online -> leads.md/hand.md.
+22. Cross-checks for other 1930 journals on IA (djvu full text, one file per issue, via archive.org/download ->
+    REDIRECT to a dn*.archive.org data node, each redirect checked before its get): Pencil Points 1930 index
+    (sim_progressive-architecture_january-december-1930_11_index_djvu.txt): no Venice pavilion. American Architect
+    Aug, Sep, Oct 1930 (sim_american-architect-and-architecture_1930-08/09/10): no Venice pavilion. Empty.
