@@ -88,6 +88,9 @@ an exhibition, installation, survey or catalogue that documents the real pavilio
 Other routes research other pavilions at the same time; stay on this pavilion. A drawing that shows several pavilions
 (a Giardini site plan, a pavilion pair) gets a row with design_id "${p.slug}" when this pavilion is drawn in full,
 and its notes name the other pavilions.
+Route R90 swept Wikimedia Commons and Wikipedia for every pavilion at once: read "${PROJ}/Research/R90/" (manifest
+rows with your slug, notes.md for the categories it read) before you touch Commons; never repeat its rows, and
+search Commons yourself only for categories or files R90 did not cover.
 If your route folder already holds files from an interrupted run of the same route, read them first and continue
 from where it stopped: keep its rows (append new ones with the next row numbers), do not repeat sources notes.md
 records as done.`
