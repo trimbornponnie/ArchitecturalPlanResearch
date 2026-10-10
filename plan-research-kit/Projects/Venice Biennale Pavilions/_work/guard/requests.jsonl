@@ -1,0 +1,5 @@
+{"ts": "2026-10-10T12:29:21", "route": "R0", "pid": 215, "op": "robots", "url": "https://commons.wikimedia.org/robots.txt", "http": 200, "note": ""}
+{"ts": "2026-10-10T12:29:21", "route": "R0", "pid": 215, "op": "check", "url": "https://commons.wikimedia.org/wiki/Category:Giardini_della_Biennale", "result": "allowed", "reason": "robots.txt allows; crawl-delay 5 s", "identity": "research-ua"}
+{"ts": "2026-10-10T12:29:22", "route": "R0", "pid": 215, "op": "robots", "url": "https://www.labiennale.org/robots.txt", "http": 200, "note": ""}
+{"ts": "2026-10-10T12:29:22", "route": "R0", "pid": 215, "op": "check", "url": "https://www.labiennale.org/en/venues/giardini-della-biennale", "result": "allowed", "reason": "robots.txt allows; crawl-delay 60 s", "identity": "research-ua"}
+{"ts": "2026-10-10T12:29:28", "route": "R0", "pid": 236, "op": "get", "url": "https://commons.wikimedia.org/wiki/Category:Giardini_della_Biennale", "http": 404, "bytes": 0, "sha256": "", "content_type": "", "out": "", "note": ""}

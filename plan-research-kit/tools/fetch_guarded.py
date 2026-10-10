@@ -90,6 +90,18 @@ def file_name(url, row):
     stem, dot, ext = name.rpartition(".")
     if dot and (not stem.strip("_") or stem.endswith(".")):
         name = "%s.%s" % (row["row_id"], ext)
+    # a name another URL already holds (WordPress /2018/05/plan.jpg and /2019/03/plan.jpg) gets the URL's hash, or
+    # fetch_project would take the other URL's file for this one ("exists") and never request it
+    side = GUARD.proj / "Downloads" / host / (name + ".json")
+    if side.is_file():
+        try:
+            held = json.loads(side.read_text(encoding="utf-8")).get("download_url")
+        except ValueError:
+            held = None
+        if held and held != url:
+            stem, dot, ext = name.rpartition(".")
+            tag = hashlib.sha1(url.encode()).hexdigest()[:8]
+            name = "%s_%s.%s" % (stem, tag, ext) if dot else "%s_%s" % (name, tag)
     return host, name
 
 
