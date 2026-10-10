@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: *?s=*
+Disallow: /cdn-cgi/
+Disallow: /*/feed/
+User-agent: FeedFetcher-Google
+Allow: /*/feed/
+User-agent: YandexTurbo/1.0
+Allow: /*/feed/
+User-agent: Bingbot
+Allow: /*/feed/
+Allow: /wp-admin/admin-ajax.php
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+Sitemap: https://www.architecturelab.net/sitemap_index.xml

@@ -1,0 +1,17 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://collections.lacma.org/sitemap/0.xml
+Sitemap: https://collections.lacma.org/sitemap/1.xml
+Sitemap: https://collections.lacma.org/sitemap/2.xml
+Sitemap: https://collections.lacma.org/sitemap/3.xml
+Sitemap: https://collections.lacma.org/sitemap/4.xml
+Sitemap: https://collections.lacma.org/sitemap/5.xml
+Sitemap: https://collections.lacma.org/sitemap/6.xml
+Sitemap: https://collections.lacma.org/sitemap/7.xml
+Sitemap: https://collections.lacma.org/sitemap/8.xml
+Sitemap: https://collections.lacma.org/sitemap/9.xml
+Sitemap: https://collections.lacma.org/sitemap/10.xml
+Sitemap: https://collections.lacma.org/sitemap/11.xml
+Sitemap: https://collections.lacma.org/sitemap/12.xml
+Sitemap: https://collections.lacma.org/sitemap/13.xml

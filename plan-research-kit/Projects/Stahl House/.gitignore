@@ -1,0 +1,5 @@
+# Working copies the guard saves; the fetch step moves drawings into Downloads/.
+_work/guard/pages/
+_work/guard/locks/
+_work/previews/
+*.part

@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /admissions-2/
+Disallow: /legal-info/
+Disallow: /legal-info/consumer-information-summary-listing/
+Disallow: /legal-info/consumer-information/
+Disallow: /?s=*
+Disallow: /?utm_source=
+Disallow: /?keyword=
+Disallow: /?gad_source=
+Disallow: /?gclid=
+Disallow: /tag/
+Disallow: /wp-admin/
+
+Allow: /feed/$
+
+Disallow: /*/*/feed/
+Disallow:  /*/feed/$
+
+User-agent: AhrefsBot
+Disallow: /
+
+Allow: /
+Sitemap: https://newschoolarch.edu/page-sitemap.xml
+Sitemap: https://newschoolarch.edu/post-sitemap.xml
+Sitemap: https://newschoolarch.edu/sitemap.xml

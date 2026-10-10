@@ -1,0 +1,114 @@
+{
+ "upload.wikimedia.org": {
+  "code": 429,
+  "reason": "HTTP 429",
+  "route": "R3",
+  "ts": "2026-10-10T15:07:41",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arts_%26_Architecture%2C_June_1960.pdf"
+ },
+ "sah-archipedia.org": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R2",
+  "ts": "2026-10-10T15:08:52",
+  "url": "https://sah-archipedia.org/robots.txt"
+ },
+ "historicplacesla.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'historicplacesla.org'. (_ssl.c:1032)>",
+  "route": "R2",
+  "ts": "2026-10-10T15:08:53",
+  "url": "https://historicplacesla.org/robots.txt"
+ },
+ "archeyes.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T15:08:56",
+  "url": "https://archeyes.com/robots.txt"
+ },
+ "docomomo-us.org": {
+  "code": "202",
+  "reason": "HTTP 202",
+  "route": "R2",
+  "ts": "2026-10-10T15:09:00",
+  "url": "https://docomomo-us.org/register/case-study-house-no-22"
+ },
+ "www.historicplacesla.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.historicplacesla.org'. (_ssl.c:1032)>",
+  "route": "R2",
+  "ts": "2026-10-10T15:09:15",
+  "url": "https://www.historicplacesla.org/robots.txt"
+ },
+ "web.archive.org": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R2",
+  "ts": "2026-10-10T15:10:08",
+  "url": "https://web.archive.org/robots.txt"
+ },
+ "www.moma.org": {
+  "code": 403,
+  "reason": "HTTP 403",
+  "route": "R2",
+  "ts": "2026-10-10T15:12:22",
+  "url": "https://www.moma.org/collection/?q=Pierre%20Koenig"
+ },
+ "sirismm.si.edu": {
+  "code": "526",
+  "reason": "HTTP 526",
+  "route": "R2",
+  "ts": "2026-10-10T15:13:31",
+  "url": "https://sirismm.si.edu/EADpdfs/AAA.mccoesth.pdf"
+ },
+ "www.adc-exhibits.museum.ucsb.edu": {
+  "code": "network",
+  "reason": "robots.txt unreachable: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+  "route": "R2",
+  "ts": "2026-10-10T15:13:44",
+  "url": "https://www.adc-exhibits.museum.ucsb.edu/robots.txt"
+ },
+ "architectuul.com": {
+  "code": 403,
+  "reason": "200 with a bot-challenge page",
+  "route": "R3",
+  "ts": "2026-10-10T15:14:00",
+  "url": "https://architectuul.com/architecture/stahl-house"
+ },
+ "collection.cooperhewitt.org": {
+  "code": 403,
+  "reason": "redirects 301->https://www.si.edu/collections/cooper-hewitt; robots.txt answered HTTP 403",
+  "route": "R2",
+  "ts": "2026-10-10T15:14:54",
+  "url": "https://collection.cooperhewitt.org/robots.txt"
+ },
+ "data.getty.edu": {
+  "code": "network",
+  "reason": "TimeoutError: The read operation timed out",
+  "route": "R2",
+  "ts": "2026-10-10T15:19:08",
+  "url": "https://data.getty.edu/research/collections/sparql?query=PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20%3Fs%20%3Flabel%20WHERE%20%7B%20%3Fs%20rdfs%3Alabel%20%3Flabel%20.%20FILTER%28CONTAINS%28%3Flabel%2C%20%22Case%20Study%20House%20No.%2022%22%29%20%7C%7C%20CONTAINS%28%3Flabel%2C%20%22Stahl%20House%22%29%29%20%7D%20LIMIT%20200&format=json"
+ },
+ "images.adsttc.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T15:19:14",
+  "url": "https://images.adsttc.com/robots.txt"
+ },
+ "grabcad.com": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T15:21:50",
+  "url": "https://grabcad.com/robots.txt"
+ },
+ "www.urbipedia.org": {
+  "code": 403,
+  "reason": "robots.txt answered HTTP 403",
+  "route": "R3",
+  "ts": "2026-10-10T15:22:38",
+  "url": "https://www.urbipedia.org/robots.txt"
+ }
+}

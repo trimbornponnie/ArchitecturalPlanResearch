@@ -1,0 +1,7 @@
+{
+ "url": "https://news.getty.edu:443/robots.txt",
+ "http": 200,
+ "text_ok": true,
+ "note": "redirects 301->https://www.getty.edu/404.html; robots.txt answered an HTML page (no rules parsed from it)",
+ "fetched": "2026-10-10T15:16:35"
+}

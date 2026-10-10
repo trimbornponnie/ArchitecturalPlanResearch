@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /action/*
+Disallow: /addlocation.html
+Disallow: /blank.html
+Disallow: /clientupload.html
+Disallow: /legacyclientupload.html
+Disallow: /debugging.html
+Disallow: /edit/*
+Disallow: /internal/*
+Disallow: /admin/*
+Disallow: /maintenance.html
+Disallow: /upload.html
+Disallow: /legacyupload.html
+Disallow: /webtextures.html
+Disallow: /*/gdata/*
+Disallow: /warehouse/download*
+Disallow: /3dw/download*
+Disallow: /redirect/*
+Disallow: /manage/*
+Disallow: /collection/*
+
+User-agent: FlipboardProxy
+Disallow: /
+Sitemap: https://3dwarehouse.sketchup.com/sitemap/sitemap.xml

@@ -1,0 +1,7 @@
+{
+ "url": "https://www.historicplacesla.org/robots.txt",
+ "http": null,
+ "text_ok": false,
+ "note": "robots.txt unreachable: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.historicplacesla.org'. (_ssl.c:1032)>",
+ "fetched": "2026-10-10T15:09:15"
+}

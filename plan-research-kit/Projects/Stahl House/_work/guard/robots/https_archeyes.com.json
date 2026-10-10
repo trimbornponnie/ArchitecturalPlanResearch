@@ -1,0 +1,7 @@
+{
+ "url": "https://archeyes.com/robots.txt",
+ "http": 403,
+ "text_ok": false,
+ "note": "robots.txt answered HTTP 403",
+ "fetched": "2026-10-10T15:08:56"
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: *?p=*
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /wp-admin/*
+Disallow: /wp-register.php
+Disallow: /wp-content/themes/sfmomatheme/library/*
+Disallow: */tag/*
+Disallow: *?s=*
+Disallow: /search/*

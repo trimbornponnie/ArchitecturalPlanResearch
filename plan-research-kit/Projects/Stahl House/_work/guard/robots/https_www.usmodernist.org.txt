@@ -1,0 +1,28 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: *
+Allow: /
+
+# HTML sitemap index only. The PDF library (sitemap-library.xml) and the
+# section PDFs (sitemap-media.xml) are deliberately not advertised here;
+# submit those by hand in Search Console if and when you want them reported.
+Sitemap: https://www.usmodernist.org/sitemap.xml
