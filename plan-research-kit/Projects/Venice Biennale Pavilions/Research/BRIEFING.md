@@ -81,6 +81,17 @@ R1, German pavilion:
   e-flux 535809, archdaily 788636.
 - Wikipedia "German pavilion" (en/de/it) for references; Ernst Haiger (1938) and Daniele Donghi (1909) as architects.
 
+## Wikimedia reopened (2026-10-10, 14:00)
+
+Commons and de/it/en Wikipedia answered 429 to the early routes because the guard's User-Agent carried no contact.
+The guard now sends the project's GitHub URL as contact (plan-research-kit/contact.txt, user decision) and the four
+refusals were lifted after a test request answered 200. Search Commons in full: start at
+https://commons.wikimedia.org/wiki/Category:Venice_Biennale_pavilions (43 subcategories, one per pavilion) and
+https://commons.wikimedia.org/wiki/Category:Giardini_della_Biennale_(Venice); category names are not guessable
+(Category:Russian_Pavilion_(Venice) is a 404), so take them from those listings. File pages give the original under
+upload.wikimedia.org (check that host too). Keep it gentle: one request at a time, loops with "|| break", no
+burst of more than about 20 pages; a new 429 closes the host again for everyone.
+
 ## Rules (each comes from an incident)
 
 1. **Every request to a web host goes through the guard.** Work from the repository root. Python is `python3`

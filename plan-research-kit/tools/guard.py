@@ -50,7 +50,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 RB = Path(__file__).resolve().parent.parent
-CONTACT = os.environ.get("PLAN_RESEARCH_CONTACT", "contact-not-set")
+# The contact in the User-Agent: $PLAN_RESEARCH_CONTACT, else the first line of contact.txt next to tools/ (Wikimedia
+# answers 429 to automated clients without one; user decision 2026-10-10: the project's GitHub URL, no e-mail).
+_CONTACT_FILE = Path(__file__).resolve().parent.parent / "contact.txt"
+CONTACT = os.environ.get("PLAN_RESEARCH_CONTACT") or \
+    (_CONTACT_FILE.read_text(encoding="utf-8").strip().splitlines() or ["contact-not-set"])[0] if _CONTACT_FILE.is_file() \
+    else os.environ.get("PLAN_RESEARCH_CONTACT", "contact-not-set")
 UA = "plan-research/0.3 (%s; private architectural research, 1 req/s) python-urllib/%d.%d" % \
      ((CONTACT,) + tuple(sys.version_info[:2]))
 CLAUDE_AGENTS = ("claudebot", "claude-user", "claude-searchbot", "anthropic-ai", "claude-web")

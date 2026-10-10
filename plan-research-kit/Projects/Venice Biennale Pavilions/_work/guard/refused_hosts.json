@@ -13,20 +13,6 @@
   "ts": "2026-10-10T12:36:03",
   "url": "https://openformaintenance.net/robots.txt"
  },
- "de.wikipedia.org": {
-  "code": 429,
-  "reason": "HTTP 429",
-  "route": "R1",
-  "ts": "2026-10-10T12:39:51",
-  "url": "https://de.wikipedia.org/wiki/Deutscher_Pavillon_(Venedig)"
- },
- "it.wikipedia.org": {
-  "code": 429,
-  "reason": "HTTP 429",
-  "route": "R1",
-  "ts": "2026-10-10T12:40:09",
-  "url": "https://it.wikipedia.org/wiki/Padiglione_della_Germania"
- },
  "digital-dev.deutsches-museum.de": {
   "code": "network",
   "reason": "robots.txt unreachable: TimeoutError: The read operation timed out",
@@ -47,13 +33,6 @@
   "route": "R1",
   "ts": "2026-10-10T12:44:04",
   "url": "https://www.europeana.eu/robots.txt"
- },
- "en.wikipedia.org": {
-  "code": 429,
-  "reason": "HTTP 429",
-  "route": "R1",
-  "ts": "2026-10-10T12:44:10",
-  "url": "https://en.wikipedia.org/wiki/21st_Venice_Biennale"
  },
  "ahnp.ub.uni-heidelberg.de": {
   "code": "challenge",
@@ -117,13 +96,6 @@
   "route": "R2",
   "ts": "2026-10-10T12:55:31",
   "url": "https://images.adsttc.com/robots.txt"
- },
- "commons.wikimedia.org": {
-  "code": 429,
-  "reason": "HTTP 429",
-  "route": "R2",
-  "ts": "2026-10-10T12:59:02",
-  "url": "https://commons.wikimedia.org/wiki/Category:Russian_Pavilion_(Venice)"
  },
  "www.unclosed.eu": {
   "code": 403,
@@ -341,5 +313,12 @@
   "route": "R3",
   "ts": "2026-10-10T13:46:42",
   "url": "https://web.archive.org/robots.txt"
+ },
+ "www.architizer.com": {
+  "code": "network",
+  "reason": "redirects 301->http://architizer.com/robots.txt; robots.txt unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+  "route": "R5",
+  "ts": "2026-10-10T13:49:51",
+  "url": "https://www.architizer.com/robots.txt"
  }
 }
