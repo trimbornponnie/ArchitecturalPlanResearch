@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r4-0001"
+ ],
+ "design_ids": [
+  "gb-reno"
+ ],
+ "titles": [
+  "Island, British Pavilion: Rooftop plan (captioned on sheet 'Deck plan 1:200')"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://carusostjohn.com/media/images/projects/island-venice-architecture-biennale/alOabHe1lTC__4800x4800.jpg",
+ "page_url": "https://carusostjohn.com/projects/island-venice-architecture-biennale/",
+ "author": "Caruso St John Architects with Marcus Taylor",
+ "holder": "Caruso St John Architects",
+ "date": "2018",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "92a7b45ddd5f12a8e04dc8a8b38b765b49e79840ef9e1e88195c49531904f7f9",
+ "bytes": 1145202,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R4 through guard.py at 2026-10-10T13:41:46; adopted, not requested again",
+ "pixel_size_measured": "4800x3393",
+ "mode": "RGB"
+}

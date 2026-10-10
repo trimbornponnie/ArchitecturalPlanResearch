@@ -1,0 +1,32 @@
+{
+ "row_ids": [
+  "r2-0050",
+  "r2-0051"
+ ],
+ "design_ids": [
+  "ru"
+ ],
+ "titles": [
+  "«Алексей Викторович Щусев» (PGUPS library virtual exhibition, PDF): page 7 with two Shchusev drawings of the Russian Pavilion in Venice",
+  "Shchusev, 'Русский павильон в Венеции': coloured elevation of the entrance front (reproduced in PGUPS PDF p. 7)"
+ ],
+ "pages_used": [
+  "PDF page 7 of 19",
+  "PDF page 7 of 19"
+ ],
+ "download_url": "https://library.pgups.ru/jirbis2/images/shusev.pdf",
+ "page_url": "https://library.pgups.ru/jirbis2/images/shusev.pdf",
+ "author": "Alexey Shchusev (drawings); PGUPS scientific-technical library (compilation)",
+ "holder": "original drawings: probably Shchusev State Museum of Architecture (MUAR), not stated",
+ "date": "drawings 1913; PDF undated (library exhibition)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "dbce47776fdd23a6dad75b69d4f03946042a05ccec7733d0cd3a264d82a0000a",
+ "bytes": 2671007,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T13:04:21; adopted, not requested again",
+ "pdf_pages": 19
+}

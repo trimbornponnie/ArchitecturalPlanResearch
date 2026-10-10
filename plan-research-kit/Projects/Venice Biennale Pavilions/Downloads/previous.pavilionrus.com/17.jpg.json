@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0008"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "KASA - Traces. On the Renovation of the Russian Federation Pavilion, book page 17 of 60"
+ ],
+ "pages_used": [
+  "book page 17 of 60"
+ ],
+ "download_url": "https://previous.pavilionrus.com/static/img/17.jpg",
+ "page_url": "https://previous.pavilionrus.com/en/architecture/kasa-traces",
+ "author": "KASA - Kovaleva and Sato Architects (Aleksandra Kovaleva, Kei Sato)",
+ "holder": "Russian Federation Pavilion / V-A-C Foundation (pavilionrus.com, previous site)",
+ "date": "2021 (renovation 2020-21)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "264b3382dfed9954d0671a8b071b9aa6f48424186c67f0fdfeb3475021d7ae5d",
+ "bytes": 31607,
+ "fetched": "2026-10-10T13:45:43",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:34:41; adopted, not requested again",
+ "pixel_size_measured": "1500x1078",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

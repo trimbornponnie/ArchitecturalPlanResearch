@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r2-0038"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "Russian Pavilion renovation, KASA, Metalocus gallery image 25 (Conceptual diagram)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.metalocus.es/sites/default/files/metalocus_studio-kasa_russian-pavilion_25.jpg",
+ "page_url": "https://www.metalocus.es/en/news/opening-new-russian-pavilion-venezia-studio-kasa",
+ "author": "KASA - Kovaleva and Sato Architects",
+ "holder": "KASA / Russian Federation Pavilion; published by Metalocus",
+ "date": "2021 (article on the opening, 2021)",
+ "license": "not stated (Metalocus site: all rights reserved)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "2e6faf74295943720c3179953248ace9619702fa1c51f3c5034d448f9b2a11f7",
+ "bytes": 125007,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:43:29; adopted, not requested again",
+ "pixel_size_measured": "2048x456",
+ "mode": "RGB"
+}

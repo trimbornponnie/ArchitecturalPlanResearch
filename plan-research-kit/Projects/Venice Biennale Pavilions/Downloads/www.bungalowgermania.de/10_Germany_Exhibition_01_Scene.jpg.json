@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r1-0003"
+ ],
+ "design_ids": [
+  "de-reno"
+ ],
+ "titles": [
+  "BUNGALOW GERMANIA. The Pavilion plinth fits neatly under the Bungalow (exhibition sketch / scene)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.bungalowgermania.de/images/exhibition/10_Germany_Exhibition_01_Scene.jpg",
+ "page_url": "https://www.bungalowgermania.de/en/exhibition",
+ "author": "Ciriacidis Lehnerer Architekten (CLA) / ETH Zurich",
+ "holder": "CLA / ETH",
+ "date": "2014",
+ "license": "© CLA / ETH, 2014 (as captioned)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "9e4ade68ac17d405f02691c567b6a0614f584b9abc9c16095846635109ab4f8c",
+ "bytes": 74994,
+ "fetched": "2026-10-10T13:45:42",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T12:33:39; adopted, not requested again",
+ "pixel_size_measured": "1432x533",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

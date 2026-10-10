@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r1-0001"
+ ],
+ "design_ids": [
+  "de-alt"
+ ],
+ "titles": [
+  "Deutscher Pavillon Venedig, 2014 (schneider+schumacher project sheet, \"This is Modern\" proposal)"
+ ],
+ "pages_used": [
+  "1,2 of 2"
+ ],
+ "download_url": "https://www.schneider-schumacher.de/wp-content/uploads/pdf/deutscher-pavillon.pdf",
+ "page_url": "https://www.schneider-schumacher.de/wp-content/uploads/pdf/deutscher-pavillon.pdf",
+ "author": "schneider+schumacher",
+ "holder": "schneider+schumacher",
+ "date": "2014",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "43e67106d96c946279a62fac037952fee8cf87ffc3c9418e8c4f9aa3878ab9b4",
+ "bytes": 551224,
+ "fetched": "2026-10-10T13:45:42",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T12:31:46; adopted, not requested again",
+ "pdf_pages": 2
+}

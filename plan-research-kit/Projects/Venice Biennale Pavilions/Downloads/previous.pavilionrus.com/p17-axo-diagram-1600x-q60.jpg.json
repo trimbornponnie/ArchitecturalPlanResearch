@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0023"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "KASA open-call proposal 2020 (selected): axonometric diagram of a hall as workspace"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://previous.pavilionrus.com/static/img/p17-axo-diagram-1600x-q60.jpg",
+ "page_url": "https://previous.pavilionrus.com/en/open-call/selected-projec",
+ "author": "KASA (Kovaleva and Sato Architects), selected project 2020",
+ "holder": "Russian Federation Pavilion / V-A-C Foundation (previous.pavilionrus.com)",
+ "date": "2020",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "d8dc30c05008574ca9d02966da68941de1dee102125799a73ffad72afc99c184",
+ "bytes": 39843,
+ "fetched": "2026-10-10T13:45:43",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:39:52; adopted, not requested again",
+ "pixel_size_measured": "1500x1000",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

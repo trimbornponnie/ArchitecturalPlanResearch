@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0027"
+ ],
+ "design_ids": [
+  "ru-alt"
+ ],
+ "titles": [
+  "Prikhodko and Gerasimova 'Fossil' (open call 2020, not selected)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://previous.pavilionrus.com/static/img/russian-pavilion-fossil-image-a4w-1600x-q60.jpg",
+ "page_url": "https://previous.pavilionrus.com/en/open-call/original-projects",
+ "author": "Dmitrii Prikhodko and Anastasiia Gerasimova",
+ "holder": "Russian Federation Pavilion / V-A-C Foundation (previous.pavilionrus.com)",
+ "date": "2020",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "cd699a79a9e2cc8ddc54543c5d46f8fc1d8e122b06770c5fabf3e2202f0f680d",
+ "bytes": 130108,
+ "fetched": "2026-10-10T13:45:43",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:40:00; adopted, not requested again",
+ "pixel_size_measured": "1500x1060",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0031"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "Russian Pavilion renovation, KASA, Metalocus gallery image 16 (1F PLAN (caption 'First floor plan'))"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://www.metalocus.es/sites/default/files/metalocus_studio-kasa_russian-pavilion_16.jpg",
+ "page_url": "https://www.metalocus.es/en/news/opening-new-russian-pavilion-venezia-studio-kasa",
+ "author": "KASA - Kovaleva and Sato Architects",
+ "holder": "KASA / Russian Federation Pavilion; published by Metalocus",
+ "date": "2021 (article on the opening, 2021)",
+ "license": "not stated (Metalocus site: all rights reserved)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "351914b2004df812f04b6bc51ca28f1bdbd57219a1fc5db35cfa0081c71e5a19",
+ "bytes": 189895,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T12:43:10; adopted, not requested again",
+ "pixel_size_measured": "2048x1510",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}

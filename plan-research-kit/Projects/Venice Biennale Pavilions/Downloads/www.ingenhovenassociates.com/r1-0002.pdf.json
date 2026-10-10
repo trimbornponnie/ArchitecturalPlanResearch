@@ -1,0 +1,29 @@
+{
+ "row_ids": [
+  "r1-0002"
+ ],
+ "design_ids": [
+  "de-alt"
+ ],
+ "titles": [
+  "Ausstellung \"this is modern\" im Architekturmuseum TU Berlin (ingenhoven news PDF)"
+ ],
+ "pages_used": [
+  "1 of 1"
+ ],
+ "download_url": "https://www.ingenhovenassociates.com/news-de-de/news-archiv-de-de/exhibition-this-is-modern-at-architekturmuseum-tu-berlin-de-de/pdf",
+ "page_url": "https://www.ingenhovenassociates.com/news-de-de/news-archiv-de-de/exhibition-this-is-modern-at-architekturmuseum-tu-berlin-de-de/pdf",
+ "author": "ingenhoven architects (ingenhoven associates)",
+ "holder": "ingenhoven associates",
+ "date": "2015-06-19 (news); design 2014",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "0a0ff6bbcaa9edb5eb24cf9702328c8c1aa5b6c24d0f351c104bcd2d4c7e220b",
+ "bytes": 203577,
+ "fetched": "2026-10-10T13:45:42",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T12:32:19; adopted, not requested again",
+ "pdf_pages": 1
+}

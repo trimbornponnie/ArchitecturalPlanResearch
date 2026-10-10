@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r1-0024"
+ ],
+ "design_ids": [
+  "de"
+ ],
+ "titles": [
+  "Pianta topografica dei padiglioni stranieri, catalogue of the Biennale di Venezia 1948 (ASAC)"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://2022.deutscher-pavillon.org/media/pavillon2x/1948_fondo_editoriale_catalogo_1948_pianta_topografica_padiglioni_stranieri_avz-3154_crop_copy.jpg",
+ "page_url": "https://2022.deutscher-pavillon.org/de/pavillon-1909-2019/",
+ "author": "La Biennale di Venezia (catalogue 1948)",
+ "holder": "ASAC, fondo editoriale, catalogo 1948 (AVZ-3154)",
+ "date": "1948",
+ "license": "(c) Fondazione La Biennale di Venezia (as captioned)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "d380ff364ff382ac6a30d5e5528feb11e57db0511a49aef8e6b67de68b130548",
+ "bytes": 88770,
+ "fetched": "2026-10-10T13:45:43",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T12:48:03; adopted, not requested again",
+ "pixel_size_measured": "550x800",
+ "mode": "RGB",
+ "dpi": [
+  96.0,
+  96.0
+ ]
+}

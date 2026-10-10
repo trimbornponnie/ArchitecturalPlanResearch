@@ -1,0 +1,30 @@
+{
+ "row_ids": [
+  "r4-0002"
+ ],
+ "design_ids": [
+  "gb-reno"
+ ],
+ "titles": [
+  "Island, British Pavilion: East elevation 1:100"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://carusostjohn.com/media/images/projects/island-venice-architecture-biennale/1wkpmPWIaXhF_4800x4800.jpg",
+ "page_url": "https://carusostjohn.com/projects/island-venice-architecture-biennale/",
+ "author": "Caruso St John Architects with Marcus Taylor",
+ "holder": "Caruso St John Architects",
+ "date": "2018",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "01f56039b00a29213978db0a5933aacc08055559e0e8e0b49e2f6d6ad3080d7e",
+ "bytes": 1045417,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R4 through guard.py at 2026-10-10T13:41:48; adopted, not requested again",
+ "pixel_size_measured": "4800x3393",
+ "mode": "RGB"
+}

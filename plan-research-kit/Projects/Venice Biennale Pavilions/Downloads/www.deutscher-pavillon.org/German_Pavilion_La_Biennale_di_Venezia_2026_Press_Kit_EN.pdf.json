@@ -1,0 +1,32 @@
+{
+ "row_ids": [
+  "r1-0006",
+  "r1-0007"
+ ],
+ "design_ids": [
+  "de-reno"
+ ],
+ "titles": [
+  "German Pavilion 2026 \"Ruin\" press kit (EN), with List of works and floorplan",
+  "List of works and floorplan, German Pavilion 2026 (press kit p.6)"
+ ],
+ "pages_used": [
+  "6 of 23",
+  "6 of 23"
+ ],
+ "download_url": "https://www.deutscher-pavillon.org/media/attachments/W1siZiIsIjZhMGYwMWFmNmVjOTA5MWI4MjI3YTMxMCJdXQ/German%20Pavilion_La%20Biennale%20di%20Venezia%202026_Press%20Kit_EN.pdf?sha=ba6274b41960f04b",
+ "page_url": "https://www.deutscher-pavillon.org/en/press",
+ "author": "German Pavilion 2026 / ifa (commissioner); artists Henrike Naumann, Sung Tieu",
+ "holder": "ifa - Institut fuer Auslandsbeziehungen",
+ "date": "2026-05-05",
+ "license": "not stated (press material)",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "f753cce44f253707e5860dd8bcb1f83449f96cffd256746d15a627111d4f2298",
+ "bytes": 1318140,
+ "fetched": "2026-10-10T13:45:42",
+ "http_status": 200,
+ "fetch_note": "fetched by route R1 through guard.py at 2026-10-10T12:38:29; adopted, not requested again",
+ "pdf_pages": 23
+}

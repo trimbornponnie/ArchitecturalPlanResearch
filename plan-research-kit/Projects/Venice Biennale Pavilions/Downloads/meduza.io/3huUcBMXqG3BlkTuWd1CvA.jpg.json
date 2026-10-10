@@ -1,0 +1,34 @@
+{
+ "row_ids": [
+  "r2-0054"
+ ],
+ "design_ids": [
+  "ru-reno"
+ ],
+ "titles": [
+  "Эскиз проекта реконструкции (KASA): interior rendering of the north room with the new stair and balcony"
+ ],
+ "pages_used": [
+  null
+ ],
+ "download_url": "https://meduza.io/image/attachments/images/006/862/676/original/3huUcBMXqG3BlkTuWd1CvA.jpg",
+ "page_url": "https://meduza.io/feature/2021/07/04/rossiyskiy-pavilon-v-venetsii-nakonets-rekonstruirovali",
+ "author": "KASA - Kovaleva and Sato Architects",
+ "holder": "KASA / Russian Federation Pavilion; published by Meduza",
+ "date": "2020-21 (article 2021-07-04)",
+ "license": "not stated",
+ "license_status": "unconfirmed",
+ "rights_note": "private research material for this project; not redistributed",
+ "access": "open",
+ "sha256": "7d52c0ca2c52620c2d44e89cabde886a2cdbc6517772615efde7f845ec36685e",
+ "bytes": 1028958,
+ "fetched": "2026-10-10T13:45:44",
+ "http_status": 200,
+ "fetch_note": "fetched by route R2 through guard.py at 2026-10-10T13:08:24; adopted, not requested again",
+ "pixel_size_measured": "1960x1424",
+ "mode": "RGB",
+ "dpi": [
+  72.0,
+  72.0
+ ]
+}
